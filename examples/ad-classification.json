@@ -1,0 +1,31 @@
+{
+  "model": "jev-latest",
+  "state": "Platform: Meta — Headline: \"Stop losing leads at 2am\" — Primary text: \"Your form fills don't sleep. Route every inbound lead in under a second and wake up to a sorted pipeline. Free 14-day trial.\"",
+  "questions": {
+    "angle": {
+      "type": "choice",
+      "instructions": "What is the main persuasion angle?",
+      "criteria": {
+        "pain": "Leads with a problem or fear",
+        "outcome": "Leads with a result or benefit",
+        "proof": "Leads with testimonials, numbers or logos",
+        "offer": "Leads with a discount, trial or deal",
+        "curiosity": "Leads with a question or tease"
+      }
+    },
+    "hook": {
+      "type": "score",
+      "instructions": "How strong is the first line as a scroll-stopping hook?",
+      "criteria": [
+        "Weak",
+        "Average",
+        "Strong",
+        "Exceptional"
+      ]
+    },
+    "claims_risk": {
+      "type": "noul",
+      "instructions": "Does the ad make a specific claim that could need substantiation (numbers, guarantees, health or income claims)?"
+    }
+  }
+}

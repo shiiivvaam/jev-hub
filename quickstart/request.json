@@ -1,0 +1,31 @@
+{
+  "model": "jev-latest",
+  "state": "From: Dana Lee <dana@acme.io>\nSubject: Invoice #4471 charged twice\nBody: Hi, our card was charged twice for March. Can you refund the duplicate today? Our finance close is tomorrow.",
+  "questions": {
+    "category": {
+      "type": "choice",
+      "instructions": "What kind of email is this?",
+      "criteria": {
+        "needs_reply": "A person expecting a response from us",
+        "updates": "Notifications, receipts, product updates",
+        "promotions": "Marketing and newsletters",
+        "sales": "Someone selling to us",
+        "spam": "Unwanted or suspicious mail"
+      }
+    },
+    "urgency": {
+      "type": "score",
+      "instructions": "How time-sensitive is this email for us?",
+      "criteria": [
+        "Whenever",
+        "This week",
+        "Today",
+        "Within the hour"
+      ]
+    },
+    "needs_human": {
+      "type": "noul",
+      "instructions": "Does this email involve money, legal risk or an upset customer?"
+    }
+  }
+}

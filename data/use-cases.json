@@ -1,0 +1,143 @@
+[
+  {
+    "slug": "lead-scoring",
+    "title": "Jev for lead scoring",
+    "summary": "Rank inbound leads by fit and intent before a human looks at them.",
+    "fit": "Strong fit",
+    "fits_when": [
+      "You get more inbound leads than your team can read, and most are low value.",
+      "Your ideal customer profile fits in a few plain sentences.",
+      "You want a ranked queue for reps, not a fully automated decision on who gets contacted."
+    ],
+    "avoid_when": [
+      "You need a written rationale for each score. Jev returns scores and probabilities, not explanations.",
+      "The score depends on data Jev can't see, such as CRM deal history, and you can't include it in the input."
+    ],
+    "url": "https://jevhub.io/use-cases/lead-scoring"
+  },
+  {
+    "slug": "email-triage",
+    "title": "Jev for email triage",
+    "summary": "Sort mail into categories, rate urgency and flag what needs a reply.",
+    "fit": "Strong fit",
+    "fits_when": [
+      "You or your team spend real time deciding what to open first.",
+      "Your categories are stable (for example: needs reply, updates, promotions, sales, spam).",
+      "A human stays in the loop for anything consequential."
+    ],
+    "avoid_when": [
+      "You want replies drafted. Jev can't generate text; pair it with a language model for the emails that need one.",
+      "Your privacy obligations don't allow sending email content to a third-party API."
+    ],
+    "url": "https://jevhub.io/use-cases/email-triage"
+  },
+  {
+    "slug": "support-ticket-routing",
+    "title": "Jev for support ticket routing",
+    "summary": "Send each ticket to the right queue and flag frustrated customers.",
+    "fit": "Strong fit",
+    "fits_when": [
+      "You have three or more queues and tickets regularly land in the wrong one.",
+      "Keyword-based routing rules keep breaking.",
+      "You want early warning on angry or at-risk customers."
+    ],
+    "avoid_when": [
+      "You have a single support queue, so there's nothing to route.",
+      "You need a reply sent to the customer. That's a text-generation job."
+    ],
+    "url": "https://jevhub.io/use-cases/support-ticket-routing"
+  },
+  {
+    "slug": "content-moderation",
+    "title": "Jev for content moderation",
+    "summary": "Flag spam, abuse and prompt injection before content goes live.",
+    "fit": "Good fit",
+    "fits_when": [
+      "You need a cheap filter in front of user-generated content or an LLM agent.",
+      "Each policy can be expressed as a yes/no statement.",
+      "Probabilities feeding a human review queue work for you."
+    ],
+    "avoid_when": [
+      "You need legally defensible moderation decisions with written reasoning.",
+      "The content is mostly images or video. Jev evaluates text."
+    ],
+    "url": "https://jevhub.io/use-cases/content-moderation"
+  },
+  {
+    "slug": "research-filtering",
+    "title": "Jev for research and news filtering",
+    "summary": "Surface only the papers and headlines that match what you care about.",
+    "fit": "Strong fit",
+    "fits_when": [
+      "You follow a feed (arXiv, RSS, news) that is mostly noise for you.",
+      "You can describe your interests in a paragraph.",
+      "Titles and abstracts are enough to judge relevance."
+    ],
+    "avoid_when": [
+      "You need summaries of what you keep. That's a language model's job.",
+      "Relevance depends on reading full papers; cost rises with input length."
+    ],
+    "url": "https://jevhub.io/use-cases/research-filtering"
+  },
+  {
+    "slug": "search-intent-classification",
+    "title": "Jev for SEO search-intent classification",
+    "summary": "Label keyword lists by intent and relevance, at any volume.",
+    "fit": "Strong fit",
+    "fits_when": [
+      "You work with keyword exports of thousands of rows.",
+      "You want to cluster keywords by intent before writing anything."
+    ],
+    "avoid_when": [
+      "You need search volume or difficulty. That data comes from SEO tools, not a model."
+    ],
+    "url": "https://jevhub.io/use-cases/search-intent-classification"
+  },
+  {
+    "slug": "ad-classification",
+    "title": "Jev for ad and creative classification",
+    "summary": "Tag ads by angle and hook strength, and pre-check them against policy.",
+    "fit": "Good fit",
+    "fits_when": [
+      "You're analysing a large library of your own or competitors' ads.",
+      "You want consistent tags so you can compare angles against performance."
+    ],
+    "avoid_when": [
+      "The creative is image- or video-only with little text.",
+      "You want new ad copy generated."
+    ],
+    "url": "https://jevhub.io/use-cases/ad-classification"
+  },
+  {
+    "slug": "semantic-search",
+    "title": "Jev for semantic search",
+    "summary": "Re-rank search results by how well each one matches the query.",
+    "fit": "Good fit",
+    "fits_when": [
+      "Queries are written in natural language, not keywords.",
+      "A conventional search already produces a shortlist of candidates.",
+      "Each result has a short text description Jev can read."
+    ],
+    "avoid_when": [
+      "You need to search millions of items directly. Jev evaluates one item at a time, so narrow the list first.",
+      "Results are mostly images."
+    ],
+    "url": "https://jevhub.io/use-cases/semantic-search"
+  },
+  {
+    "slug": "agent-decisions",
+    "title": "Jev for agent and browser decisions",
+    "summary": "Pick the next action in an agent loop in milliseconds.",
+    "fit": "Partial fit",
+    "fits_when": [
+      "Your agent repeatedly chooses from a known set of actions or elements.",
+      "Latency matters: games, browsers, real-time systems.",
+      "You already use a language model for planning and want to cut its calls."
+    ],
+    "avoid_when": [
+      "The step requires writing, coding or multi-step reasoning. Jev can't plan.",
+      "The set of possible actions isn't known in advance."
+    ],
+    "url": "https://jevhub.io/use-cases/agent-decisions"
+  }
+]

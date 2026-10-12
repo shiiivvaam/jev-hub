@@ -1,0 +1,31 @@
+{
+  "model": "jev-latest",
+  "state": "Title: Calibrated Early-Exit Classifiers for Low-Latency Routing\nAbstract: We study confidence calibration for small classifiers that route requests between models, and show that temperature scaling on 2k labeled examples cuts misroutes by 31%...",
+  "questions": {
+    "relevance": {
+      "type": "score",
+      "instructions": "How relevant is this to a team building cheap, fast AI routing and classification in production?",
+      "criteria": [
+        "Irrelevant",
+        "Tangential",
+        "Relevant",
+        "Must read"
+      ]
+    },
+    "topic": {
+      "type": "choice",
+      "instructions": "What is the main topic?",
+      "criteria": {
+        "routing": "Model routing and cascades",
+        "evaluation": "Benchmarks, evals, calibration",
+        "training": "Training methods and data",
+        "applications": "Applied systems and case studies",
+        "other": "Something else"
+      }
+    },
+    "practical": {
+      "type": "noul",
+      "instructions": "Does this include results a practitioner could apply this month?"
+    }
+  }
+}

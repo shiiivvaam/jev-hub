@@ -1,0 +1,10 @@
+use_case,items_per_month,state_tokens,questions,tokens_per_question,tokens_per_item,cost_per_1000_items_usd,monthly_usd
+lead-scoring,3000,250,3,70,460,0.0193,0.06
+email-triage,20000,400,3,60,580,0.0244,0.49
+support-ticket-routing,15000,300,3,70,510,0.0214,0.32
+content-moderation,100000,150,3,40,270,0.0113,1.13
+research-filtering,30000,350,3,50,500,0.0210,0.63
+search-intent-classification,50000,40,2,60,160,0.0067,0.34
+ad-classification,5000,120,3,60,300,0.0126,0.06
+semantic-search,50000,150,2,50,250,0.0105,0.53
+agent-decisions,200000,900,2,80,1060,0.0445,8.90

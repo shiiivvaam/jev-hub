@@ -1,0 +1,29 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "keyword": "jev api pricing per million tokens",
+    "site": "A resource site for developers building with Jev"
+  },
+  "questions": {
+    "intent": {
+      "type": "choice",
+      "instructions": "What is the searcher's main intent?",
+      "criteria": {
+        "informational": "Wants to learn or understand something",
+        "commercial": "Comparing options before a purchase",
+        "transactional": "Ready to buy, sign up or download",
+        "navigational": "Looking for a specific site or page"
+      }
+    },
+    "relevance": {
+      "type": "score",
+      "instructions": "How relevant is this keyword to the site described?",
+      "criteria": [
+        "Off-topic",
+        "Loosely related",
+        "Relevant",
+        "Core topic"
+      ]
+    }
+  }
+}

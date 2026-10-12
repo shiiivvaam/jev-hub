@@ -1,0 +1,41 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "name": "Priya Raman",
+    "title": "Head of RevOps",
+    "company": "Northwind Logistics (420 employees)",
+    "source": "Pricing page form",
+    "message": "We're replacing our routing rules for ~3k inbound leads/month. Need something live this quarter."
+  },
+  "questions": {
+    "fit": {
+      "type": "score",
+      "instructions": "How well does this lead match our ideal customer: B2B companies of 100–2,000 employees with a sales or RevOps team?",
+      "criteria": [
+        "No fit",
+        "Weak fit",
+        "Plausible fit",
+        "Strong fit",
+        "Ideal customer"
+      ]
+    },
+    "intent": {
+      "type": "noul",
+      "instructions": "Is this person actively looking to buy or implement a solution soon?",
+      "criteria": {
+        "true": "Mentions a timeline, budget, active evaluation or a concrete project.",
+        "false": "Browsing, researching, a student, or a vendor pitching us."
+      }
+    },
+    "route": {
+      "type": "choice",
+      "instructions": "Who should handle this lead?",
+      "criteria": {
+        "sales": "A potential customer worth a sales conversation",
+        "nurture": "A potential customer who is early; add to nurture",
+        "partner": "An agency, reseller or integration partner",
+        "other": "Job seeker, vendor, spam or not a buyer"
+      }
+    }
+  }
+}

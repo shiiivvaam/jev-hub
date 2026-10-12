@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-10-12",
+    "title": "Jev alternatives: OpenAI, AWS and Cloudflare just launched decision models",
+    "summary": "Within ten days, three large companies released models built for the same job as Jev: returning typed decisions instead of text. OpenAI shipped a Decisions API in public beta, AWS's Strands Labs open-sourced Strands Decider, and Cloudflare released Clef and Clef-flash. Most speed and accuracy claims so far come from the companies themselves.",
+    "url": "https://jevhub.io/updates/openai-aws-cloudflare-release-decision-models",
+    "sources": [
+      {
+        "label": "OpenAI developer docs: Decisions",
+        "url": "https://developers.openai.com/api/docs/guides/decisions"
+      },
+      {
+        "label": "Unite.AI: OpenAI releases Decisions API in public beta",
+        "url": "https://www.unite.ai/openai-releases-decisions-api-in-public-beta-powered-by-gpt-6-luna/"
+      },
+      {
+        "label": "Vercel changelog: OpenAI Decisions API on AI Gateway",
+        "url": "https://vercel.com/changelog/openai-decisions-api-now-available-on-ai-gateway"
+      },
+      {
+        "label": "GitHub: strands-labs/strands-decider",
+        "url": "https://github.com/strands-labs/strands-decider"
+      },
+      {
+        "label": "Cloudflare changelog: Introducing Clef",
+        "url": "https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/"
+      },
+      {
+        "label": "Cloudflare blog: Clef decision models",
+        "url": "https://blog.cloudflare.com/clef-decision-models/"
+      },
+      {
+        "label": "Implicator: the Series A and the rival launches",
+        "url": "https://www.implicator.ai/typesafe-ai-raises-870-million-for-jev-as-openai-amazon-and-cloudflare-ship-rivals/"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Jev funding: TypeSafe raises $870M Series A at $7.5B valuation",
+    "summary": "On 9 October 2026, TypeSafe AI announced an $870 million Series A at a $7.5 billion valuation, led by Andreessen Horowitz. It came 24 days after Jev's launch on 15 September. The money, investors and board seat are reported consistently; the adoption figures are the company's own and are not independently verified.",
+    "url": "https://jevhub.io/updates/typesafe-raises-870-million-series-a",
+    "sources": [
+      {
+        "label": "Pulse 2.0: TypeSafe raises $870 million Series A at $7.5 billion valuation",
+        "url": "https://pulse2.com/typesafe-raises-870-million-series-a-at-7-5-billion-valuation/"
+      },
+      {
+        "label": "Implicator: TypeSafe AI raises $870 million for Jev",
+        "url": "https://www.implicator.ai/typesafe-ai-raises-870-million-for-jev-as-openai-amazon-and-cloudflare-ship-rivals/"
+      },
+      {
+        "label": "TypeSafe AI blog",
+        "url": "https://typesafe.ai/blog"
+      }
+    ]
+  }
+]

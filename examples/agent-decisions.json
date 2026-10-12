@@ -1,0 +1,20 @@
+{
+  "model": "jev-latest",
+  "state": "Goal: Book the cheapest nonstop SFO→JFK on Oct 12.\nPage: Search results. Visible elements: [1] Sort by price, [2] Nonstop filter, [3] First result $412 (1 stop), [4] Next page",
+  "questions": {
+    "next_action": {
+      "type": "choice",
+      "instructions": "Which element should the agent click next to make progress on the goal?",
+      "criteria": {
+        "1": "Sort by price",
+        "2": "Nonstop filter",
+        "3": "First result",
+        "4": "Next page"
+      }
+    },
+    "goal_done": {
+      "type": "noul",
+      "instructions": "Has the goal been fully completed on this page?"
+    }
+  }
+}

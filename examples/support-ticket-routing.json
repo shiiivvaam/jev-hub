@@ -1,0 +1,31 @@
+{
+  "model": "jev-latest",
+  "state": "Ticket #88213 — Plan: Business\n\"I've been locked out since the SSO change this morning. Three people on my team can't log in and we have a client demo at 2pm.\"",
+  "questions": {
+    "queue": {
+      "type": "choice",
+      "instructions": "Which team should handle this ticket?",
+      "criteria": {
+        "billing": "Payments, invoices, refunds, plan changes",
+        "account_access": "Login, SSO, passwords, permissions",
+        "bug": "Something in the product is broken",
+        "how_to": "Questions about using a feature",
+        "feedback": "Feature requests and general feedback"
+      }
+    },
+    "frustration": {
+      "type": "score",
+      "instructions": "How frustrated is the customer?",
+      "criteria": [
+        "Calm",
+        "Mildly annoyed",
+        "Frustrated",
+        "Angry or threatening to leave"
+      ]
+    },
+    "blocking": {
+      "type": "noul",
+      "instructions": "Is the customer completely blocked from using the product?"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "model": "jev-latest",
+  "state": "Search: \"Quiet 2-bedroom near a park, under $3,000, allows a dog\"\nListing: 2 bed / 1 bath apartment, $2,850 a month. Two blocks from Riverside Park. Top-floor unit, no shared walls. Cats only.",
+  "questions": {
+    "match": {
+      "type": "score",
+      "instructions": "How well does this listing match what the person asked for?",
+      "criteria": [
+        "Not a match",
+        "Partly matches",
+        "Good match",
+        "Exactly what they asked for"
+      ]
+    },
+    "breaks_requirement": {
+      "type": "noul",
+      "instructions": "Does this listing break a hard requirement in the search, such as price, pets or number of bedrooms?"
+    }
+  }
+}

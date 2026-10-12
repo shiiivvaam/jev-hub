@@ -1,0 +1,106 @@
+{
+  "pricePerMillionInputTokensUsd": 0.042,
+  "priceAsOf": "22 September 2026",
+  "batched": true,
+  "rows": [
+    {
+      "slug": "lead-scoring",
+      "title": "lead scoring",
+      "itemsPerMonth": 3000,
+      "stateTokens": 250,
+      "questions": 3,
+      "tokensPerQuestion": 70,
+      "tokensPerItem": 460,
+      "per1k": 0.01932,
+      "monthly": 0.057960000000000005
+    },
+    {
+      "slug": "email-triage",
+      "title": "email triage",
+      "itemsPerMonth": 20000,
+      "stateTokens": 400,
+      "questions": 3,
+      "tokensPerQuestion": 60,
+      "tokensPerItem": 580,
+      "per1k": 0.02436,
+      "monthly": 0.4872
+    },
+    {
+      "slug": "support-ticket-routing",
+      "title": "support ticket routing",
+      "itemsPerMonth": 15000,
+      "stateTokens": 300,
+      "questions": 3,
+      "tokensPerQuestion": 70,
+      "tokensPerItem": 510,
+      "per1k": 0.02142,
+      "monthly": 0.32130000000000003
+    },
+    {
+      "slug": "content-moderation",
+      "title": "content moderation",
+      "itemsPerMonth": 100000,
+      "stateTokens": 150,
+      "questions": 3,
+      "tokensPerQuestion": 40,
+      "tokensPerItem": 270,
+      "per1k": 0.011340000000000001,
+      "monthly": 1.1340000000000001
+    },
+    {
+      "slug": "research-filtering",
+      "title": "research and news filtering",
+      "itemsPerMonth": 30000,
+      "stateTokens": 350,
+      "questions": 3,
+      "tokensPerQuestion": 50,
+      "tokensPerItem": 500,
+      "per1k": 0.021,
+      "monthly": 0.6300000000000001
+    },
+    {
+      "slug": "search-intent-classification",
+      "title": "SEO search-intent classification",
+      "itemsPerMonth": 50000,
+      "stateTokens": 40,
+      "questions": 2,
+      "tokensPerQuestion": 60,
+      "tokensPerItem": 160,
+      "per1k": 0.006720000000000001,
+      "monthly": 0.336
+    },
+    {
+      "slug": "ad-classification",
+      "title": "ad and creative classification",
+      "itemsPerMonth": 5000,
+      "stateTokens": 120,
+      "questions": 3,
+      "tokensPerQuestion": 60,
+      "tokensPerItem": 300,
+      "per1k": 0.0126,
+      "monthly": 0.063
+    },
+    {
+      "slug": "semantic-search",
+      "title": "semantic search",
+      "itemsPerMonth": 50000,
+      "stateTokens": 150,
+      "questions": 2,
+      "tokensPerQuestion": 50,
+      "tokensPerItem": 250,
+      "per1k": 0.0105,
+      "monthly": 0.525
+    },
+    {
+      "slug": "agent-decisions",
+      "title": "agent and browser decisions",
+      "itemsPerMonth": 200000,
+      "stateTokens": 900,
+      "questions": 2,
+      "tokensPerQuestion": 80,
+      "tokensPerItem": 1060,
+      "per1k": 0.044520000000000004,
+      "monthly": 8.904
+    }
+  ]
+}
