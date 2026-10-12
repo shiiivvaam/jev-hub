@@ -235,6 +235,7 @@ Filter and search them all at [jevhub.io/builds](https://jevhub.io/builds). Made
 
 ## News and comparisons
 
+- 2026-10-13: [Jev case study: Jack & Jill cut candidate screening costs 88%](https://jevhub.io/updates/jack-and-jill-cuts-screening-costs-88-percent-with-jev)
 - 2026-10-12: [Jev alternatives: OpenAI, AWS and Cloudflare just launched decision models](https://jevhub.io/updates/openai-aws-cloudflare-release-decision-models)
 - 2026-10-12: [Jev funding: TypeSafe raises $870M Series A at $7.5B valuation](https://jevhub.io/updates/typesafe-raises-870-million-series-a)
 - [Jev vs OpenAI Decisions API](https://jevhub.io/jev-vs-openai-decisions-api)

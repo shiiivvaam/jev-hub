@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-13",
+    "title": "Jev case study: Jack & Jill cut candidate screening costs 88%",
+    "summary": "On 12 October 2026, TypeSafe published a case study saying the hiring marketplace Jack & Jill replaced Gemini 3.1 Flash Lite with Jev at one pipeline stage and cut the cost of scoring candidates by 88%, with no significant change in quality. Every figure comes from TypeSafe's own post and has not been independently verified.",
+    "url": "https://jevhub.io/updates/jack-and-jill-cuts-screening-costs-88-percent-with-jev",
+    "sources": [
+      {
+        "label": "TypeSafe AI blog: How Jack & Jill Cut Candidate Screening Costs By 88% With Jev",
+        "url": "https://typesafe.ai/blog/jack-jill-jev-case-study"
+      },
+      {
+        "label": "TypeSafe AI blog",
+        "url": "https://typesafe.ai/blog"
+      }
+    ]
+  },
+  {
     "date": "2026-10-12",
     "title": "Jev alternatives: OpenAI, AWS and Cloudflare just launched decision models",
     "summary": "Within ten days, three large companies released models built for the same job as Jev: returning typed decisions instead of text. OpenAI shipped a Decisions API in public beta, AWS's Strands Labs open-sourced Strands Decider, and Cloudflare released Clef and Clef-flash. Most speed and accuracy claims so far come from the companies themselves.",
