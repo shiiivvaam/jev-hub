@@ -241,6 +241,9 @@ Filter and search them all at [jevhub.io/builds](https://jevhub.io/builds). Made
 - [Jev vs OpenAI Decisions API](https://jevhub.io/jev-vs-openai-decisions-api)
 - [Jev vs open decision models](https://jevhub.io/jev-vs-open-decision-models)
 - [Jev vs ChatGPT, Claude and other LLMs](https://jevhub.io/jev-vs-llms)
+  - [Jev vs ChatGPT](https://jevhub.io/jev-vs-chatgpt)
+  - [Jev vs Claude](https://jevhub.io/jev-vs-claude)
+  - [Jev vs Gemini](https://jevhub.io/jev-vs-gemini)
 
 Every article is dated, links its sources and says which claims are the companies' own.
 
