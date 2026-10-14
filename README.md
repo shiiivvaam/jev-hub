@@ -38,7 +38,7 @@ It is built for the small decisions software makes thousands of times a day: whi
 
 **System One model.** TypeSafe's name for this kind of model, after Daniel Kahneman's *Thinking, Fast and Slow*: System 1 is fast and intuitive, System 2 slow and deliberate. Text-generating models are the deliberate kind; Jev is built for the fast kind.
 
-**State.** The input you want a decision about: an email, a support ticket, a lead record, a list of page elements. It can be plain text, a JSON object or a list of text items. Text only: no images, audio or video.
+**State.** The input you want a decision about: an email, a support ticket, a lead record, a list of page elements. It can be plain text, a JSON object or a list of text items. Text by default: image input is experimental (TypeSafe, since 14 October), and there is no audio or video.
 
 **Question.** One thing you want decided about the state. A request can carry several questions, and each one gets its own answer.
 
@@ -152,7 +152,7 @@ TypeSafe's own example sends anything below 0.5 to a person, and its guidance sa
 - **No text.** No replies, summaries, explanations or code. That stays with a language model.
 - **Closed answer sets.** It only chooses from options you define, so you need to know them in advance.
 - **No reasoning shown.** You get the decision and its confidence, not why.
-- **Text only.** No images, audio or video.
+- **Text first.** Image input is experimental and not meant for production; no audio or video.
 - **It can still be wrong.** The answer is always a valid option, but not always the right one. That is what confidence is for.
 
 Most teams run Jev alongside a language model rather than instead of one: Jev handles the high-volume judgments (route, score, flag, verify) and the language model handles the work that needs words.
@@ -235,11 +235,12 @@ Filter and search them all at [jevhub.io/builds](https://jevhub.io/builds). Made
 
 ## News and comparisons
 
-- 2026-10-13: [Jev case study: Jack & Jill cut candidate screening costs 88%](https://jevhub.io/updates/jack-and-jill-cuts-screening-costs-88-percent-with-jev)
-- 2026-10-12: [Jev alternatives: OpenAI, AWS and Cloudflare just launched decision models](https://jevhub.io/updates/openai-aws-cloudflare-release-decision-models)
-- 2026-10-12: [Jev funding: TypeSafe raises $870M Series A at $7.5B valuation](https://jevhub.io/updates/typesafe-raises-870-million-series-a)
-- [Jev vs OpenAI Decisions API](https://jevhub.io/jev-vs-openai-decisions-api)
-- [Jev vs open decision models](https://jevhub.io/jev-vs-open-decision-models)
+- 2026-10-15: [Jev 1.14 can read images. Should you care?](https://jevhub.io/updates/jev-1-14-images-box-and-longer-context)
+- 2026-10-13: [How Jack & Jill cut screening costs 88% with Jev](https://jevhub.io/updates/jack-and-jill-cuts-screening-costs-88-percent-with-jev)
+- 2026-10-12: [Jev just got three big rivals](https://jevhub.io/updates/openai-aws-cloudflare-release-decision-models)
+- 2026-10-12: [TypeSafe raises $870M: what it means for Jev](https://jevhub.io/updates/typesafe-raises-870-million-series-a)
+- [Jev vs OpenAI's Decisions API](https://jevhub.io/jev-vs-openai-decisions-api)
+- [Jev vs open models](https://jevhub.io/jev-vs-open-decision-models)
 - [Jev vs ChatGPT, Claude and other LLMs](https://jevhub.io/jev-vs-llms)
   - [Jev vs ChatGPT](https://jevhub.io/jev-vs-chatgpt)
   - [Jev vs Claude](https://jevhub.io/jev-vs-claude)

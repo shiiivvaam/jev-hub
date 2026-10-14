@@ -1,7 +1,23 @@
 [
   {
+    "date": "2026-10-15",
+    "title": "Jev 1.14 can read images. Should you care?",
+    "summary": "On 14 October 2026 TypeSafe released Jev 1.14.0, a small improvement on 1.13 that it says helps most with languages other than English. The same post adds three experimental options behind a special setting: image input, a new answer type called box that returns a bounding box, and a context window of up to 262,000 tokens. TypeSafe says these are not ready for production use. The price is unchanged.",
+    "url": "https://jevhub.io/updates/jev-1-14-images-box-and-longer-context",
+    "sources": [
+      {
+        "label": "TypeSafe: Jev: For The Builders AND Dreamers (14 October 2026)",
+        "url": "https://typesafe.ai/blog/jev-1-14"
+      },
+      {
+        "label": "TypeSafe: Jev models and limits",
+        "url": "https://docs.typesafe.ai/models"
+      }
+    ]
+  },
+  {
     "date": "2026-10-13",
-    "title": "Jev case study: Jack & Jill cut candidate screening costs 88%",
+    "title": "How Jack & Jill cut screening costs 88% with Jev",
     "summary": "On 12 October 2026, TypeSafe published a case study saying the hiring marketplace Jack & Jill replaced Gemini 3.1 Flash Lite with Jev at one pipeline stage and cut the cost of scoring candidates by 88%, with no significant change in quality. Every figure comes from TypeSafe's own post and has not been independently verified.",
     "url": "https://jevhub.io/updates/jack-and-jill-cuts-screening-costs-88-percent-with-jev",
     "sources": [
@@ -17,7 +33,7 @@
   },
   {
     "date": "2026-10-12",
-    "title": "Jev alternatives: OpenAI, AWS and Cloudflare just launched decision models",
+    "title": "Jev just got three big rivals",
     "summary": "Within ten days, three large companies released models built for the same job as Jev: returning typed decisions instead of text. OpenAI shipped a Decisions API in public beta, AWS's Strands Labs open-sourced Strands Decider, and Cloudflare released Clef and Clef-flash. Most speed and accuracy claims so far come from the companies themselves.",
     "url": "https://jevhub.io/updates/openai-aws-cloudflare-release-decision-models",
     "sources": [
@@ -53,7 +69,7 @@
   },
   {
     "date": "2026-10-12",
-    "title": "Jev funding: TypeSafe raises $870M Series A at $7.5B valuation",
+    "title": "TypeSafe raises $870M: what it means for Jev",
     "summary": "On 9 October 2026, TypeSafe AI announced an $870 million Series A at a $7.5 billion valuation, led by Andreessen Horowitz. It came 24 days after Jev's launch on 15 September. The money, investors and board seat are reported consistently; the adoption figures are the company's own and are not independently verified.",
     "url": "https://jevhub.io/updates/typesafe-raises-870-million-series-a",
     "sources": [

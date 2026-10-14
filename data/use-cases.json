@@ -59,7 +59,7 @@
     ],
     "avoid_when": [
       "You need legally defensible moderation decisions with written reasoning.",
-      "The content is mostly images or video. Jev evaluates text."
+      "The content is mostly images or video. Jev is built for text; image input is experimental."
     ],
     "url": "https://jevhub.io/use-cases/content-moderation"
   },

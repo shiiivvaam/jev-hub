@@ -11,7 +11,7 @@ Mostly yes. Jev works well as a fast first-pass filter: one request returns a pr
 
 **Avoid when**
 - You need legally defensible moderation decisions with written reasoning.
-- The content is mostly images or video. Jev evaluates text.
+- The content is mostly images or video. Jev is built for text; image input is experimental.
 
 ## Example request
 
