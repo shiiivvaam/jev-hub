@@ -1,6 +1,6 @@
 # Games and simulations: community builds with Jev
 
-17 projects, each credited to its author and linked to the original. Jev Hub has not tested them: read the source before relying on one. Browse them all with filters on [jevhub.io/builds](https://jevhub.io/builds/topic/games-and-simulations).
+16 projects, each credited to its author and linked to the original. Jev Hub has not tested them: read the source before relying on one. Browse them all with filters on [jevhub.io/builds](https://jevhub.io/builds/topic/games-and-simulations).
 
 ## [jev-drone: a camera-only autonomous drone](https://x.com/RomanSlack1/status/2100335978229690683)
 By [Roman Slack](https://x.com/RomanSlack1), 2026-09-16
@@ -16,26 +16,40 @@ An agent that plays the original Super Mario Bros. from emulator data, not scree
 
 How Jev is used: Game memory is turned into a compact description of Mario, enemies and terrain, and Jev chooses one legal controller action at a time.
 
-## [clash-jev: a Clash Royale bot](https://github.com/bytelabs-oss/clash-jev)
-By [bytelabs](https://github.com/bytelabs-oss), 2026-09-21
+## [Jevspresso: Jev as a barista](https://x.com/DavidKPiano/status/2106407550845600200)
+By [David K 🎹](https://x.com/DavidKPiano), 2026-10-03
 
-Plays Clash Royale on a real Android phone with no trained game policy.
+A state-machine demo where XState decides what is possible and Jev decides the next move.
 
-How Jev is used: Computer vision turns the live screen into a game state once a second; Jev picks a strategy and a card in about 135 ms.
+How Jev is used: You can order in plain language or break things and watch Jev cope.
 
-## [jevman: Pac-Man driven by Jev](https://github.com/joch/jevman)
-By [Johnny Chadda](https://github.com/joch), 2026-10-04
+## [Luna plans, Jev acts: playing poker](https://x.com/browser_use/status/2102980499614658580)
+By [Browser Use](https://x.com/browser_use), 2026-09-24
 
-Watch Jev play Pac-Man, or play against Jev controlling the ghosts.
+A demo from Browser Use pairing a planner model with Jev as the actor.
 
-How Jev is used: A side panel shows each of Jev's decisions with its probabilities, latency and the running cost.
+How Jev is used: Luna sets the plan and Jev makes the moves in a poker game.
 
-## [Laya vs Jev arena](https://github.com/PromptEngineer48/laya-vs-jev-arena)
-By [Prompt Engineer](https://github.com/PromptEngineer48), 2026-09-21
+## [ldraw-nova: an agent that builds LEGO models](https://github.com/anteloc/ldraw-nova)
+By [Carlos Antelo](https://github.com/anteloc), 2026-09-23
 
-Two decision models race in Snake and fight in a Mortal Kombat-style arena.
+Agent tooling that takes a model idea and produces an LDraw LEGO model.
 
-How Jev is used: Both models get the same input and typed questions, so the only difference between the sides is the model; every move is a real decision.
+How Jev is used: The agents are built with GPT and Claude models and use Jev for fast decisions. The output includes the LDraw source, 3D and VR views and an editable Blender file.
+
+## [LeJudge: plain-English rules for a world-model planner](https://x.com/AbdelStark/status/2102675806027755724)
+By [abdel](https://x.com/AbdelStark), 2026-09-23
+
+An experiment putting Jev inside a JEPA world-model planner.
+
+How Jev is used: The planner imagines 300 futures, each is described in words, Jev answers whether it breaks the rule and code adds a penalty. No LLM is involved.
+
+## [JEV-Star: real-time StarCraft II control](https://github.com/sc2musa/Jev_Star)
+By [Weiyu Ma (马纬彧)](https://github.com/sc2musa), 2026-09-22
+
+A research project on real-time StarCraft II macro control, plus Jev and GPT micromanagement.
+
+How Jev is used: The repository has a paper, five macro configurations and videos of complete games at original speed.
 
 ## [jev-leftpad](https://github.com/f/jev-leftpad)
 By [Fatih Kadir Akın](https://github.com/f), 2026-09-21
@@ -44,80 +58,59 @@ Left-pads a string using a model call. For reasons.
 
 How Jev is used: A deliberately absurd npm package: Jev chooses how many spaces to add from a list of options.
 
-## [AI chess lab](https://github.com/dperezcabrera/ai-chess-lab)
-By [David Pérez Cabrera](https://github.com/dperezcabrera), 2026-09-21
+## [Laya vs Jev: two models play the T-Rex game](https://github.com/virajbhartiya/laya-vs-jev)
+By [Viraj Bhartiya](https://github.com/virajbhartiya), 2026-09-21
 
-LLMs, decision models and people play chess in the browser, with every move, second and dollar recorded.
+A side-by-side game where a local Laya model and hosted Jev both play Chrome's T-Rex.
 
-How Jev is used: Jev picks moves through Vercel AI Gateway or OpenRouter, and Stockfish analyses the games in the browser.
+How Jev is used: It shows each model's choices, response times, survival streaks and crash replays on a shared course.
 
-## [Pac-Man where every move is Jev's](https://x.com/NesanSelvan04/status/2100844705588347238)
-By [Nesan Selvan](https://x.com/NesanSelvan04), 2026-09-18
+## [Minecraft agent: a language-model planner with Jev at the controls](https://github.com/rmalde/minecraft-agent)
+By [rmalde](https://github.com/rmalde), 2026-09-20
 
-A Pac-Man game in which each step is decided by Jev.
+An agent that plays Minecraft Java 1.16.5 and aims to beat the Ender Dragon.
 
-How Jev is used: On every tile Jev receives Pac-Man's surroundings and returns a direction, a strategy, a danger score and flags such as trapped or committed.
+How Jev is used: A GPT model plans and Jev selects the player actions. The author reports a run completing in 8 minutes 43 seconds.
 
-## [Playable video game NPCs](https://x.com/dparksdev/status/2100949987571974537)
-By [David Parks](https://x.com/dparksdev), 2026-09-18
+## [jev-paint: paintings from Jev's pixel probabilities](https://github.com/achimala/jev-paint)
+By [Anshu Chimala](https://github.com/achimala), 2026-09-18
 
-Game characters you can direct: explore, gather resources or build a house, then override them mid-task.
+A small local app that turns Jev's probability distributions into paintings.
 
-How Jev is used: Jev chooses each NPC's next action; the choices and their probabilities are shown live.
+How Jev is used: Jev returns pixel probabilities, which the app renders into images in the browser.
 
-## [Where should a burning ship go?](https://x.com/carlosmarcialt/status/2100979161196052855)
-By [Carlos Marcial](https://x.com/carlosmarcialt), 2026-09-18
+## [Jev plays Smash Bros against itself](https://x.com/maubaron/status/2100738237237002706)
+By [Mau Baron](https://x.com/maubaron), 2026-09-18
 
-An app that asks Jev where a ship in distress should head, or where a troubled plane should land.
+A demo where Jev controls all four characters in a fighting game.
 
-How Jev is used: Vessels and aircraft come from real AIS and ADS-B traffic feeds; Jev picks the destination from the available options.
+How Jev is used: The author reports over 22 million tokens for the match at a cost of a couple of cents, with decisions in a fraction of a second.
 
-## [Zero-shot control of a real robotic arm](https://x.com/zaidbul/status/2100949713138729135)
-By [Zaid Bulbul](https://x.com/zaidbul), 2026-09-18
+## [Generating game levels in real time with Jev](https://x.com/HugoDuprez/status/2100953089003921543)
+By [Hugo Duprez](https://x.com/HugoDuprez), 2026-09-18
 
-Jev controlling a physical robotic arm with no trained policy.
+A game-development experiment where Jev produces levels as you play.
 
-How Jev is used: Jev chooses the arm's next move from a set of options at each step, outside of any simulation.
+How Jev is used: The author argues that faster, cheaper structured output could matter for game development.
 
-## [Jev self-driving sim](https://github.com/vinilana/live-jev)
-By [Vinicius Lana](https://github.com/vinilana), 2026-09-18
+## [JevPilot: a driving simulator with a Jev autopilot](https://github.com/standardagents/jevpilot)
+By [Standard Agents](https://github.com/standardagents), 2026-09-17
 
-A top-down autonomous car simulation that runs in the browser.
+A playable Three.js driving simulator with Tesla Autopilot-like behaviour.
 
-How Jev is used: About every 200 ms the car's sensor readings go to Jev with four questions (lane, speed and more), and the car executes the answers.
+How Jev is used: Jev makes the driving decisions through a hosted endpoint that requires a login. The project offers a small amount of free Jev play credit.
 
-## [Jev plays Pokémon Red](https://github.com/milanboers/jev-plays-pokemon)
-By [Milan Boers](https://github.com/milanboers), 2026-09-17
+## [Jev plays Subway Surfers, 50 games at once](https://x.com/_MaxBlade/status/2100634359099232678)
+By [Max Blade](https://x.com/_MaxBlade), 2026-09-17
 
-A small autonomous agent for Pokémon Red on a Game Boy emulator.
+A demo of Jev playing a fast arcade game and running 50 games at once.
 
-How Jev is used: Each turn the game is described as text (dialog, map, party, objective); Jev answers typed questions and code turns them into button presses.
+How Jev is used: The author reports the run cost less than a cent and notes that Jev does not replace large reasoning models.
 
-## [TypeSafe experiments: from support messages to a 3D car](https://github.com/kavehmz/typesafe-playground)
-By [Kaveh Mousavi Zamani](https://github.com/kavehmz), 2026-09-17
+## [Jev plays Slay the Spire 2](https://x.com/coolish/status/2100570517954838897)
+By [paulwei](https://x.com/coolish), 2026-09-17
 
-Interactive experiments with real Jev calls, including a self-driving car in a 3D world.
+A demo of Jev playing a card game faster than a human can follow.
 
-How Jev is used: Each experiment makes the inputs and Jev's judgements visible, including hesitation and mistakes.
-
-## [Should AI kill us all?](https://github.com/hellogumbo/should-ai-kill-us-all)
-By [GUMBO](https://github.com/hellogumbo), 2026-09-17
-
-A site that asks Jev the question every ten minutes, using the actual headlines.
-
-How Jev is used: Jev can only choose, not explain, so it reads the news and picks an answer with a probability.
-
-## [JevGPT: a chatbot from a model that can't write](https://github.com/Bewinxed/jevgpt)
-By [Omar Al Matar](https://github.com/Bewinxed), 2026-09-17
-
-A chat client built on a model that doesn't generate text.
-
-How Jev is used: The conversation is the state, the question is 'next word?', and the options are a 20,000-word dictionary; Jev answers one word at a time.
-
-## [Jev plays StarCraft](https://github.com/phyous/tsai-sc)
-By [Philip Youssef](https://github.com/phyous), 2026-09-16
-
-Jev completes the first combat mission of the original StarCraft shareware campaign.
-
-How Jev is used: Jev controls the game through keyboard and mouse actions, and every action's probability is recorded alongside a game recording.
+How Jev is used: The author, writing in Chinese, reports about 0.7 seconds of thinking per action, compared with a slower run using GPT-6 Astra.
 

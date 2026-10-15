@@ -1,20 +1,27 @@
 # SDKs and integrations: community builds with Jev
 
-22 projects, each credited to its author and linked to the original. Jev Hub has not tested them: read the source before relying on one. Browse them all with filters on [jevhub.io/builds](https://jevhub.io/builds/topic/sdks-and-integrations).
+17 projects, each credited to its author and linked to the original. Jev Hub has not tested them: read the source before relying on one. Browse them all with filters on [jevhub.io/builds](https://jevhub.io/builds/topic/sdks-and-integrations).
 
-## [llm-typesafe: Jev in Simon Willison's LLM](https://github.com/simonw/llm-typesafe)
-By [Simon Willison](https://github.com/simonw), 2026-09-22
+## [stuntd: a local proxy that learns your typed decisions](https://github.com/bladedevoff/stuntd)
+By [BladeDev](https://github.com/bladedevoff), 2026-09-23
 
-A plugin that adds Jev to the LLM command-line tool.
+A self-hosted proxy that records the typed decisions an app makes and learns to answer them itself.
 
-How Jev is used: Ask yes/no, choice or score questions about any text from the terminal and get Jev's typed answer.
+How Jev is used: It speaks the Jev System One protocol and OpenAI's Decisions API, so an app can point at it instead of a hosted model.
 
-## [go-jev: Go SDK and CLI](https://github.com/mattn/go-jev)
-By [mattn](https://github.com/mattn), 2026-09-23
+## [A 404 page that fixes your typos](https://x.com/haaarshsingh/status/2102755111244046418)
+By [Harsh Singh](https://x.com/haaarshsingh), 2026-09-23
 
-A Go SDK for Jev with a command-line tool for Unix pipelines.
+A 404 page that redirects to the page you meant.
 
-How Jev is used: Wraps Jev's yes/no, choice and score questions in idiomatic Go types.
+How Jev is used: Built with Jev, it works out the correct address from the mistyped one.
+
+## [System One for TypeScript: write the decision once](https://github.com/iamaamir/system-one)
+By [Aamir khan](https://github.com/iamaamir), 2026-09-22
+
+A small provider-neutral TypeScript runtime for bounded AI decisions.
+
+How Jev is used: Code uses the same choice, noul and score calls and can run on Jev, a local model or any compatible endpoint.
 
 ## [Jeview: see every Jev call live](https://github.com/andududu/jeview)
 By [Mihai Ionescu](https://github.com/andududu), 2026-09-21
@@ -30,6 +37,13 @@ A Swift bridge that brings decision models into Apple's Foundation Models framew
 
 How Jev is used: Evaluates typed Swift structs and enums against app state using Jev, or an on-device model when offline.
 
+## [Jev workflow builder: a multiplayer demo](https://github.com/CTNicholas/jev-workflow-builder)
+By [Chris Nicholas](https://github.com/CTNicholas), 2026-09-21
+
+A demo of a collaborative workflow builder for Jev built with Liveblocks.
+
+How Jev is used: You wire Jev and language models together, call the workflow through a REST API, preview test runs and see other people's cursors.
+
 ## [Spring AI TypeSafe](https://github.com/spring-ai-community/spring-ai-typesafe)
 By [Spring AI Community](https://github.com/spring-ai-community), 2026-09-20
 
@@ -37,33 +51,12 @@ A Java client for Jev with Spring AI integrations.
 
 How Jev is used: Uses Jev as a model-as-judge, a guardrail, a retrieval post-processor and a tool index inside Spring AI.
 
-## [Jev Spring Boot starter](https://github.com/danvega/jev-spring-boot-starter)
-By [Dan Vega](https://github.com/danvega), 2026-09-20
+## [Jimothy: turn your Jev usage into small local classifiers](https://github.com/AndrewPrifer/jimothy)
+By [Andrew Prifer](https://github.com/AndrewPrifer), 2026-09-20
 
-One dependency to ask Jev typed questions from a Spring Boot app.
+A tool that trains small, very fast classifiers from Jev-compatible examples.
 
-How Jev is used: Add the starter, set an API key and inject a JevClient.
-
-## [Jevalyn: decisions in your Rails app](https://github.com/Ray-Hughes/jevalyn)
-By [Raymond Hughes](https://github.com/Ray-Hughes), 2026-09-20
-
-A Rails-native wrapper that puts Jev decisions into your app's control flow.
-
-How Jev is used: Declare a decision class with questions and a confidence threshold, then evaluate it inside a request in about the time of a database query.
-
-## [jev: a semantic if statement for the terminal](https://github.com/shaharia-lab/jev-cli)
-By [Shaharia Lab](https://github.com/shaharia-lab), 2026-09-19
-
-A command-line tool that turns Jev's answers into exit codes, JSON and MCP tools.
-
-How Jev is used: Ask a typed question about any text and branch on the probability in shell scripts, CI jobs or agents.
-
-## [PHP SDK for Jev](https://github.com/sanmai/typesafe-ai-php)
-By [Alexey Kopytko](https://github.com/sanmai), 2026-09-19
-
-A PHP client for Jev, installable with Composer.
-
-How Jev is used: Build a request with a fluent interface and get one typed answer per question.
+How Jev is used: The trained classifier runs locally in a browser or Node.js, so repeated judgments no longer need an API call.
 
 ## [Jev × WebMCP Chrome extension](https://github.com/sdras/jev-webmcp-extension)
 By [Sarah Drasner](https://github.com/sdras), 2026-09-19
@@ -71,20 +64,6 @@ By [Sarah Drasner](https://github.com/sdras), 2026-09-19
 Turns what you type into WebMCP tool calls on the current page.
 
 How Jev is used: Jev reads the page's tool schemas and predicts the tool and its arguments as you type, with confidence and latency shown.
-
-## [JevForm: a form that decides what to ask next](https://x.com/TamirSPIRITT/status/2101079101997982037)
-By [Tamir](https://x.com/TamirSPIRITT), 2026-09-18
-
-A form that branches on its own, choosing the next question from the answers so far.
-
-How Jev is used: Instead of hand-written if/then logic, Jev picks the next question. The interface is rendered with Vercel's json-render.
-
-## [jevals: a local workbench for Jev requests](https://x.com/Dayhaysoos/status/2100968892591968320)
-By [Nick DeJesus](https://x.com/Dayhaysoos), 2026-09-18
-
-A local tool for testing Jev requests and checking whether results improve over time.
-
-How Jev is used: Lets you build and mix yes/no, choice and score requests, run them against Jev and compare the answers.
 
 ## [jevcache: a decision cache](https://github.com/hyperspaceai/jevcache)
 By [HyperspaceAI](https://github.com/hyperspaceai), 2026-09-18
@@ -100,12 +79,26 @@ A Ruby gem for decision models such as Jev, with no runtime dependencies.
 
 How Jev is used: One client talks to Jev through OpenRouter by default or TypeSafe's API directly.
 
-## [AI Provider for Jev (WordPress)](https://github.com/soderlind/ai-provider-for-jev)
-By [Per Søderlind](https://github.com/soderlind), 2026-09-18
+## [Jev Chat: a command bar that calls tools without an LLM](https://github.com/w3cj/jev-chat)
+By [CJ](https://github.com/w3cj), 2026-09-18
 
-Connects WordPress to Jev for structured decisions.
+A chat-shaped command bar that calls real tools while no language model writes anything.
 
-How Jev is used: Exposes choice, score and yes/no questions to WordPress plugins and themes.
+How Jev is used: Each turn a classifier picks what was asked, which tool, which argument values and whether to confirm, and code builds the reply from the tools' own data.
+
+## [hono-jev-router: route requests by meaning](https://github.com/yusukebe/hono-jev-router)
+By [Yusuke Wada](https://github.com/yusukebe), 2026-09-18
+
+An experimental router for the Hono web framework.
+
+How Jev is used: You describe a request in plain words and Jev decides which description fits the incoming request.
+
+## [Website to App: turn a URL into a native mobile app](https://x.com/chddaniel/status/2100919415554617537)
+By [Daniel Ch](https://x.com/chddaniel), 2026-09-18
+
+A service that builds a native mobile app from a website address.
+
+How Jev is used: Jev decides how to rebuild the site as a native app, then a shipping tool submits it to the app stores. The team says it has used it internally for iOS and Android apps.
 
 ## [Jev MCP server for agent harnesses](https://x.com/jkudish/status/2100413576284712999)
 By [Joey Kudish](https://x.com/jkudish), 2026-09-17
@@ -114,40 +107,12 @@ A proof-of-concept MCP server that adds Jev to an existing agent setup.
 
 How Jev is used: Agents call it to check claims against evidence, screen content before it enters their context and rank candidates by meaning.
 
-## [Easy-Jev: an interactive Jev demo](https://x.com/rory_builds/status/2100606378184171682)
-By [Rory Garton-Smith](https://x.com/rory_builds), 2026-09-17
+## [System One Connector: Jev as an MCP tool](https://github.com/itsmostafa/system-one-connector)
+By [Mostafa](https://github.com/itsmostafa), 2026-09-17
 
-A demo anyone can try: change the inputs and watch the classifications update in real time.
+An MCP connector that gives Claude Code, Codex and other agents direct access to Jev.
 
-How Jev is used: Each change sends the new input to Jev and shows the returned probabilities live.
-
-## [A syntax highlighter for any language](https://x.com/imarikchakma/status/2100587614927741435)
-By [Arik Chakma](https://x.com/imarikchakma), 2026-09-17
-
-Highlights code in any language, including one the author made up.
-
-How Jev is used: Jev classifies each token into a highlighting category instead of relying on a grammar file.
-
-## [GPT vs Jev, side by side](https://x.com/nerdytanay/status/2100465397267144815)
-By [Tanay](https://x.com/nerdytanay), 2026-09-17
-
-A live tool comparing GPT and Jev on the same task.
-
-How Jev is used: Runs the same decision through both and reports money spent, time taken and tokens used.
-
-## [Jev for Elixir OTP](https://github.com/dannote/jev)
-By [Danila Poyarkov](https://github.com/dannote), 2026-09-17
-
-Use Jev from Elixir as a peer process you pattern-match on.
-
-How Jev is used: You reply to Jev from a GenServer and its answer arrives as a message, with routing expressed through clause order.
-
-## [jev-mcp: Jev as MCP tools](https://github.com/rashedInt32/jev-mcp)
-By [Rashed Parvez](https://github.com/rashedInt32), 2026-09-17
-
-An MCP server and Claude Code plugin that exposes Jev's judgements as tools.
-
-How Jev is used: Agents can classify, score, check and batch-ask, and see Jev's full probabilities rather than a bare label.
+How Jev is used: The agent asks a question such as whether something is urgent or which team owns it and gets back a number or an option it can use in an if statement.
 
 ## [SemDecide: decisions for Unix pipelines and CI](https://github.com/sharziki/semdecide)
 By [Sharvil Saxena](https://github.com/sharziki), 2026-09-16

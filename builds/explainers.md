@@ -1,6 +1,6 @@
 # Explainers: community builds with Jev
 
-22 projects, each credited to its author and linked to the original. Jev Hub has not tested them: read the source before relying on one. Browse them all with filters on [jevhub.io/builds](https://jevhub.io/builds/topic/explainers).
+27 projects, each credited to its author and linked to the original. Jev Hub has not tested them: read the source before relying on one. Browse them all with filters on [jevhub.io/builds](https://jevhub.io/builds/topic/explainers).
 
 ## [JEV: how it works and what you can build](https://www.youtube.com/watch?v=o1CogAtWdBk)
 By [Riley Brown](https://www.youtube.com/@rileybrownai), 2026-09-18
@@ -16,40 +16,12 @@ Sam Witteveen tests Jev on a range of classification tasks and looks at how it d
 
 How Jev is used: Covers Jev's System One approach, its speed, and where fast classification fits in real workflows.
 
-## [Jev vs LLMs: when to use which](https://www.youtube.com/watch?v=j8RO-IOKtvM)
-By [CodeRabbit](https://www.youtube.com/@CodeRabbitAI), 2026-10-01
-
-CodeRabbit talks with TypeSafe's Allie Laabs about how Jev works and when to use it instead of a language model.
-
-How Jev is used: Frames Jev as a 'smart if statement' for code: the cases where a decision model beats an LLM, and where it doesn't.
-
-## [How Jev went viral: full tutorial and case study](https://www.youtube.com/watch?v=aAWtRXy8qQs)
-By [Vivek Mishra](https://www.youtube.com/@vivekmishrayt), 2026-09-28
-
-A full tutorial on Jev alongside a case study of its launch.
-
-How Jev is used: Covers what Jev is, how to use it, and why the launch spread so fast.
-
 ## [Jev use cases for AI agents](https://www.youtube.com/watch?v=2nc_QMuNp18)
 By [AI LABS](https://www.youtube.com/@AILABS-393), 2026-09-28
 
 Where Jev fits in AI agents: picking decisions instead of writing like an LLM.
 
 How Jev is used: Shows agent steps handed to Jev and what that saves.
-
-## [What is Jev AI? Explained in 2 minutes](https://www.youtube.com/watch?v=pYEJnhKiya8)
-By [Tech Explained](https://www.youtube.com/@TechExplainedbyKP), 2026-09-25
-
-A two-minute overview of Jev and why it drew so much attention.
-
-How Jev is used: The short version: what a System One model is and what Jev returns.
-
-## [What can you actually build with Jev? (8 demos)](https://www.youtube.com/watch?v=fTLG1B1dTFM)
-By [Kristian](https://www.youtube.com/@kristianvtr), 2026-09-25
-
-Eight demos of things you can build with Jev.
-
-How Jev is used: Each demo gives Jev a state and a few questions, then acts on the decision.
 
 ## [Jev by TypeSafe AI: what is a System-1 decision model](https://www.youtube.com/watch?v=0zFfcEr1e9U)
 By [CampusX](https://www.youtube.com/@campusx-official), 2026-09-24
@@ -65,19 +37,19 @@ Piyush Garg explains what Jev is and how it differs from OpenAI and Claude model
 
 How Jev is used: A developer-focused comparison of decision models and chat models, with examples.
 
-## [¿Qué es Jev? (in Spanish), with a demo vs GPT-5 Nano](https://www.youtube.com/watch?v=0gyNh1N3ZW8)
-By [Grün](https://www.youtube.com/@Gr%C3%BCnmx), 2026-09-22
+## [GitButler: what is Jev, and is Laya better?](https://www.youtube.com/watch?v=ty622HPl600)
+By [GitButler](https://www.youtube.com/@gitbutlerapp), 2026-09-23
 
-A Spanish-language explainer with a demo against GPT-5 Nano.
+A comparison of the hosted Jev API with two local decision models.
 
-How Jev is used: Asks the model for a clear decision software can use, and compares it with a small chat model.
+How Jev is used: Runs Laya and Kev locally next to Jev to compare them.
 
-## [Why System One models could change AI development](https://www.youtube.com/watch?v=ii4_Q24h6Dw)
-By [The AI Lab](https://www.youtube.com/@rkviitb), 2026-09-21
+## [ZazenCodes: understanding Jev](https://www.youtube.com/watch?v=EAh1h1GYxDM)
+By [ZazenCodes](https://www.youtube.com/@ZazenCodes), 2026-09-22
 
-Explains System One models as a new category, with Jev as the first.
+A twenty-minute explainer on what Jev is and how to use it.
 
-How Jev is used: Contrasts structured, type-safe output with the sequential text of language models.
+How Jev is used: A twenty-minute walkthrough of what Jev is and why it matters.
 
 ## [Jev: what is this viral decision model? (with a mini reproduction)](https://www.youtube.com/watch?v=dWg8VmxDCJI)
 By [Tonbi's AI Garage](https://www.youtube.com/@TonbisAIGarage), 2026-09-21
@@ -86,26 +58,68 @@ Explores Jev and builds a small local reproduction to test the idea.
 
 How Jev is used: Goes beyond an overview: the author trains a tiny local model in Jev's style to see how the approach behaves.
 
-## [Jev intro + 50 open-source use cases](https://www.youtube.com/watch?v=im_hLbl6ldU)
-By [Yash Thakker](https://www.youtube.com/@goyashy), 2026-09-20
+## [Will Jev replace LLMs? A look at TypeSafe's model](https://www.youtube.com/watch?v=2vYV4K1RQ1w)
+By [Krish Naik](https://www.youtube.com/@krishnaik06), 2026-09-21
 
-An introduction to Jev followed by a round-up of 50 open-source projects using it.
+A video that asks whether decision models replace language models.
 
-How Jev is used: Explains the model, then tours community projects by category.
+How Jev is used: Explains what Jev is, how it differs from an LLM and where each fits.
 
-## [Jev explained: faster, cheaper decisions](https://www.youtube.com/watch?v=We5igFMqZe8)
-By [Morgans Code](https://www.youtube.com/@MorgansCode), 2026-09-18
+## [Diogo Almeida on why he couldn't build Jev at OpenAI](https://www.youtube.com/watch?v=cFx9Z3ZXca0)
+By [Latent Space](https://www.youtube.com/@LatentSpacePod), 2026-09-21
 
-Asks whether Jev could make computer-use agents faster by choosing the next action without writing text first.
+A long interview with TypeSafe's co-founder and CEO.
 
-How Jev is used: Explains Jev and applies it to picking the next click in an agent loop.
+How Jev is used: Covers his path from instruction-following models at OpenAI to building a model aimed at real work automation.
 
-## [TypeSafe AI Jev: fast, predictable, typed decisions](https://www.youtube.com/watch?v=jLP6HWWNz60)
-By [Md Al Mamun](https://www.youtube.com/@mdalmamunit427), 2026-09-18
+## [CoderOne: an open-source, faster Jev](https://www.youtube.com/watch?v=kWToHpdxScE)
+By [CoderOne](https://www.youtube.com/@CoderOne), 2026-09-21
 
-A short introduction to how Jev produces fast, typed decisions for software.
+A video about the open-source Laya model that appeared days after Jev's launch.
 
-How Jev is used: Covers the three question types and why predictable output helps applications.
+How Jev is used: Explains the System 1 idea behind Jev and what the open alternative offers.
+
+## [Cole Medin: Jev and a new class of models](https://www.youtube.com/watch?v=bA8WeHYmJko)
+By [Cole Medin](https://www.youtube.com/@ColeMedin), 2026-09-21
+
+A video on how to actually use Jev in practice.
+
+How Jev is used: Argues that Jev is different from other launches because it cannot write a word, and shows what to use it for.
+
+## [Raúl Marín: Jev for designers (in Spanish)](https://www.youtube.com/watch?v=lGj4rov3jK4)
+By [Raúl Marín - Refresh | Lo último sin hype](https://www.youtube.com/@Raul-Marin-Calleja), 2026-09-21
+
+A Spanish video on Jev from the point of view of product design and design systems.
+
+How Jev is used: Explains how Jev makes semantic decisions compared with traditional language models.
+
+## [Sean's AI Stories: Jev versus LLMs in 22 minutes](https://www.youtube.com/watch?v=RMQI_y1AvvA)
+By [Sean‘s AI Stories](https://www.youtube.com/@SeanAIStories), 2026-09-21
+
+An explainer that frames Jev as System 1 against System 2 thinking.
+
+How Jev is used: Covers the launch, the model's evaluations and how it compares with LLMs.
+
+## [Theo on Jev: a fast classifier with safety built in](https://www.youtube.com/watch?v=F3YXg7AaKWE)
+By [Theo - t3․gg](https://www.youtube.com/@t3dotgg), 2026-09-20
+
+A long reaction and demo video about Jev from the creator behind t3.gg.
+
+How Jev is used: Describes Jev as a fast classifier that does not replace reasoning models such as Astra or Fable, with demos of what it is good at.
+
+## [Sam Witteveen: seven open Jev-style models](https://www.youtube.com/watch?v=53wDOI_7x8I)
+By [Sam Witteveen](https://www.youtube.com/@samwitteveenai), 2026-09-20
+
+A review of open models that copy the Jev approach.
+
+How Jev is used: Goes through seven of them to see how good they are and what they can do.
+
+## [Jack Roberts: Jev AI just dropped](https://www.youtube.com/watch?v=9C8opPBjAIk)
+By [Jack Roberts](https://www.youtube.com/@Itssssss_Jack), 2026-09-19
+
+An early look at Jev after launch.
+
+How Jev is used: Introduces Jev and links a free skill for giving agents quick decisions.
 
 ## [I tested Jev: here's what you can build](https://www.youtube.com/watch?v=ZZcI9Bfe8AM)
 By [Lukas Margerie](https://www.youtube.com/@lukas-margerie), 2026-09-18
@@ -121,12 +135,33 @@ Compares Jev with Claude and GPT on simple decision tasks.
 
 How Jev is used: You give Jev text and a list of allowed answers; it returns a probability for each, and the video compares that with chat models.
 
-## [Livestream: coding with the new Jev model](https://www.youtube.com/watch?v=5Lx4DLLYafM)
-By [Neural Breakdown with AVB](https://www.youtube.com/@avb_fj), 2026-09-17
+## [Jev explained in seven minutes](https://www.youtube.com/watch?v=vj7hysh0mOI)
+By [Caleb Writes Code](https://www.youtube.com/@CalebWritesCode), 2026-09-18
 
-A long livestream breaking down Jev and the network designs that could produce a model like it.
+A short explainer on what Jev is and why TypeSafe built it.
 
-How Jev is used: Live coding with Jev plus a look at architectures for JSON-predicting models.
+How Jev is used: Covers the idea behind a model that returns decisions instead of text, and where it sits next to reasoning models.
+
+## [Gary Explains: Jev is fast and cheap, but not an LLM](https://www.youtube.com/watch?v=qdji39XXgEY)
+By [Gary Explains](https://www.youtube.com/@GaryExplains), 2026-09-18
+
+An explainer on why Jev is fast and cheap and what the catch is.
+
+How Jev is used: Explains that it understands natural language but replies with structured answers.
+
+## [Maximilian Schwarzmüller on Jev](https://www.youtube.com/watch?v=jaVeEz1yY4o)
+By [Maximilian Schwarzmüller](https://www.youtube.com/@maximilian-schwarzmueller), 2026-09-17
+
+A short reaction video on a model that beats LLMs in some areas.
+
+How Jev is used: Gives a developer's first impression of Jev.
+
+## [Ask Jev Anything](https://x.com/waynesutton/status/2100487878992388279)
+By [Wayne Sutton](https://x.com/waynesutton), 2026-09-17
+
+A website that does not answer questions but judges them.
+
+How Jev is used: It runs on Jev and Convex, and the author set a goal of one million questions.
 
 ## [JEV breakdown: the first AI model built for code](https://www.youtube.com/watch?v=2Bs0Ink_-Uo)
 By [Rob Shocks](https://www.youtube.com/@RobShocks), 2026-09-16
@@ -135,19 +170,19 @@ An early breakdown of Jev on launch day: what it is and why developers took noti
 
 How Jev is used: Covers the System One idea, typed answers and probabilities, and what that means for software.
 
-## [System One Jev, fully explained](https://www.youtube.com/watch?v=NIlQsncfVYs)
-By [AISeeKing](https://www.youtube.com/@AISeeKing), 2026-09-16
-
-Looks at Jev's claims (faster, cheaper, no output tokens) and what its benchmarks actually show.
-
-How Jev is used: Examines how Jev works and how it compares with transformer language models.
-
 ## [Jev: the schema-safe AI for automation](https://www.youtube.com/watch?v=RPpQacmBe4A)
 By [RepoChad](https://www.youtube.com/@repochad), 2026-09-16
 
 What changes when an AI model stops generating text and returns schema-safe answers instead.
 
 How Jev is used: Explains typed decisions and why they matter for automation pipelines.
+
+## [A playable Jev demo on Val Town](https://x.com/stevekrouse/status/2100287368221659289)
+By [Steve Krouse](https://x.com/stevekrouse), 2026-09-16
+
+A live demo anyone can try.
+
+How Jev is used: Steve Krouse built it as a quick way to see how Jev behaves.
 
 ## [Meet Jev: the AI built to make decisions](https://www.youtube.com/watch?v=9oWxrsRo4d8)
 By [vogel](https://www.youtube.com/@vogeldev), 2026-09-15

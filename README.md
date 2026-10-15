@@ -187,7 +187,7 @@ Jev lists **$0.042 per million input tokens**, with no charge for output (checke
 
 ## What people are building
 
-175 community projects, each credited to its author and linked to the original. Jev Hub has not tested them: read the source before relying on one.
+249 community projects, each credited to its author and linked to the original. Jev Hub has not tested them: read the source before relying on one.
 
 **Curated picks**
 
@@ -206,30 +206,28 @@ Jev lists **$0.042 per million input tokens**, with no charge for output (checke
 - [jgrep: grep where the pattern is a description](https://github.com/keltokhy/jgrep) by [keltokhy](https://github.com/keltokhy): Filters lines of text by meaning, for example 'a user is getting frustrated' in a live log.
 - [Jevmail: open-source Gmail triage](https://github.com/fazlerocks/jevmail) by [Syed Fazle Rahman](https://github.com/fazlerocks): Sorts a Gmail inbox into Needs reply, Updates, Promos, Sales and Spam, read-only and running locally.
 - [Jev plays Super Mario Bros.](https://github.com/fhshaik/typesafe-mario) by [fhshaik](https://github.com/fhshaik): An agent that plays the original Super Mario Bros. from emulator data, not screenshots.
-- [clash-jev: a Clash Royale bot](https://github.com/bytelabs-oss/clash-jev) by [bytelabs](https://github.com/bytelabs-oss): Plays Clash Royale on a real Android phone with no trained game policy.
 - [Shapeshift: an input that becomes what you mean](https://github.com/anishfn/shapeshift) by [Anish Gupta](https://github.com/anishfn): One text box that turns into an event card, checklist, timer, bill splitter and more as you type.
-- [llm-typesafe: Jev in Simon Willison's LLM](https://github.com/simonw/llm-typesafe) by [Simon Willison](https://github.com/simonw): A plugin that adds Jev to the LLM command-line tool.
 
 **Browse by topic**
 
-- [Coding agents](./builds/coding-agents.md) (20)
-- [Code search](./builds/code-search.md) (8)
-- [Computer and browser use](./builds/computer-and-browser-use.md) (10)
+- [Coding agents](./builds/coding-agents.md) (27)
+- [Code search](./builds/code-search.md) (11)
+- [Computer and browser use](./builds/computer-and-browser-use.md) (22)
 - [Voice control](./builds/voice-control.md) (9)
-- [Email and messages](./builds/email-and-messages.md) (7)
-- [Content and social](./builds/content-and-social.md) (9)
-- [Search and ranking](./builds/search-and-ranking.md) (5)
-- [Agent memory](./builds/agent-memory.md) (4)
-- [Model routing](./builds/model-routing.md) (7)
-- [Data and databases](./builds/data-and-databases.md) (6)
-- [Trading and finance](./builds/trading-and-finance.md) (7)
-- [Games and simulations](./builds/games-and-simulations.md) (17)
-- [Hiring](./builds/hiring.md) (4)
-- [Home and devices](./builds/home-and-devices.md) (2)
-- [Safety and moderation](./builds/safety-and-moderation.md) (3)
-- [SDKs and integrations](./builds/sdks-and-integrations.md) (22)
-- [Tutorials](./builds/tutorials.md) (13)
-- [Explainers](./builds/explainers.md) (22)
+- [Email and messages](./builds/email-and-messages.md) (9)
+- [Content and social](./builds/content-and-social.md) (29)
+- [Search and ranking](./builds/search-and-ranking.md) (9)
+- [Agent memory](./builds/agent-memory.md) (6)
+- [Model routing](./builds/model-routing.md) (12)
+- [Data and databases](./builds/data-and-databases.md) (12)
+- [Trading and finance](./builds/trading-and-finance.md) (6)
+- [Games and simulations](./builds/games-and-simulations.md) (16)
+- [Hiring](./builds/hiring.md) (2)
+- [Home and devices](./builds/home-and-devices.md) (7)
+- [Safety and moderation](./builds/safety-and-moderation.md) (7)
+- [SDKs and integrations](./builds/sdks-and-integrations.md) (17)
+- [Tutorials](./builds/tutorials.md) (21)
+- [Explainers](./builds/explainers.md) (27)
 
 Filter and search them all at [jevhub.io/builds](https://jevhub.io/builds). Made something with Jev? [Submit a build](https://jevhub.io/builds/submit).
 

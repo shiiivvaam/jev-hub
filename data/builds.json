@@ -237,22 +237,6 @@
     "jev_hub_page": "https://jevhub.io/builds/typesafe-mario"
   },
   {
-    "slug": "clash-jev",
-    "title": "clash-jev: a Clash Royale bot",
-    "summary": "Plays Clash Royale on a real Android phone with no trained game policy.",
-    "how_jev_is_used": "Computer vision turns the live screen into a game state once a second; Jev picks a strategy and a card in about 135 ms.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "bytelabs",
-      "handle": "bytelabs-oss",
-      "url": "https://github.com/bytelabs-oss"
-    },
-    "link": "https://github.com/bytelabs-oss/clash-jev",
-    "published": "2026-09-21",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/clash-jev"
-  },
-  {
     "slug": "shapeshift",
     "title": "Shapeshift: an input that becomes what you mean",
     "summary": "One text box that turns into an event card, checklist, timer, bill splitter and more as you type.",
@@ -269,82 +253,68 @@
     "jev_hub_page": "https://jevhub.io/builds/shapeshift"
   },
   {
-    "slug": "llm-typesafe",
-    "title": "llm-typesafe: Jev in Simon Willison's LLM",
-    "summary": "A plugin that adds Jev to the LLM command-line tool.",
-    "how_jev_is_used": "Ask yes/no, choice or score questions about any text from the terminal and get Jev's typed answer.",
-    "category": "SDKs and integrations",
+    "slug": "client-follow-up-agent-jev",
+    "title": "A client follow-up agent with Jev matching requests",
+    "summary": "An agent built on an open harness that matches client requests to the right GitHub issue.",
+    "how_jev_is_used": "The author reports 40 requests matched as accurately as when Opus made every match, with decision cost about 150 times lower.",
+    "category": "Coding agents",
     "author": {
-      "name": "Simon Willison",
-      "handle": "simonw",
-      "url": "https://github.com/simonw"
+      "name": "Akshay 🚀",
+      "handle": "@akshay_pachaar",
+      "url": "https://x.com/akshay_pachaar"
     },
-    "link": "https://github.com/simonw/llm-typesafe",
-    "published": "2026-09-22",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/llm-typesafe"
+    "link": "https://x.com/akshay_pachaar/status/2109909532352917658",
+    "published": "2026-10-13",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/client-follow-up-agent-jev"
   },
   {
-    "slug": "jevman",
-    "title": "jevman: Pac-Man driven by Jev",
-    "summary": "Watch Jev play Pac-Man, or play against Jev controlling the ghosts.",
-    "how_jev_is_used": "A side panel shows each of Jev's decisions with its probabilities, latency and the running cost.",
+    "slug": "data-analyst-agent-jev-review",
+    "title": "A data analyst agent with Jev as the reviewer",
+    "summary": "A plain-English data agent that checks its own work.",
+    "how_jev_is_used": "Qwen writes the SQL and explains results, Jev acts as the review layer, and Vercel's eve runs the loop and the human approval flow.",
+    "category": "Data and databases",
+    "author": {
+      "name": "Sumanth",
+      "handle": "@Sumanth_077",
+      "url": "https://x.com/Sumanth_077"
+    },
+    "link": "https://x.com/Sumanth_077/status/2107800513681182737",
+    "published": "2026-10-07",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/data-analyst-agent-jev-review"
+  },
+  {
+    "slug": "jev-spider-layout",
+    "title": "Jev Spider: Jev rearranges a website's layout",
+    "summary": "A demo where Jev decides the size, colour and position of page components.",
+    "how_jev_is_used": "It rearranges the components based on its own preference.",
+    "category": "Content and social",
+    "author": {
+      "name": "Kevin",
+      "handle": "@kevincodex",
+      "url": "https://x.com/kevincodex"
+    },
+    "link": "https://x.com/kevincodex/status/2107055574655676767",
+    "published": "2026-10-05",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-spider-layout"
+  },
+  {
+    "slug": "jevspresso",
+    "title": "Jevspresso: Jev as a barista",
+    "summary": "A state-machine demo where XState decides what is possible and Jev decides the next move.",
+    "how_jev_is_used": "You can order in plain language or break things and watch Jev cope.",
     "category": "Games and simulations",
     "author": {
-      "name": "Johnny Chadda",
-      "handle": "joch",
-      "url": "https://github.com/joch"
+      "name": "David K 🎹",
+      "handle": "@DavidKPiano",
+      "url": "https://x.com/DavidKPiano"
     },
-    "link": "https://github.com/joch/jevman",
-    "published": "2026-10-04",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jevman"
-  },
-  {
-    "slug": "coderabbit-jev-vs-llms",
-    "title": "Jev vs LLMs: when to use which",
-    "summary": "CodeRabbit talks with TypeSafe's Allie Laabs about how Jev works and when to use it instead of a language model.",
-    "how_jev_is_used": "Frames Jev as a 'smart if statement' for code: the cases where a decision model beats an LLM, and where it doesn't.",
-    "category": "Explainers",
-    "author": {
-      "name": "CodeRabbit",
-      "url": "https://www.youtube.com/@CodeRabbitAI"
-    },
-    "link": "https://www.youtube.com/watch?v=j8RO-IOKtvM",
-    "published": "2026-10-01",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/coderabbit-jev-vs-llms"
-  },
-  {
-    "slug": "omarchy-mail",
-    "title": "Mail for Omarchy",
-    "summary": "A terminal Gmail client that files your inbox and checks your replies before you send them.",
-    "how_jev_is_used": "Jev files messages into Gmail labels only when confident and leaves personal or unclear mail in the inbox; it also reviews drafts.",
-    "category": "Email and messages",
-    "author": {
-      "name": "Pavel Petržela",
-      "handle": "petrzpav",
-      "url": "https://github.com/petrzpav"
-    },
-    "link": "https://github.com/petrzpav/omarchy-mail",
-    "published": "2026-09-29",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/omarchy-mail"
-  },
-  {
-    "slug": "vivek-mishra-case-study",
-    "title": "How Jev went viral: full tutorial and case study",
-    "summary": "A full tutorial on Jev alongside a case study of its launch.",
-    "how_jev_is_used": "Covers what Jev is, how to use it, and why the launch spread so fast.",
-    "category": "Explainers",
-    "author": {
-      "name": "Vivek Mishra",
-      "url": "https://www.youtube.com/@vivekmishrayt"
-    },
-    "link": "https://www.youtube.com/watch?v=aAWtRXy8qQs",
-    "published": "2026-09-28",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/vivek-mishra-case-study"
+    "link": "https://x.com/DavidKPiano/status/2106407550845600200",
+    "published": "2026-10-03",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jevspresso"
   },
   {
     "slug": "ai-labs-agent-use-cases",
@@ -376,37 +346,6 @@
     "published": "2026-09-27",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/deepseek-harness-jev"
-  },
-  {
-    "slug": "jev-mail-filter",
-    "title": "Gmail filters in plain English",
-    "summary": "Gmail filters written as sentences, plus a morning digest and follow-up reminders.",
-    "how_jev_is_used": "Jev reads every new email and labels, stars, archives or flags it as phishing according to your sentence rules. One Apps Script file, no server.",
-    "category": "Email and messages",
-    "author": {
-      "name": "Yusuf Ziya Cıvan",
-      "handle": "ziyacivan",
-      "url": "https://github.com/ziyacivan"
-    },
-    "link": "https://github.com/ziyacivan/jev-mail-filter",
-    "published": "2026-09-27",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-mail-filter"
-  },
-  {
-    "slug": "spanish-live-coding",
-    "title": "Live coding: trying Jev (in Spanish)",
-    "summary": "A Spanish-language live-coding session testing Jev.",
-    "how_jev_is_used": "Hands-on first impressions from building with Jev live.",
-    "category": "Tutorials",
-    "author": {
-      "name": "Frontend Army",
-      "url": "https://www.youtube.com/@frontend_army"
-    },
-    "link": "https://www.youtube.com/watch?v=QznOX6maCkQ",
-    "published": "2026-09-27",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/spanish-live-coding"
   },
   {
     "slug": "building-with-typesafe-jev",
@@ -457,81 +396,20 @@
     "jev_hub_page": "https://jevhub.io/builds/claude-x-jev"
   },
   {
-    "slug": "tech-explained-2-minutes",
-    "title": "What is Jev AI? Explained in 2 minutes",
-    "summary": "A two-minute overview of Jev and why it drew so much attention.",
-    "how_jev_is_used": "The short version: what a System One model is and what Jev returns.",
-    "category": "Explainers",
+    "slug": "jevlint",
+    "title": "Jevlint: a linter for code taste",
+    "summary": "A linter that checks code against rules written in plain language.",
+    "how_jev_is_used": "It uses Tree-sitter to pull out code units and asks a decision backend such as Jev whether each one passes.",
+    "category": "Code search",
     "author": {
-      "name": "Tech Explained",
-      "url": "https://www.youtube.com/@TechExplainedbyKP"
+      "name": "codegirl007",
+      "handle": "codegirl-007",
+      "url": "https://github.com/codegirl-007"
     },
-    "link": "https://www.youtube.com/watch?v=pYEJnhKiya8",
+    "link": "https://github.com/codegirl-007/jevlint",
     "published": "2026-09-25",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/tech-explained-2-minutes"
-  },
-  {
-    "slug": "kristian-8-demos",
-    "title": "What can you actually build with Jev? (8 demos)",
-    "summary": "Eight demos of things you can build with Jev.",
-    "how_jev_is_used": "Each demo gives Jev a state and a few questions, then acts on the decision.",
-    "category": "Explainers",
-    "author": {
-      "name": "Kristian",
-      "url": "https://www.youtube.com/@kristianvtr"
-    },
-    "link": "https://www.youtube.com/watch?v=fTLG1B1dTFM",
-    "published": "2026-09-25",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/kristian-8-demos"
-  },
-  {
-    "slug": "automated-marketer-claude-code",
-    "title": "Jev + Claude Code: 5 real use cases, real costs",
-    "summary": "Five real tests of Jev inside Claude Code, with the bill on screen.",
-    "how_jev_is_used": "Each test shows the decision Jev makes and what it cost to run.",
-    "category": "Tutorials",
-    "author": {
-      "name": "Nuno Tavares",
-      "url": "https://www.youtube.com/@AutomatedMarketer"
-    },
-    "link": "https://www.youtube.com/watch?v=jO8uzewZGwo",
-    "published": "2026-09-25",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/automated-marketer-claude-code"
-  },
-  {
-    "slug": "jev-router-claude-codex",
-    "title": "jev-router for Claude Code and Codex",
-    "summary": "A local proxy that picks a fast, balanced or frontier model for each turn of a coding session.",
-    "how_jev_is_used": "When you send a new message, Jev decides which tier the work needs, while the router avoids switches that would waste the prompt cache.",
-    "category": "Model routing",
-    "author": {
-      "name": "Engin Diri",
-      "handle": "dirien",
-      "url": "https://github.com/dirien"
-    },
-    "link": "https://github.com/dirien/jev-router",
-    "published": "2026-09-24",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-router-claude-codex"
-  },
-  {
-    "slug": "flick",
-    "title": "Flick: fast computer use for MCP agents",
-    "summary": "A local MCP server that carries out whole browser and macOS goals.",
-    "how_jev_is_used": "Your agent supplies the goal and completion conditions; Flick runs the observe, decide, act loop with Jev and returns the result.",
-    "category": "Computer and browser use",
-    "author": {
-      "name": "Given Borthwick",
-      "handle": "bgivenb",
-      "url": "https://github.com/bgivenb"
-    },
-    "link": "https://github.com/bgivenb/flick-computer-use",
-    "published": "2026-09-24",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/flick"
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jevlint"
   },
   {
     "slug": "campusx-system-1-decision-model",
@@ -549,20 +427,52 @@
     "jev_hub_page": "https://jevhub.io/builds/campusx-system-1-decision-model"
   },
   {
-    "slug": "gatekeeper",
-    "title": "Gatekeeper: route requests to the right agent or skill",
-    "summary": "Decides which AI agent or skill should handle a request before your AI guesses.",
-    "how_jev_is_used": "YAML rules handle what code can decide; Jev answers the remaining 'which handler owns this?' question as a typed choice, and confidence bands turn it into a verdict.",
-    "category": "Coding agents",
+    "slug": "jevry",
+    "title": "Jevry: a desktop browser that acts on a task",
+    "summary": "An open-source desktop browser that carries out website tasks, cited research and supported games.",
+    "how_jev_is_used": "Actions are visible and can be stopped or redirected, and results are grounded in the page.",
+    "category": "Computer and browser use",
     "author": {
-      "name": "Agrici Daniel",
-      "handle": "AgriciDaniel",
-      "url": "https://github.com/AgriciDaniel"
+      "name": "Michael Swissa",
+      "handle": "michaelswissa",
+      "url": "https://github.com/michaelswissa"
     },
-    "link": "https://github.com/AgriciDaniel/gatekeeper",
-    "published": "2026-09-23",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/gatekeeper"
+    "link": "https://github.com/michaelswissa/jevry",
+    "published": "2026-09-24",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jevry"
+  },
+  {
+    "slug": "luna-planner-jev-actor-poker",
+    "title": "Luna plans, Jev acts: playing poker",
+    "summary": "A demo from Browser Use pairing a planner model with Jev as the actor.",
+    "how_jev_is_used": "Luna sets the plan and Jev makes the moves in a poker game.",
+    "category": "Games and simulations",
+    "author": {
+      "name": "Browser Use",
+      "handle": "@browser_use",
+      "url": "https://x.com/browser_use"
+    },
+    "link": "https://x.com/browser_use/status/2102980499614658580",
+    "published": "2026-09-24",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/luna-planner-jev-actor-poker"
+  },
+  {
+    "slug": "captcha-rebuilt-with-jev",
+    "title": "CAPTCHA rebuilt with Jev",
+    "summary": "A bot check based on how you fill in a form.",
+    "how_jev_is_used": "The browser measures the behaviour, the server turns it into plain sentences and Jev decides person or bot. The author published a blog post with the source code.",
+    "category": "Safety and moderation",
+    "author": {
+      "name": "Jarek",
+      "handle": "@jarekceborski",
+      "url": "https://x.com/jarekceborski"
+    },
+    "link": "https://x.com/jarekceborski/status/2103071312323158512",
+    "published": "2026-09-24",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/captcha-rebuilt-with-jev"
   },
   {
     "slug": "codexqa-jev-browser",
@@ -581,54 +491,6 @@
     "jev_hub_page": "https://jevhub.io/builds/codexqa-jev-browser"
   },
   {
-    "slug": "partway",
-    "title": "partway: voice control that acts mid-sentence",
-    "summary": "A macOS voice-control app that starts acting partway through what you say.",
-    "how_jev_is_used": "Jev is asked about every word as you speak and answers in about 200 ms, so the app acts early and waits only when it must.",
-    "category": "Voice control",
-    "author": {
-      "name": "Tiago Oliveira",
-      "handle": "tostechbr",
-      "url": "https://github.com/tostechbr"
-    },
-    "link": "https://github.com/tostechbr/partway",
-    "published": "2026-09-23",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/partway"
-  },
-  {
-    "slug": "agora-jev-vad",
-    "title": "Jev VAD: turn detection for voice agents",
-    "summary": "Client-side turn detection for Agora's Conversational AI.",
-    "how_jev_is_used": "A simple sound gate opens the turn; Jev then decides from the live transcript whether the user is done, talking to the agent at all, or really interrupting.",
-    "category": "Voice control",
-    "author": {
-      "name": "Agora Community",
-      "handle": "AgoraIO-Community",
-      "url": "https://github.com/AgoraIO-Community"
-    },
-    "link": "https://github.com/AgoraIO-Community/convoai-jev-vad",
-    "published": "2026-09-23",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/agora-jev-vad"
-  },
-  {
-    "slug": "inbasket-triage",
-    "title": "In-Basket Triage for patient messages",
-    "summary": "A synthetic demo that sorts patient-portal messages for a clinic.",
-    "how_jev_is_used": "Jev reads each message once and answers 26 questions (urgency, category, owner, flags, which prompt snippets the reply drafter needs); code routes it and an LLM drafts the reply.",
-    "category": "Email and messages",
-    "author": {
-      "name": "Stephon Proctor",
-      "handle": "Stephonomon",
-      "url": "https://github.com/Stephonomon"
-    },
-    "link": "https://github.com/Stephonomon/inbasket-triage",
-    "published": "2026-09-23",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/inbasket-triage"
-  },
-  {
     "slug": "jev4pg",
     "title": "jev4pg: semantic operators for PostgreSQL",
     "summary": "41 Jev-powered operators for filtering, extracting, ranking and matching data in PostgreSQL.",
@@ -643,22 +505,6 @@
     "published": "2026-09-23",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/jev4pg"
-  },
-  {
-    "slug": "go-jev",
-    "title": "go-jev: Go SDK and CLI",
-    "summary": "A Go SDK for Jev with a command-line tool for Unix pipelines.",
-    "how_jev_is_used": "Wraps Jev's yes/no, choice and score questions in idiomatic Go types.",
-    "category": "SDKs and integrations",
-    "author": {
-      "name": "mattn",
-      "handle": "mattn",
-      "url": "https://github.com/mattn"
-    },
-    "link": "https://github.com/mattn/go-jev",
-    "published": "2026-09-23",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/go-jev"
   },
   {
     "slug": "piyush-garg-game-changer",
@@ -676,35 +522,160 @@
     "jev_hub_page": "https://jevhub.io/builds/piyush-garg-game-changer"
   },
   {
-    "slug": "rob-the-ai-guy-use-cases",
-    "title": "How to use Jev, with use cases",
-    "summary": "What Jev is, how to start using it, and a range of use cases.",
-    "how_jev_is_used": "A tour of getting access and applying Jev to several everyday tasks.",
-    "category": "Tutorials",
+    "slug": "ldraw-nova",
+    "title": "ldraw-nova: an agent that builds LEGO models",
+    "summary": "Agent tooling that takes a model idea and produces an LDraw LEGO model.",
+    "how_jev_is_used": "The agents are built with GPT and Claude models and use Jev for fast decisions. The output includes the LDraw source, 3D and VR views and an editable Blender file.",
+    "category": "Games and simulations",
     "author": {
-      "name": "Rob The AI Guy",
-      "url": "https://www.youtube.com/@realrobtheaiguy"
+      "name": "Carlos Antelo",
+      "handle": "anteloc",
+      "url": "https://github.com/anteloc"
     },
-    "link": "https://www.youtube.com/watch?v=4fwrPzufRI4",
+    "link": "https://github.com/anteloc/ldraw-nova",
     "published": "2026-09-23",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/rob-the-ai-guy-use-cases"
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/ldraw-nova"
   },
   {
-    "slug": "jev-harness",
-    "title": "jev-harness: propose, ask, decide",
-    "summary": "A research-stage coding harness where an LLM proposes and Jev reviews.",
-    "how_jev_is_used": "An LLM proposes one action, Jev answers four narrow questions about it, and code produces evidence for the host to act on. Maintained by a community organisation independent of TypeSafe.",
-    "category": "Coding agents",
+    "slug": "stuntd",
+    "title": "stuntd: a local proxy that learns your typed decisions",
+    "summary": "A self-hosted proxy that records the typed decisions an app makes and learns to answer them itself.",
+    "how_jev_is_used": "It speaks the Jev System One protocol and OpenAI's Decisions API, so an app can point at it instead of a hosted model.",
+    "category": "SDKs and integrations",
     "author": {
-      "name": "TypeSafe Community",
-      "handle": "TypeSafeAI",
-      "url": "https://github.com/TypeSafeAI"
+      "name": "BladeDev",
+      "handle": "bladedevoff",
+      "url": "https://github.com/bladedevoff"
     },
-    "link": "https://github.com/TypeSafeAI/jev-harness",
-    "published": "2026-09-22",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-harness"
+    "link": "https://github.com/bladedevoff/stuntd",
+    "published": "2026-09-23",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/stuntd"
+  },
+  {
+    "slug": "laya-jev-graphrag",
+    "title": "laya-jev-GraphRAG: an agentic layer for your graph database",
+    "summary": "A graph-database-agnostic GraphRAG framework with a swappable decision layer.",
+    "how_jev_is_used": "The decision layer can use local Laya or cloud Jev, so the graph database keeps its role and the framework adds the choices.",
+    "category": "Data and databases",
+    "author": {
+      "name": "muneendra",
+      "handle": "bodepudimuneendra-netizen",
+      "url": "https://github.com/bodepudimuneendra-netizen"
+    },
+    "link": "https://github.com/bodepudimuneendra-netizen/laya-jev-GraphRAG",
+    "published": "2026-09-23",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/laya-jev-graphrag"
+  },
+  {
+    "slug": "codebasics-jev-17-minutes-with-code",
+    "title": "Jev explained in 17 minutes, with code",
+    "summary": "A code-along that explains Jev and why a model that cannot write text is useful.",
+    "how_jev_is_used": "Notes that Jev cannot generate text or code, reports the creator's speed and cost claims and runs examples.",
+    "category": "Tutorials",
+    "author": {
+      "name": "codebasics",
+      "url": "https://www.youtube.com/@codebasics"
+    },
+    "link": "https://www.youtube.com/watch?v=_yD790y_gq4",
+    "published": "2026-09-23",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/codebasics-jev-17-minutes-with-code"
+  },
+  {
+    "slug": "mikey-no-code-jev-beginners",
+    "title": "Mikey No Code: Jev for beginners",
+    "summary": "A beginner tutorial on how to set up and use Jev.",
+    "how_jev_is_used": "Covers getting started with TypeSafe's API.",
+    "category": "Tutorials",
+    "author": {
+      "name": "Mikey No Code",
+      "url": "https://www.youtube.com/@mikeynocode"
+    },
+    "link": "https://www.youtube.com/watch?v=MQg1-JAky1E",
+    "published": "2026-09-23",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/mikey-no-code-jev-beginners"
+  },
+  {
+    "slug": "gitbutler-what-is-jev-laya",
+    "title": "GitButler: what is Jev, and is Laya better?",
+    "summary": "A comparison of the hosted Jev API with two local decision models.",
+    "how_jev_is_used": "Runs Laya and Kev locally next to Jev to compare them.",
+    "category": "Explainers",
+    "author": {
+      "name": "GitButler",
+      "url": "https://www.youtube.com/@gitbutlerapp"
+    },
+    "link": "https://www.youtube.com/watch?v=ty622HPl600",
+    "published": "2026-09-23",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/gitbutler-what-is-jev-laya"
+  },
+  {
+    "slug": "edward-donner-jev-vs-luna",
+    "title": "Edward Donner: Jev tested against Luna",
+    "summary": "A test of whether Jev is better, faster and cheaper than a language model.",
+    "how_jev_is_used": "Compares Jev with Luna on cost and speed.",
+    "category": "Tutorials",
+    "author": {
+      "name": "Edward Donner",
+      "url": "https://www.youtube.com/@Edward.Donner"
+    },
+    "link": "https://www.youtube.com/watch?v=kWtheXMA_mE",
+    "published": "2026-09-23",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/edward-donner-jev-vs-luna"
+  },
+  {
+    "slug": "lejudge-jepa-jev",
+    "title": "LeJudge: plain-English rules for a world-model planner",
+    "summary": "An experiment putting Jev inside a JEPA world-model planner.",
+    "how_jev_is_used": "The planner imagines 300 futures, each is described in words, Jev answers whether it breaks the rule and code adds a penalty. No LLM is involved.",
+    "category": "Games and simulations",
+    "author": {
+      "name": "abdel",
+      "handle": "@AbdelStark",
+      "url": "https://x.com/AbdelStark"
+    },
+    "link": "https://x.com/AbdelStark/status/2102675806027755724",
+    "published": "2026-09-23",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/lejudge-jepa-jev"
+  },
+  {
+    "slug": "typo-fixing-404-page",
+    "title": "A 404 page that fixes your typos",
+    "summary": "A 404 page that redirects to the page you meant.",
+    "how_jev_is_used": "Built with Jev, it works out the correct address from the mistyped one.",
+    "category": "SDKs and integrations",
+    "author": {
+      "name": "Harsh Singh",
+      "handle": "@haaarshsingh",
+      "url": "https://x.com/haaarshsingh"
+    },
+    "link": "https://x.com/haaarshsingh/status/2102755111244046418",
+    "published": "2026-09-23",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/typo-fixing-404-page"
+  },
+  {
+    "slug": "sensitive-files-file-share",
+    "title": "Finding sensitive files on a file share",
+    "summary": "A security demo where Jev picks out sensitive files.",
+    "how_jev_is_used": "The author says Jev is very quick at it.",
+    "category": "Safety and moderation",
+    "author": {
+      "name": "Adam Chester 🏴‍☠️",
+      "handle": "@_xpn_",
+      "url": "https://x.com/_xpn_"
+    },
+    "link": "https://x.com/_xpn_/status/2102739497829961734",
+    "published": "2026-09-23",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/sensitive-files-file-share"
   },
   {
     "slug": "jev-ui-test",
@@ -739,38 +710,6 @@
     "jev_hub_page": "https://jevhub.io/builds/warren-duffer"
   },
   {
-    "slug": "jev-guard",
-    "title": "jev-guard: risk triage for exchange deposits and withdrawals",
-    "summary": "Decides whether a crypto deposit or withdrawal passes automatically, goes to human review or is frozen.",
-    "how_jev_is_used": "Jev supplies the risk level and behaviour pattern; thresholds and the final action stay in testable Java code.",
-    "category": "Trading and finance",
-    "author": {
-      "name": "klauswg",
-      "handle": "klauswg",
-      "url": "https://github.com/klauswg"
-    },
-    "link": "https://github.com/klauswg/jev-guard",
-    "published": "2026-09-22",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-guard"
-  },
-  {
-    "slug": "promosift",
-    "title": "PromoSift: spot unlabelled promotions on X",
-    "summary": "A Chrome and Edge extension that labels or folds promotional posts X doesn't mark as ads.",
-    "how_jev_is_used": "Jev classifies visible posts into promotion categories with probabilities; you choose whether to label or hide them.",
-    "category": "Content and social",
-    "author": {
-      "name": "Rich Wong",
-      "handle": "web3w",
-      "url": "https://github.com/web3w"
-    },
-    "link": "https://github.com/web3w/promosift-extension",
-    "published": "2026-09-22",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/promosift"
-  },
-  {
     "slug": "jevmem",
     "title": "jevmem: say it once to Claude Code",
     "summary": "Saves decisions and rules from Claude Code chats and brings the relevant ones back next session.",
@@ -787,66 +726,210 @@
     "jev_hub_page": "https://jevhub.io/builds/jevmem"
   },
   {
-    "slug": "united-top-tech-python-node",
-    "title": "Using the Jev API with Python and Node.js",
-    "summary": "Connects to the Jev API and makes requests from both Python and JavaScript.",
-    "how_jev_is_used": "Covers setup, the request code and reading answers in both languages.",
-    "category": "Tutorials",
+    "slug": "jev-seo",
+    "title": "jev-seo: a live SEO audit from one homepage URL",
+    "summary": "An audit tool that crawls a site, checks it against 52 rules and produces PDF, Excel and Markdown reports.",
+    "how_jev_is_used": "Jev answers typed questions about every page, and ordinary code scores and ranks the fixes. It runs as a Claude Code skill or from the command line.",
+    "category": "Content and social",
     "author": {
-      "name": "United Top Tech",
-      "url": "https://www.youtube.com/@unitedtoptech6288"
+      "name": "Agrici.Daniel",
+      "handle": "AgriciDaniel",
+      "url": "https://github.com/AgriciDaniel"
     },
-    "link": "https://www.youtube.com/watch?v=S5fTMSk_2Es",
+    "link": "https://github.com/AgriciDaniel/jev-seo",
     "published": "2026-09-22",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/united-top-tech-python-node"
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-seo"
   },
   {
-    "slug": "spanish-que-es-jev",
-    "title": "¿Qué es Jev? (in Spanish), with a demo vs GPT-5 Nano",
-    "summary": "A Spanish-language explainer with a demo against GPT-5 Nano.",
-    "how_jev_is_used": "Asks the model for a clear decision software can use, and compares it with a small chat model.",
-    "category": "Explainers",
+    "slug": "mu",
+    "title": "mu: a coding agent with a judgment kernel",
+    "summary": "A coding agent that hands its routine judgment calls to a small, fast model.",
+    "how_jev_is_used": "Jev acts as the judge for decision points such as what stays in context, whether a command is safe and when the work is done, so the large model spends its effort on the code.",
+    "category": "Coding agents",
     "author": {
-      "name": "Grün",
-      "url": "https://www.youtube.com/@Gr%C3%BCnmx"
+      "name": "qybaihe",
+      "handle": "qybaihe",
+      "url": "https://github.com/qybaihe"
     },
-    "link": "https://www.youtube.com/watch?v=0gyNh1N3ZW8",
+    "link": "https://github.com/qybaihe/mu",
     "published": "2026-09-22",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/spanish-que-es-jev"
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/mu"
   },
   {
-    "slug": "polymarket-btc-5m-agent",
-    "title": "Polymarket BTC 5-minute trading agent",
-    "summary": "A terminal agent for Polymarket's 5-minute Bitcoin up/down markets, dry-run by default.",
-    "how_jev_is_used": "Jev judges whether BTC will finish up or down against the window's opening price; the agent either abstains or buys once and holds to resolution.",
-    "category": "Trading and finance",
+    "slug": "astra-ares",
+    "title": "Astra-Ares: adaptive reasoning effort for Codex",
+    "summary": "A reference implementation that adjusts how hard GPT-6 reasons during Codex tasks.",
+    "how_jev_is_used": "Jev decides how much reasoning effort each step needs, to reduce token use. The author describes it as an experimental early preview that runs a patched Codex CLI.",
+    "category": "Model routing",
     "author": {
-      "name": "gabidev",
-      "handle": "@GabiDev98",
-      "url": "https://x.com/GabiDev98"
+      "name": "vechen",
+      "handle": "miuuyy",
+      "url": "https://github.com/miuuyy"
     },
-    "link": "https://x.com/GabiDev98/status/2102073217670107364",
-    "published": "2026-09-21",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/polymarket-btc-5m-agent"
+    "link": "https://github.com/miuuyy/Astra-Ares",
+    "published": "2026-09-22",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/astra-ares"
   },
   {
-    "slug": "laya-vs-jev-arena",
-    "title": "Laya vs Jev arena",
-    "summary": "Two decision models race in Snake and fight in a Mortal Kombat-style arena.",
-    "how_jev_is_used": "Both models get the same input and typed questions, so the only difference between the sides is the model; every move is a real decision.",
+    "slug": "system1-agents",
+    "title": "system1-agents: agents powered by decision models",
+    "summary": "A set of ready-made agents for browser use, computer use, games and robotics.",
+    "how_jev_is_used": "Claude Code or Codex runs a prebuilt agent or builds a new one on Jev, Laya or Cua-S1. The authors report up to 6 times faster and 25 times cheaper than a chat model at the same score.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "ThinkFlowLab",
+      "handle": "ThinkFlowLab",
+      "url": "https://github.com/ThinkFlowLab"
+    },
+    "link": "https://github.com/ThinkFlowLab/system1-agents",
+    "published": "2026-09-22",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/system1-agents"
+  },
+  {
+    "slug": "system-one-ts",
+    "title": "System One for TypeScript: write the decision once",
+    "summary": "A small provider-neutral TypeScript runtime for bounded AI decisions.",
+    "how_jev_is_used": "Code uses the same choice, noul and score calls and can run on Jev, a local model or any compatible endpoint.",
+    "category": "SDKs and integrations",
+    "author": {
+      "name": "Aamir khan",
+      "handle": "iamaamir",
+      "url": "https://github.com/iamaamir"
+    },
+    "link": "https://github.com/iamaamir/system-one",
+    "published": "2026-09-22",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/system-one-ts"
+  },
+  {
+    "slug": "yc-indexor",
+    "title": "Aayan's YC indexor: search 6,241 startups by description",
+    "summary": "A search app where matching Y Combinator company logos float up as you describe a startup.",
+    "how_jev_is_used": "Companies are searchable by what they do, what their logo looks like and what the logo says, and results show how likely each match is. It needs an Apple Silicon Mac.",
+    "category": "Search and ranking",
+    "author": {
+      "name": "Aayan Asif",
+      "handle": "Aayan-DEV",
+      "url": "https://github.com/Aayan-DEV"
+    },
+    "link": "https://github.com/Aayan-DEV/aayans-yc-indexor",
+    "published": "2026-09-22",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/yc-indexor"
+  },
+  {
+    "slug": "jev-star",
+    "title": "JEV-Star: real-time StarCraft II control",
+    "summary": "A research project on real-time StarCraft II macro control, plus Jev and GPT micromanagement.",
+    "how_jev_is_used": "The repository has a paper, five macro configurations and videos of complete games at original speed.",
     "category": "Games and simulations",
     "author": {
-      "name": "Prompt Engineer",
-      "handle": "PromptEngineer48",
-      "url": "https://github.com/PromptEngineer48"
+      "name": "Weiyu Ma (马纬彧)",
+      "handle": "sc2musa",
+      "url": "https://github.com/sc2musa"
     },
-    "link": "https://github.com/PromptEngineer48/laya-vs-jev-arena",
-    "published": "2026-09-21",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/laya-vs-jev-arena"
+    "link": "https://github.com/sc2musa/Jev_Star",
+    "published": "2026-09-22",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-star"
+  },
+  {
+    "slug": "zazencodes-understand-jev",
+    "title": "ZazenCodes: understanding Jev",
+    "summary": "A twenty-minute explainer on what Jev is and how to use it.",
+    "how_jev_is_used": "A twenty-minute walkthrough of what Jev is and why it matters.",
+    "category": "Explainers",
+    "author": {
+      "name": "ZazenCodes",
+      "url": "https://www.youtube.com/@ZazenCodes"
+    },
+    "link": "https://www.youtube.com/watch?v=EAh1h1GYxDM",
+    "published": "2026-09-22",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/zazencodes-understand-jev"
+  },
+  {
+    "slug": "cloud-codes-jev-style-model-own-gpu",
+    "title": "Cloud Codes: a Jev-style model on your own GPU",
+    "summary": "A tutorial on running a Jev-style decision model locally.",
+    "how_jev_is_used": "Makes the case that classifying private data locally avoids sending it to someone else's servers.",
+    "category": "Tutorials",
+    "author": {
+      "name": "Cloud Codes",
+      "url": "https://www.youtube.com/@Cloud-Codes"
+    },
+    "link": "https://www.youtube.com/watch?v=4mCyUXqkTpI",
+    "published": "2026-09-22",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/cloud-codes-jev-style-model-own-gpu"
+  },
+  {
+    "slug": "obsidian-auto-tagging-jev",
+    "title": "Automatic note tagging for Obsidian with Jev",
+    "summary": "A system that tags notes in Obsidian automatically using Jev.",
+    "how_jev_is_used": "The author, writing in Japanese, shares the setup for other Obsidian users.",
+    "category": "Content and social",
+    "author": {
+      "name": "げま｜個人開発",
+      "handle": "@gemama0",
+      "url": "https://x.com/gemama0"
+    },
+    "link": "https://x.com/gemama0/status/2102198046201086356",
+    "published": "2026-09-22",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/obsidian-auto-tagging-jev"
+  },
+  {
+    "slug": "internal-linking-tool-jev",
+    "title": "A free internal linking tool",
+    "summary": "A tool that finds internal links for a site of up to 500 pages.",
+    "how_jev_is_used": "Jev classifies and selects the links and the tool outputs a CSV or JSON for an LLM to apply. You bring your own key or pay $1.",
+    "category": "Content and social",
+    "author": {
+      "name": "Ian Nuttall",
+      "handle": "@iannuttall",
+      "url": "https://x.com/iannuttall"
+    },
+    "link": "https://x.com/iannuttall/status/2102443273339994558",
+    "published": "2026-09-22",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/internal-linking-tool-jev"
+  },
+  {
+    "slug": "sales-copilot-jev",
+    "title": "A live sales copilot",
+    "summary": "A copilot that listens to a sales call and suggests what to say next.",
+    "how_jev_is_used": "It tracks the call stage, follows the script, handles objections and shows live signals and a probability of closing.",
+    "category": "Email and messages",
+    "author": {
+      "name": "Moritz Kremb",
+      "handle": "@moritzkremb",
+      "url": "https://x.com/moritzkremb"
+    },
+    "link": "https://x.com/moritzkremb/status/2102537239662096658",
+    "published": "2026-09-22",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/sales-copilot-jev"
+  },
+  {
+    "slug": "on-device-voice-pipeline-jev",
+    "title": "On-device voice pipeline with Jev picking the models",
+    "summary": "A demo that turns voice memos into to-do lists and meetings into redacted transcripts.",
+    "how_jev_is_used": "Models for language detection, transcription and removing personal data run on the device, and Jev makes about 20 decisions in one call to choose which to run.",
+    "category": "Voice control",
+    "author": {
+      "name": "Desert Ant Labs",
+      "handle": "@desertantlabs",
+      "url": "https://x.com/desertantlabs"
+    },
+    "link": "https://x.com/desertantlabs/status/2102423007494889785",
+    "published": "2026-09-22",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/on-device-voice-pipeline-jev"
   },
   {
     "slug": "jev-leftpad",
@@ -863,38 +946,6 @@
     "published": "2026-09-21",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/jev-leftpad"
-  },
-  {
-    "slug": "ai-chess-lab",
-    "title": "AI chess lab",
-    "summary": "LLMs, decision models and people play chess in the browser, with every move, second and dollar recorded.",
-    "how_jev_is_used": "Jev picks moves through Vercel AI Gateway or OpenRouter, and Stockfish analyses the games in the browser.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "David Pérez Cabrera",
-      "handle": "dperezcabrera",
-      "url": "https://github.com/dperezcabrera"
-    },
-    "link": "https://github.com/dperezcabrera/ai-chess-lab",
-    "published": "2026-09-21",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/ai-chess-lab"
-  },
-  {
-    "slug": "spamlens",
-    "title": "SpamLens: spam protection for WordPress",
-    "summary": "Filters spam from WordPress comments, product reviews and Contact Form 7.",
-    "how_jev_is_used": "Comments Jev is confident are spam go to the spam folder; borderline ones are held for moderation; it never approves anything on its own.",
-    "category": "Safety and moderation",
-    "author": {
-      "name": "VeronaLabs",
-      "handle": "veronalabs",
-      "url": "https://github.com/veronalabs"
-    },
-    "link": "https://github.com/veronalabs/spamlens",
-    "published": "2026-09-21",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/spamlens"
   },
   {
     "slug": "jeview",
@@ -929,21 +980,6 @@
     "jev_hub_page": "https://jevhub.io/builds/system-one-foundation-models"
   },
   {
-    "slug": "ai-lab-system-one-models",
-    "title": "Why System One models could change AI development",
-    "summary": "Explains System One models as a new category, with Jev as the first.",
-    "how_jev_is_used": "Contrasts structured, type-safe output with the sequential text of language models.",
-    "category": "Explainers",
-    "author": {
-      "name": "The AI Lab",
-      "url": "https://www.youtube.com/@rkviitb"
-    },
-    "link": "https://www.youtube.com/watch?v=ii4_Q24h6Dw",
-    "published": "2026-09-21",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/ai-lab-system-one-models"
-  },
-  {
     "slug": "tonbi-mini-reproduction",
     "title": "Jev: what is this viral decision model? (with a mini reproduction)",
     "summary": "Explores Jev and builds a small local reproduction to test the idea.",
@@ -957,51 +993,6 @@
     "published": "2026-09-21",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/tonbi-mini-reproduction"
-  },
-  {
-    "slug": "united-top-tech-three-primitives",
-    "title": "How to use Jev online for free: the 3 question types",
-    "summary": "A beginner walkthrough of Choice, Score and Noul (yes/no) questions in the browser.",
-    "how_jev_is_used": "Shows how each question type structures an answer, with examples for different tasks.",
-    "category": "Tutorials",
-    "author": {
-      "name": "United Top Tech",
-      "url": "https://www.youtube.com/@unitedtoptech6288"
-    },
-    "link": "https://www.youtube.com/watch?v=14VNR3SKgRQ",
-    "published": "2026-09-21",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/united-top-tech-three-primitives"
-  },
-  {
-    "slug": "jev-for-dummies",
-    "title": "Jev for dummies in 2 minutes",
-    "summary": "A two-minute beginner guide: what Jev is, API setup, and an NFL play prediction.",
-    "how_jev_is_used": "Shows a first API call, runs a pre-snap NFL prediction and explains the catch.",
-    "category": "Tutorials",
-    "author": {
-      "name": "Free AI Tool Lab",
-      "url": "https://www.youtube.com/@FreeAIToolLab"
-    },
-    "link": "https://www.youtube.com/watch?v=1GcAUEFK7W0",
-    "published": "2026-09-21",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-for-dummies"
-  },
-  {
-    "slug": "genai-geek-beginners",
-    "title": "TypeSafe Jev for beginners",
-    "summary": "A practical walkthrough from a live playground result to API and Python SDK setup.",
-    "how_jev_is_used": "Covers the playground, the API, the Python SDK and confidence thresholds.",
-    "category": "Tutorials",
-    "author": {
-      "name": "GenAI Geek",
-      "url": "https://www.youtube.com/@GenAIGeek"
-    },
-    "link": "https://www.youtube.com/watch?v=PQhf_irJDic",
-    "published": "2026-09-21",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/genai-geek-beginners"
   },
   {
     "slug": "hindi-jev-explained",
@@ -1019,20 +1010,345 @@
     "jev_hub_page": "https://jevhub.io/builds/hindi-jev-explained"
   },
   {
-    "slug": "rolewise",
-    "title": "Rolewise: match a résumé to real job openings",
-    "summary": "Matches a résumé against live job descriptions.",
-    "how_jev_is_used": "Another service retrieves the jobs; Jev makes the fit decision for each one.",
-    "category": "Hiring",
+    "slug": "jev-chat-jarvis",
+    "title": "jev-chat: a reply assistant that reads the chat first",
+    "summary": "Before you reply, it works out what the other person means and how risky the moment is, then drafts replies you can fill in with one tap.",
+    "how_jev_is_used": "Jev judges intent and risk from the conversation on screen and helps pick the draft. Sending is always left to the person, and there are versions for Android, Windows, macOS and iOS.",
+    "category": "Email and messages",
     "author": {
-      "name": "Zhilin Wang",
-      "handle": "@zhilinjerrywag",
-      "url": "https://x.com/zhilinjerrywag"
+      "name": "jev-chat",
+      "handle": "jev-chat",
+      "url": "https://github.com/jev-chat"
     },
-    "link": "https://x.com/zhilinjerrywag/status/2101576651238711642",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/rolewise"
+    "link": "https://github.com/jev-chat/jev-chat-jarvis",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-chat-jarvis"
+  },
+  {
+    "slug": "jev-chat-windows",
+    "title": "JevChat for Windows: reply help beside the chat window",
+    "summary": "A Windows companion that reads the conversation on screen and offers three candidate replies.",
+    "how_jev_is_used": "Local OCR reads the messages, Jev judges intent and mood, and one click fills a reply into the input box. Sending is always manual.",
+    "category": "Email and messages",
+    "author": {
+      "name": "jev-chat",
+      "handle": "jev-chat",
+      "url": "https://github.com/jev-chat"
+    },
+    "link": "https://github.com/jev-chat/jev-chat-windows",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-chat-windows"
+  },
+  {
+    "slug": "jevharness",
+    "title": "JevHarness: let a language model write a harness for Jev",
+    "summary": "A framework where a language model writes a task-specific harness around Jev, then the harness runs without it.",
+    "how_jev_is_used": "The harness turns observations into features, builds Jev questions and criteria, and combines the answers into actions. It can be improved with rewards and full execution traces.",
+    "category": "Coding agents",
+    "author": {
+      "name": "Tianyu",
+      "handle": "TianyuCodings",
+      "url": "https://github.com/TianyuCodings"
+    },
+    "link": "https://github.com/TianyuCodings/JevHarness",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jevharness"
+  },
+  {
+    "slug": "jev-chat-jarvis-mac",
+    "title": "jev-chat for macOS: an on-screen reply assistant",
+    "summary": "A read-only floating panel for macOS that explains what the latest message really means.",
+    "how_jev_is_used": "It reads the chat window, then shows the likely intent, a risk level from 0 to 9 and suggested replies, using a local model and Jev. The author reports 86.4% on eight intent classes zero-shot.",
+    "category": "Email and messages",
+    "author": {
+      "name": "jev-chat",
+      "handle": "jev-chat",
+      "url": "https://github.com/jev-chat"
+    },
+    "link": "https://github.com/jev-chat/jev-chat-jarvis-mac",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-chat-jarvis-mac"
+  },
+  {
+    "slug": "jev-chat-assistant-windows",
+    "title": "Jev Chat Assistant: reply help for Windows chat apps",
+    "summary": "A non-intrusive layer that reads the conversation on screen and suggests replies.",
+    "how_jev_is_used": "Jev judges the other person's real intent, a danger level and the best action, then a generative model drafts three replies that Jev ranks. Sending is always manual. The page is mostly in Chinese.",
+    "category": "Email and messages",
+    "author": {
+      "name": "Yucheng LI",
+      "handle": "Liyucheng1997",
+      "url": "https://github.com/Liyucheng1997"
+    },
+    "link": "https://github.com/Liyucheng1997/332_lab-jev-chat",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-chat-assistant-windows"
+  },
+  {
+    "slug": "jev-workflow-builder",
+    "title": "Jev workflow builder: a multiplayer demo",
+    "summary": "A demo of a collaborative workflow builder for Jev built with Liveblocks.",
+    "how_jev_is_used": "You wire Jev and language models together, call the workflow through a REST API, preview test runs and see other people's cursors.",
+    "category": "SDKs and integrations",
+    "author": {
+      "name": "Chris Nicholas",
+      "handle": "CTNicholas",
+      "url": "https://github.com/CTNicholas"
+    },
+    "link": "https://github.com/CTNicholas/jev-workflow-builder",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-workflow-builder"
+  },
+  {
+    "slug": "laya-vs-jev",
+    "title": "Laya vs Jev: two models play the T-Rex game",
+    "summary": "A side-by-side game where a local Laya model and hosted Jev both play Chrome's T-Rex.",
+    "how_jev_is_used": "It shows each model's choices, response times, survival streaks and crash replays on a shared course.",
+    "category": "Games and simulations",
+    "author": {
+      "name": "Viraj Bhartiya",
+      "handle": "virajbhartiya",
+      "url": "https://github.com/virajbhartiya"
+    },
+    "link": "https://github.com/virajbhartiya/laya-vs-jev",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/laya-vs-jev"
+  },
+  {
+    "slug": "jev-dataops",
+    "title": "JEV DataOps: choose what data to keep, then fine-tune",
+    "summary": "An open-source workbench for selecting and scoring data for a training run.",
+    "how_jev_is_used": "Jev decides which records to keep, then the tool fine-tunes a model and compares results, saving every decision, split and report.",
+    "category": "Data and databases",
+    "author": {
+      "name": "Rena Gao",
+      "handle": "RenaGao",
+      "url": "https://github.com/RenaGao"
+    },
+    "link": "https://github.com/RenaGao/jev-dataops",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-dataops"
+  },
+  {
+    "slug": "jev-as-policy",
+    "title": "Jev as Policy: MuJoCo robot control studio",
+    "summary": "A reproduction of a public control structure where Jev acts as a robot's policy.",
+    "how_jev_is_used": "Text state becomes a Jev intent, then motor choices, then inverse kinematics in MuJoCo, with recording and a studio-style web panel. The demo task is to grasp an orange.",
+    "category": "Home and devices",
+    "author": {
+      "name": "Junqi(Junairi) Jing",
+      "handle": "YuanKJing",
+      "url": "https://github.com/YuanKJing"
+    },
+    "link": "https://github.com/YuanKJing/Jev-as-Policy",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-as-policy"
+  },
+  {
+    "slug": "robonuggets-jev-claude-code",
+    "title": "Jev with Claude Code: a how-to from RoboNuggets",
+    "summary": "A short tutorial on adding Jev to a Claude Code setup.",
+    "how_jev_is_used": "Shows how a coding agent can hand quick decisions to Jev. The creator links a free guide in the description.",
+    "category": "Tutorials",
+    "author": {
+      "name": "Jay E | RoboNuggets",
+      "url": "https://www.youtube.com/@RoboNuggets"
+    },
+    "link": "https://www.youtube.com/watch?v=tTnUcSj-QPA",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/robonuggets-jev-claude-code"
+  },
+  {
+    "slug": "krish-naik-will-jev-replace-llms",
+    "title": "Will Jev replace LLMs? A look at TypeSafe's model",
+    "summary": "A video that asks whether decision models replace language models.",
+    "how_jev_is_used": "Explains what Jev is, how it differs from an LLM and where each fits.",
+    "category": "Explainers",
+    "author": {
+      "name": "Krish Naik",
+      "url": "https://www.youtube.com/@krishnaik06"
+    },
+    "link": "https://www.youtube.com/watch?v=2vYV4K1RQ1w",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/krish-naik-will-jev-replace-llms"
+  },
+  {
+    "slug": "latent-space-diogo-almeida",
+    "title": "Diogo Almeida on why he couldn't build Jev at OpenAI",
+    "summary": "A long interview with TypeSafe's co-founder and CEO.",
+    "how_jev_is_used": "Covers his path from instruction-following models at OpenAI to building a model aimed at real work automation.",
+    "category": "Explainers",
+    "author": {
+      "name": "Latent Space",
+      "url": "https://www.youtube.com/@LatentSpacePod"
+    },
+    "link": "https://www.youtube.com/watch?v=cFx9Z3ZXca0",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/latent-space-diogo-almeida"
+  },
+  {
+    "slug": "langchain-building-a-harness-with-jev",
+    "title": "LangChain: building a harness with Jev",
+    "summary": "LangChain's introduction to using Jev inside an agent harness.",
+    "how_jev_is_used": "Describes Jev as a System One model and shows how it can handle classification-style decisions in an agent loop. The speed and cost figures are the company's claims.",
+    "category": "Tutorials",
+    "author": {
+      "name": "LangChain",
+      "url": "https://www.youtube.com/@LangChain"
+    },
+    "link": "https://www.youtube.com/watch?v=VE5dsWll06M",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/langchain-building-a-harness-with-jev"
+  },
+  {
+    "slug": "coderone-open-source-jev",
+    "title": "CoderOne: an open-source, faster Jev",
+    "summary": "A video about the open-source Laya model that appeared days after Jev's launch.",
+    "how_jev_is_used": "Explains the System 1 idea behind Jev and what the open alternative offers.",
+    "category": "Explainers",
+    "author": {
+      "name": "CoderOne",
+      "url": "https://www.youtube.com/@CoderOne"
+    },
+    "link": "https://www.youtube.com/watch?v=kWToHpdxScE",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/coderone-open-source-jev"
+  },
+  {
+    "slug": "ai-jason-jev-treg",
+    "title": "AI Jason: Jev with Treg for automation",
+    "summary": "A workflow demo combining Jev with the Treg tool catalogue.",
+    "how_jev_is_used": "Walks through an automation built from Jev decisions and Treg tools.",
+    "category": "Tutorials",
+    "author": {
+      "name": "AI Jason",
+      "url": "https://www.youtube.com/@AIJasonZ"
+    },
+    "link": "https://www.youtube.com/watch?v=o4Vi5uBZYH0",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/ai-jason-jev-treg"
+  },
+  {
+    "slug": "ai-workshop-jev-claude-code-astra",
+    "title": "AI Workshop: Jev with Claude Code and GPT-6 Astra",
+    "summary": "A tutorial on connecting Jev to Claude Code and GPT-6 Astra.",
+    "how_jev_is_used": "Shows the setup and a free guide from the creator's community.",
+    "category": "Tutorials",
+    "author": {
+      "name": "Zubair Trabzada | AI Workshop",
+      "url": "https://www.youtube.com/@AI-GPTWorkshop"
+    },
+    "link": "https://www.youtube.com/watch?v=fMV6JKkQVfE",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/ai-workshop-jev-claude-code-astra"
+  },
+  {
+    "slug": "dave-ebbelaar-jev-for-python-developers",
+    "title": "Dave Ebbelaar: Jev explained for Python developers",
+    "summary": "A Python-focused explainer with runnable examples.",
+    "how_jev_is_used": "The examples are in the creator's public ai-cookbook repository.",
+    "category": "Tutorials",
+    "author": {
+      "name": "Dave Ebbelaar",
+      "url": "https://www.youtube.com/@daveebbelaar"
+    },
+    "link": "https://www.youtube.com/watch?v=JpfLID19QnQ",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/dave-ebbelaar-jev-for-python-developers"
+  },
+  {
+    "slug": "cole-medin-jev-new-class-of-models",
+    "title": "Cole Medin: Jev and a new class of models",
+    "summary": "A video on how to actually use Jev in practice.",
+    "how_jev_is_used": "Argues that Jev is different from other launches because it cannot write a word, and shows what to use it for.",
+    "category": "Explainers",
+    "author": {
+      "name": "Cole Medin",
+      "url": "https://www.youtube.com/@ColeMedin"
+    },
+    "link": "https://www.youtube.com/watch?v=bA8WeHYmJko",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/cole-medin-jev-new-class-of-models"
+  },
+  {
+    "slug": "raul-marin-jev-para-disenadores",
+    "title": "Raúl Marín: Jev for designers (in Spanish)",
+    "summary": "A Spanish video on Jev from the point of view of product design and design systems.",
+    "how_jev_is_used": "Explains how Jev makes semantic decisions compared with traditional language models.",
+    "category": "Explainers",
+    "author": {
+      "name": "Raúl Marín - Refresh | Lo último sin hype",
+      "url": "https://www.youtube.com/@Raul-Marin-Calleja"
+    },
+    "link": "https://www.youtube.com/watch?v=lGj4rov3jK4",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/raul-marin-jev-para-disenadores"
+  },
+  {
+    "slug": "sean-ai-stories-jev-vs-llm",
+    "title": "Sean's AI Stories: Jev versus LLMs in 22 minutes",
+    "summary": "An explainer that frames Jev as System 1 against System 2 thinking.",
+    "how_jev_is_used": "Covers the launch, the model's evaluations and how it compares with LLMs.",
+    "category": "Explainers",
+    "author": {
+      "name": "Sean‘s AI Stories",
+      "url": "https://www.youtube.com/@SeanAIStories"
+    },
+    "link": "https://www.youtube.com/watch?v=RMQI_y1AvvA",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/sean-ai-stories-jev-vs-llm"
+  },
+  {
+    "slug": "yc-startup-search-6000",
+    "title": "Searching 6,000+ YC startups in under a second",
+    "summary": "A search app over thousands of Y Combinator companies.",
+    "how_jev_is_used": "Jev ranks startups by colour, niche, competitor, age or logo image. The author reports sub-second results and $2.70 of total testing costs.",
+    "category": "Search and ranking",
+    "author": {
+      "name": "Aayan",
+      "handle": "@aaayandev",
+      "url": "https://x.com/aaayandev"
+    },
+    "link": "https://x.com/aaayandev/status/2102137061490794730",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/yc-startup-search-6000"
+  },
+  {
+    "slug": "webmcp-side-panel-jev",
+    "title": "A Chrome side panel that drives WebMCP tools with Jev",
+    "summary": "A Chrome extension that operates a site's WebMCP tools from a side panel.",
+    "how_jev_is_used": "On every keystroke Jev picks the right tool, fills in the arguments and says how sure it is. The demo does grocery shopping.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "Sarah Drasner",
+      "handle": "@sarah_edo",
+      "url": "https://x.com/sarah_edo"
+    },
+    "link": "https://x.com/sarah_edo/status/2102025642862600634",
+    "published": "2026-09-21",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/webmcp-side-panel-jev"
   },
   {
     "slug": "jevgrep-mcp",
@@ -1051,118 +1367,6 @@
     "jev_hub_page": "https://jevhub.io/builds/jevgrep-mcp"
   },
   {
-    "slug": "jev-mail",
-    "title": "Jev-Mail: always-on Gmail classification",
-    "summary": "Gmail classification that runs continuously on Google Apps Script.",
-    "how_jev_is_used": "Jev classifies new mail around the clock; setup is managed from a command line and uses your own Google Cloud project.",
-    "category": "Email and messages",
-    "author": {
-      "name": "Seongbeen Lee",
-      "handle": "vynnlee",
-      "url": "https://github.com/vynnlee"
-    },
-    "link": "https://github.com/vynnlee/jev-mail",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-mail"
-  },
-  {
-    "slug": "jev-triage-go",
-    "title": "Jev Triage: message triage in Go",
-    "summary": "A command-line tool that sorts messages by type and urgency and writes an HTML report.",
-    "how_jev_is_used": "Jev answers three questions per message (kind, urgency, frustration); low-confidence messages go to a separate review list.",
-    "category": "Email and messages",
-    "author": {
-      "name": "Boldbug",
-      "handle": "boldbug1",
-      "url": "https://github.com/boldbug1"
-    },
-    "link": "https://github.com/boldbug1/jev-triage",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-triage-go"
-  },
-  {
-    "slug": "jevymarket",
-    "title": "jevymarket: a Polymarket pricing bot",
-    "summary": "A Polymarket bot that pairs Jev with a web-search researcher.",
-    "how_jev_is_used": "A cheap generative model writes a dated evidence brief; Jev, which has no browsing, prices the market from that brief.",
-    "category": "Trading and finance",
-    "author": {
-      "name": "Markus Haas",
-      "handle": "markusbug",
-      "url": "https://github.com/markusbug"
-    },
-    "link": "https://github.com/markusbug/jevymarket",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jevymarket"
-  },
-  {
-    "slug": "duckdb-jev",
-    "title": "Jev for DuckDB",
-    "summary": "A native DuckDB extension for classification and scoring from SQL.",
-    "how_jev_is_used": "Batches up to 1,000 independent Jev judgements per request and streams results directly into queries.",
-    "category": "Data and databases",
-    "author": {
-      "name": "Prasanth Jayachandran",
-      "handle": "prasanthj",
-      "url": "https://github.com/prasanthj"
-    },
-    "link": "https://github.com/prasanthj/duckdb-jev",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/duckdb-jev"
-  },
-  {
-    "slug": "jevflake",
-    "title": "Jevflake: Jev inside Snowflake",
-    "summary": "A dbt package (and Terraform module) that lets Snowflake ask Jev about your data.",
-    "how_jev_is_used": "Creates SQL functions that call Jev, plus dbt macros and tests so answers are stored once and checked like any other model.",
-    "category": "Data and databases",
-    "author": {
-      "name": "KranzL",
-      "handle": "KranzL",
-      "url": "https://github.com/KranzL"
-    },
-    "link": "https://github.com/KranzL/Jevflake",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jevflake"
-  },
-  {
-    "slug": "slop-filter",
-    "title": "Slop Filter: hide AI-generated posts",
-    "summary": "A browser extension that hides AI-written posts and comments on X, LinkedIn, Reddit and YouTube.",
-    "how_jev_is_used": "Jev scores each post for how likely it is to be AI-written; posts over your threshold fold away, and you can tune it with your own labels.",
-    "category": "Content and social",
-    "author": {
-      "name": "Adam Roman",
-      "handle": "adamnroman",
-      "url": "https://github.com/adamnroman"
-    },
-    "link": "https://github.com/adamnroman/slop-filter",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/slop-filter"
-  },
-  {
-    "slug": "resume-match",
-    "title": "Job Match: résumé review",
-    "summary": "Upload a résumé and a role to get an overall score, per-criterion scores and a suggested bullet order.",
-    "how_jev_is_used": "Jev returns typed, explainable match scores rather than generated text.",
-    "category": "Hiring",
-    "author": {
-      "name": "Hamid Farmani",
-      "handle": "hamidfarmani",
-      "url": "https://github.com/hamidfarmani"
-    },
-    "link": "https://github.com/hamidfarmani/jev-resume-match",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/resume-match"
-  },
-  {
     "slug": "jev-mem",
     "title": "Jev-Mem: agent memory with a fast controller",
     "summary": "A research project separating frequent memory decisions from deeper reasoning.",
@@ -1177,22 +1381,6 @@
     "published": "2026-09-20",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/jev-mem"
-  },
-  {
-    "slug": "home-assistant-typesafe",
-    "title": "Home Assistant TypeSafe integration",
-    "summary": "A Home Assistant voice integration for fast intent routing and device control.",
-    "how_jev_is_used": "Jev classifies what you said and picks the target device in under 200 ms, without generating text.",
-    "category": "Home and devices",
-    "author": {
-      "name": "Allen Porter",
-      "handle": "allenporter",
-      "url": "https://github.com/allenporter"
-    },
-    "link": "https://github.com/allenporter/home-assistant-typesafe",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/home-assistant-typesafe"
   },
   {
     "slug": "jevals-openlayer",
@@ -1211,38 +1399,6 @@
     "jev_hub_page": "https://jevhub.io/builds/jevals-openlayer"
   },
   {
-    "slug": "jev-reranker",
-    "title": "Jev Reranker: choose what your LLM reads",
-    "summary": "A command-line reranker that drops search results with no usable evidence.",
-    "how_jev_is_used": "Reads candidates as JSON, has Jev rerank or extract the relevant passages, and passes metadata through unchanged.",
-    "category": "Search and ranking",
-    "author": {
-      "name": "shinpr",
-      "handle": "shinpr",
-      "url": "https://github.com/shinpr"
-    },
-    "link": "https://github.com/shinpr/jev-reranker",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-reranker"
-  },
-  {
-    "slug": "hearth-rental-search",
-    "title": "Hearth: rental search across four marketplaces",
-    "summary": "An agent that searches Craigslist, Facebook Marketplace, Redfin and Zillow from one request.",
-    "how_jev_is_used": "Jev drives a real Chrome browser step by step and judges which listings match; it only reads, never messages or transacts.",
-    "category": "Search and ranking",
-    "author": {
-      "name": "Nancy Chauhan",
-      "handle": "Nancy-Chauhan",
-      "url": "https://github.com/Nancy-Chauhan"
-    },
-    "link": "https://github.com/Nancy-Chauhan/hearth-jev-rental-search",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/hearth-rental-search"
-  },
-  {
     "slug": "spring-ai-typesafe",
     "title": "Spring AI TypeSafe",
     "summary": "A Java client for Jev with Spring AI integrations.",
@@ -1257,68 +1413,6 @@
     "published": "2026-09-20",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/spring-ai-typesafe"
-  },
-  {
-    "slug": "jev-spring-boot-starter",
-    "title": "Jev Spring Boot starter",
-    "summary": "One dependency to ask Jev typed questions from a Spring Boot app.",
-    "how_jev_is_used": "Add the starter, set an API key and inject a JevClient.",
-    "category": "SDKs and integrations",
-    "author": {
-      "name": "Dan Vega",
-      "handle": "danvega",
-      "url": "https://github.com/danvega"
-    },
-    "link": "https://github.com/danvega/jev-spring-boot-starter",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-spring-boot-starter"
-  },
-  {
-    "slug": "jevalyn",
-    "title": "Jevalyn: decisions in your Rails app",
-    "summary": "A Rails-native wrapper that puts Jev decisions into your app's control flow.",
-    "how_jev_is_used": "Declare a decision class with questions and a confidence threshold, then evaluate it inside a request in about the time of a database query.",
-    "category": "SDKs and integrations",
-    "author": {
-      "name": "Raymond Hughes",
-      "handle": "Ray-Hughes",
-      "url": "https://github.com/Ray-Hughes"
-    },
-    "link": "https://github.com/Ray-Hughes/jevalyn",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jevalyn"
-  },
-  {
-    "slug": "greenflux-vercel-ai-sdk",
-    "title": "Run Jev with Vercel's AI SDK",
-    "summary": "Sets up Jev through Vercel's AI SDK and AI Gateway, skipping TypeSafe's waitlist.",
-    "how_jev_is_used": "Step-by-step setup of Jev requests routed through Vercel.",
-    "category": "Tutorials",
-    "author": {
-      "name": "GreenFlux Develops",
-      "url": "https://www.youtube.com/@greenflux_dev"
-    },
-    "link": "https://www.youtube.com/watch?v=kt-uV5KNHw0",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/greenflux-vercel-ai-sdk"
-  },
-  {
-    "slug": "mg-claude-code-setup",
-    "title": "Jev in Claude Code: quick setup",
-    "summary": "Wires Jev into Claude Code as a decision layer for the coding agent.",
-    "how_jev_is_used": "Walks through connecting Jev to Claude Code and using it from the agent.",
-    "category": "Tutorials",
-    "author": {
-      "name": "MG",
-      "url": "https://www.youtube.com/@MG_cafe"
-    },
-    "link": "https://www.youtube.com/watch?v=Cnos5qLUfrE",
-    "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/mg-claude-code-setup"
   },
   {
     "slug": "mayank-full-tutorial",
@@ -1336,35 +1430,257 @@
     "jev_hub_page": "https://jevhub.io/builds/mayank-full-tutorial"
   },
   {
-    "slug": "yash-50-use-cases",
-    "title": "Jev intro + 50 open-source use cases",
-    "summary": "An introduction to Jev followed by a round-up of 50 open-source projects using it.",
-    "how_jev_is_used": "Explains the model, then tours community projects by category.",
-    "category": "Explainers",
+    "slug": "minecraft-agent",
+    "title": "Minecraft agent: a language-model planner with Jev at the controls",
+    "summary": "An agent that plays Minecraft Java 1.16.5 and aims to beat the Ender Dragon.",
+    "how_jev_is_used": "A GPT model plans and Jev selects the player actions. The author reports a run completing in 8 minutes 43 seconds.",
+    "category": "Games and simulations",
     "author": {
-      "name": "Yash Thakker",
-      "url": "https://www.youtube.com/@goyashy"
+      "name": "rmalde",
+      "handle": "rmalde",
+      "url": "https://github.com/rmalde"
     },
-    "link": "https://www.youtube.com/watch?v=im_hLbl6ldU",
+    "link": "https://github.com/rmalde/minecraft-agent",
     "published": "2026-09-20",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/yash-50-use-cases"
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/minecraft-agent"
   },
   {
-    "slug": "auto-guard",
-    "title": "Auto-Guard: check every tool call before it runs",
-    "summary": "An open-source guard that stops a coding agent's dangerous commands and lets safe ones through.",
-    "how_jev_is_used": "Jev reviews each tool call before execution; the demo shows it blocking a credentials delete while allowing a routine build cleanup.",
+    "slug": "crush-monitor",
+    "title": "Crush Monitor: reading the mood in a chat",
+    "summary": "A small tool that analyses a conversation for emotion, intent and how well each reply landed.",
+    "how_jev_is_used": "It shows the three most likely emotions and intents per line, a goodwill score and a grade for your replies. It supports Jev, OpenAI Decisions and text models, and runs on your own machine.",
+    "category": "Email and messages",
+    "author": {
+      "name": "FerryCorleone",
+      "handle": "FerryCorleone",
+      "url": "https://github.com/FerryCorleone"
+    },
+    "link": "https://github.com/FerryCorleone/crush-monitor",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/crush-monitor"
+  },
+  {
+    "slug": "embodied-jev",
+    "title": "EmbodiedJev: a robot decision workbench",
+    "summary": "A MuJoCo workbench for trying decision models on three simulated robot tasks.",
+    "how_jev_is_used": "It compares local small models with Jev and other model APIs on observe, decide, execute and feedback loops, and shows speed and cost. The page is mostly in Chinese.",
+    "category": "Home and devices",
+    "author": {
+      "name": "a bo",
+      "handle": "FBddcz",
+      "url": "https://github.com/FBddcz"
+    },
+    "link": "https://github.com/FBddcz/embodied-jev",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/embodied-jev"
+  },
+  {
+    "slug": "jev-dsh-decision",
+    "title": "Jev DSH: a decision plugin for agent harnesses",
+    "summary": "A plugin that brings Jev's structured decisions to DeepSeek Harness, OpenCode and Codex.",
+    "how_jev_is_used": "Jev helps choose tools, skills and task owners and rates the quality of the output, while the original agent keeps planning and executing. The page is mostly in Chinese.",
     "category": "Coding agents",
     "author": {
-      "name": "Roshan Chandna",
-      "handle": "@roshanchandna",
-      "url": "https://x.com/roshanchandna"
+      "name": "Devin-AXIS",
+      "handle": "Devin-AXIS",
+      "url": "https://github.com/Devin-AXIS"
     },
-    "link": "https://x.com/roshanchandna/status/2101419433415581797",
-    "published": "2026-09-19",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/auto-guard"
+    "link": "https://github.com/Devin-AXIS/jev-dsh-decision",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-dsh-decision"
+  },
+  {
+    "slug": "webctl",
+    "title": "webctl: a smart web search tool for agents",
+    "summary": "A command-line search tool for agents that saves tokens.",
+    "how_jev_is_used": "It runs several web searches and has Jev score each result against the original query and goal, so the agent reads fewer tokens.",
+    "category": "Search and ranking",
+    "author": {
+      "name": "Kyle Wild",
+      "handle": "dorkitude",
+      "url": "https://github.com/dorkitude"
+    },
+    "link": "https://github.com/dorkitude/webctl",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/webctl"
+  },
+  {
+    "slug": "dasheng",
+    "title": "Dasheng: read English aloud and see which words you got wrong",
+    "summary": "A practice tool that listens to you read an English passage and marks mispronounced words as you go.",
+    "how_jev_is_used": "A streaming speech model listens and Jev judges each word, so wrong words turn red in real time and a total score appears at the end. The page is mostly in Chinese.",
+    "category": "Home and devices",
+    "author": {
+      "name": "WquGuru",
+      "handle": "wquguru",
+      "url": "https://github.com/wquguru"
+    },
+    "link": "https://github.com/wquguru/dasheng",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/dasheng"
+  },
+  {
+    "slug": "jevchat",
+    "title": "jevchat: a chatbot made from a model that cannot write",
+    "summary": "A project that turns Jev into a chat model.",
+    "how_jev_is_used": "At every step it asks Jev which symbol comes next, using an alphabet plus a stop option, and samples from the returned probabilities.",
+    "category": "Content and social",
+    "author": {
+      "name": "Kyle Pena",
+      "handle": "kyle-pena-nlp",
+      "url": "https://github.com/kyle-pena-nlp"
+    },
+    "link": "https://github.com/kyle-pena-nlp/jevchat",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jevchat"
+  },
+  {
+    "slug": "jimothy",
+    "title": "Jimothy: turn your Jev usage into small local classifiers",
+    "summary": "A tool that trains small, very fast classifiers from Jev-compatible examples.",
+    "how_jev_is_used": "The trained classifier runs locally in a browser or Node.js, so repeated judgments no longer need an API call.",
+    "category": "SDKs and integrations",
+    "author": {
+      "name": "Andrew Prifer",
+      "handle": "AndrewPrifer",
+      "url": "https://github.com/AndrewPrifer"
+    },
+    "link": "https://github.com/AndrewPrifer/jimothy",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jimothy"
+  },
+  {
+    "slug": "jev-as-judge",
+    "title": "Jev as a Judge with Comet Opik",
+    "summary": "An auditable example that evaluates refund-support traces with Jev and records the result as an Opik experiment.",
+    "how_jev_is_used": "It replays ten synthetic support traces, including invented policies and a prompt-injection attempt, and runs deterministic checks first.",
+    "category": "Safety and moderation",
+    "author": {
+      "name": "Akshay Pachaar",
+      "handle": "patchy631",
+      "url": "https://github.com/patchy631"
+    },
+    "link": "https://github.com/patchy631/jev-as-judge",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-as-judge"
+  },
+  {
+    "slug": "robojev",
+    "title": "RoboJEV: two-stage Jev control of a Franka robot arm",
+    "summary": "A small robotics lab that controls a simulated Franka Panda arm.",
+    "how_jev_is_used": "Jev receives structured simulator state rather than images, picks an intent, then picks directions, and code does the motion maths.",
+    "category": "Home and devices",
+    "author": {
+      "name": "Yuke Liu",
+      "handle": "lykycy123",
+      "url": "https://github.com/lykycy123"
+    },
+    "link": "https://github.com/lykycy123/RoboJEV",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/robojev"
+  },
+  {
+    "slug": "jev-design",
+    "title": "jev-design: can a model design a dashboard?",
+    "summary": "An experiment where a console's whole design system is generated by Jev from a one-sentence brief.",
+    "how_jev_is_used": "You type a brief such as an eighteenth-century printed book and the dashboard restyles itself a second or two later.",
+    "category": "Content and social",
+    "author": {
+      "name": "Gonzalo Bilune",
+      "handle": "bilune",
+      "url": "https://github.com/bilune"
+    },
+    "link": "https://github.com/bilune/jev-design",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-design"
+  },
+  {
+    "slug": "theo-jev-is-incredible",
+    "title": "Theo on Jev: a fast classifier with safety built in",
+    "summary": "A long reaction and demo video about Jev from the creator behind t3.gg.",
+    "how_jev_is_used": "Describes Jev as a fast classifier that does not replace reasoning models such as Astra or Fable, with demos of what it is good at.",
+    "category": "Explainers",
+    "author": {
+      "name": "Theo - t3․gg",
+      "url": "https://www.youtube.com/@t3dotgg"
+    },
+    "link": "https://www.youtube.com/watch?v=F3YXg7AaKWE",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/theo-jev-is-incredible"
+  },
+  {
+    "slug": "sam-witteveen-open-jev-models",
+    "title": "Sam Witteveen: seven open Jev-style models",
+    "summary": "A review of open models that copy the Jev approach.",
+    "how_jev_is_used": "Goes through seven of them to see how good they are and what they can do.",
+    "category": "Explainers",
+    "author": {
+      "name": "Sam Witteveen",
+      "url": "https://www.youtube.com/@samwitteveenai"
+    },
+    "link": "https://www.youtube.com/watch?v=53wDOI_7x8I",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/sam-witteveen-open-jev-models"
+  },
+  {
+    "slug": "prompt-engineering-rag-with-jev",
+    "title": "Prompt Engineering: build RAG with Jev",
+    "summary": "A walkthrough of using Jev to fix the reranker step in retrieval.",
+    "how_jev_is_used": "Includes a Colab notebook and links TypeSafe's announcement post.",
+    "category": "Tutorials",
+    "author": {
+      "name": "Prompt Engineering",
+      "url": "https://www.youtube.com/@engineerprompt"
+    },
+    "link": "https://www.youtube.com/watch?v=UhGH8cNG0qs",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/prompt-engineering-rag-with-jev"
+  },
+  {
+    "slug": "smart-copy-paste",
+    "title": "Smart copy and paste, powered by Jev",
+    "summary": "A demo where copy and paste understands what you are doing.",
+    "how_jev_is_used": "Marcus Lowe built it with Jev and describes it as a glimpse of computer interactions being rewritten.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "Marcus Lowe",
+      "handle": "@marcus_lowe",
+      "url": "https://x.com/marcus_lowe"
+    },
+    "link": "https://x.com/marcus_lowe/status/2101476399488160013",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/smart-copy-paste"
+  },
+  {
+    "slug": "twitter-bookmarks-sorted-by-jev",
+    "title": "Sorting years of Twitter bookmarks with Jev",
+    "summary": "A demo of Jev working through a large pile of saved bookmarks.",
+    "how_jev_is_used": "The author describes it as light work for Jev.",
+    "category": "Content and social",
+    "author": {
+      "name": "Alex Christou",
+      "handle": "@alexchristou_",
+      "url": "https://x.com/alexchristou_"
+    },
+    "link": "https://x.com/alexchristou_/status/2101674202361221376",
+    "published": "2026-09-20",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/twitter-bookmarks-sorted-by-jev"
   },
   {
     "slug": "jev-use-plugin",
@@ -1381,22 +1697,6 @@
     "published": "2026-09-19",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/jev-use-plugin"
-  },
-  {
-    "slug": "codex-sift",
-    "title": "Codex Sift: the cheapest model that can do the turn",
-    "summary": "Routes each Codex turn to the cheapest model lane that should handle it.",
-    "how_jev_is_used": "On every user turn, Jev judges how hard the request is before Codex spends premium quota on it.",
-    "category": "Model routing",
-    "author": {
-      "name": "Roman Meclazcke",
-      "handle": "romanmeclazcke",
-      "url": "https://github.com/romanmeclazcke"
-    },
-    "link": "https://github.com/romanmeclazcke/codex-sift",
-    "published": "2026-09-19",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/codex-sift"
   },
   {
     "slug": "jgrep-code",
@@ -1479,86 +1779,6 @@
     "jev_hub_page": "https://jevhub.io/builds/jev-desktop-codex"
   },
   {
-    "slug": "jev-mail-classifier",
-    "title": "Jev Mail Classifier",
-    "summary": "Tags, moves, flags and notifies on incoming mail, all driven by a config file.",
-    "how_jev_is_used": "Jev classifies each message and the config decides what happens to each class.",
-    "category": "Email and messages",
-    "author": {
-      "name": "Parth Kishorbhai Patel",
-      "handle": "parth-kp",
-      "url": "https://github.com/parth-kp"
-    },
-    "link": "https://github.com/parth-kp/jev-mail-classifier",
-    "published": "2026-09-19",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-mail-classifier"
-  },
-  {
-    "slug": "jev-trader-market-making",
-    "title": "jev-trader: market making around Jev",
-    "summary": "A 24/7 market-making system where Jev owns selected judgements, not the whole system.",
-    "how_jev_is_used": "Code builds the market state, one Jev call returns six judgements (regime, direction, toxic flow and more), and code applies policy and risk vetoes.",
-    "category": "Trading and finance",
-    "author": {
-      "name": "buberlo",
-      "handle": "buberlo",
-      "url": "https://github.com/buberlo"
-    },
-    "link": "https://github.com/buberlo/jev-trader",
-    "published": "2026-09-19",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-trader-market-making"
-  },
-  {
-    "slug": "lkclean",
-    "title": "lkclean: a cleaner LinkedIn feed",
-    "summary": "A Chrome extension that collapses engagement bait, self-promotion and off-topic posts on LinkedIn.",
-    "how_jev_is_used": "Every post is classified by Jev and the reason for each decision is shown on the post.",
-    "category": "Content and social",
-    "author": {
-      "name": "stefw",
-      "handle": "stefw",
-      "url": "https://github.com/stefw"
-    },
-    "link": "https://github.com/stefw/lkclean",
-    "published": "2026-09-19",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/lkclean"
-  },
-  {
-    "slug": "jev-recall",
-    "title": "Jev Recall: retrieve memories by relevance",
-    "summary": "Picks the most relevant memories for an AI assistant's query.",
-    "how_jev_is_used": "Jev answers one yes/no relevance question per memory, all in a single request.",
-    "category": "Agent memory",
-    "author": {
-      "name": "Samarth Makhija",
-      "handle": "samdotmak",
-      "url": "https://github.com/samdotmak"
-    },
-    "link": "https://github.com/samdotmak/jev-recall",
-    "published": "2026-09-19",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-recall"
-  },
-  {
-    "slug": "invalidate",
-    "title": "invalidate: let agents un-remember",
-    "summary": "Ends an agent's stored facts when new evidence contradicts them.",
-    "how_jev_is_used": "Every fact gets a lease; Jev judges whether new events invalidate it, so outdated memories stop being used.",
-    "category": "Agent memory",
-    "author": {
-      "name": "Tejas Chopra",
-      "handle": "chopratejas",
-      "url": "https://github.com/chopratejas"
-    },
-    "link": "https://github.com/chopratejas/invalidate",
-    "published": "2026-09-19",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/invalidate"
-  },
-  {
     "slug": "jev-align",
     "title": "jev-align: AI functions from your feedback",
     "summary": "An experimental CLI that builds calibrated AI functions from human labels.",
@@ -1575,38 +1795,6 @@
     "jev_hub_page": "https://jevhub.io/builds/jev-align"
   },
   {
-    "slug": "jev-cli",
-    "title": "jev: a semantic if statement for the terminal",
-    "summary": "A command-line tool that turns Jev's answers into exit codes, JSON and MCP tools.",
-    "how_jev_is_used": "Ask a typed question about any text and branch on the probability in shell scripts, CI jobs or agents.",
-    "category": "SDKs and integrations",
-    "author": {
-      "name": "Shaharia Lab",
-      "handle": "shaharia-lab",
-      "url": "https://github.com/shaharia-lab"
-    },
-    "link": "https://github.com/shaharia-lab/jev-cli",
-    "published": "2026-09-19",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-cli"
-  },
-  {
-    "slug": "typesafe-ai-php",
-    "title": "PHP SDK for Jev",
-    "summary": "A PHP client for Jev, installable with Composer.",
-    "how_jev_is_used": "Build a request with a fluent interface and get one typed answer per question.",
-    "category": "SDKs and integrations",
-    "author": {
-      "name": "Alexey Kopytko",
-      "handle": "sanmai",
-      "url": "https://github.com/sanmai"
-    },
-    "link": "https://github.com/sanmai/typesafe-ai-php",
-    "published": "2026-09-19",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/typesafe-ai-php"
-  },
-  {
     "slug": "jev-webmcp",
     "title": "Jev × WebMCP Chrome extension",
     "summary": "Turns what you type into WebMCP tool calls on the current page.",
@@ -1621,6 +1809,243 @@
     "published": "2026-09-19",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/jev-webmcp"
+  },
+  {
+    "slug": "docjev",
+    "title": "DocJev: fast document classification and splitting",
+    "summary": "A library, command-line tool and local app that classify and split PDF, Word and PowerPoint document packets.",
+    "how_jev_is_used": "Local text extraction feeds Jev, which predicts a document's category or the boundaries between documents using rules written in plain language.",
+    "category": "Data and databases",
+    "author": {
+      "name": "Jerry Liu",
+      "handle": "jerryjliu",
+      "url": "https://github.com/jerryjliu"
+    },
+    "link": "https://github.com/jerryjliu/docjev",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/docjev"
+  },
+  {
+    "slug": "jev-code-reviewer",
+    "title": "Jev Code Reviewer: review behaviour, not just diffs",
+    "summary": "A command-line reviewer and agent skill that ranks each change in a review as P0, P1 or P2.",
+    "how_jev_is_used": "Jev prioritises what deserves human attention and only P0 changes show by default, while OpenAI explains the changes in plain language.",
+    "category": "Coding agents",
+    "author": {
+      "name": "egma ai",
+      "handle": "egma-ai",
+      "url": "https://github.com/egma-ai"
+    },
+    "link": "https://github.com/egma-ai/jev-code-reviewer",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-code-reviewer"
+  },
+  {
+    "slug": "jev-arena",
+    "title": "Jev Arena: Jev against DeepSeek on the same comments",
+    "summary": "A tool that compares two models' speed, cost and labels on the same batch of comments.",
+    "how_jev_is_used": "It imports CSV or Excel, replays the run and writes offline reports. The author reports 10,000 comments done in 203 seconds for $0.84 with Jev against 824 seconds for an estimated $1.50 with DeepSeek, with Jev slightly lower on accuracy. The page is mostly in Chinese.",
+    "category": "Safety and moderation",
+    "author": {
+      "name": "程序员阿江-Relakkes",
+      "handle": "NanmiCoder",
+      "url": "https://github.com/NanmiCoder"
+    },
+    "link": "https://github.com/NanmiCoder/jev-arena",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-arena"
+  },
+  {
+    "slug": "oxlint-plugin-jev",
+    "title": "oxlint-plugin-jev: lint rules in plain English",
+    "summary": "An experimental Oxlint plugin where each rule is a yes or no question about code.",
+    "how_jev_is_used": "Each match is sent to Jev with the question, and the plugin reports an error when the yes probability clears your cutoff.",
+    "category": "Code search",
+    "author": {
+      "name": "Robert Soriano",
+      "handle": "wobsoriano",
+      "url": "https://github.com/wobsoriano"
+    },
+    "link": "https://github.com/wobsoriano/oxlint-plugin-jev",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/oxlint-plugin-jev"
+  },
+  {
+    "slug": "nate-herk-jev-12-use-cases",
+    "title": "Jev tried on 12 real use cases",
+    "summary": "A hands-on test of Jev across a dozen automation use cases.",
+    "how_jev_is_used": "Nate Herk runs Jev on practical business tasks and gives his verdict on where it helps.",
+    "category": "Tutorials",
+    "author": {
+      "name": "Nate Herk | AI Automation",
+      "url": "https://www.youtube.com/@nateherk"
+    },
+    "link": "https://www.youtube.com/watch?v=ymgH8jS6Wb8",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/nate-herk-jev-12-use-cases"
+  },
+  {
+    "slug": "david-ondrej-build-anything-with-jev",
+    "title": "David Ondrej: building with Jev",
+    "summary": "A half-hour walkthrough of building things with Jev.",
+    "how_jev_is_used": "Shows Jev used in practical builds and explains where it fits.",
+    "category": "Tutorials",
+    "author": {
+      "name": "David Ondrej",
+      "url": "https://www.youtube.com/@DavidOndrej"
+    },
+    "link": "https://www.youtube.com/watch?v=f6We53TnkbU",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/david-ondrej-build-anything-with-jev"
+  },
+  {
+    "slug": "jack-roberts-jev-ai-just-dropped",
+    "title": "Jack Roberts: Jev AI just dropped",
+    "summary": "An early look at Jev after launch.",
+    "how_jev_is_used": "Introduces Jev and links a free skill for giving agents quick decisions.",
+    "category": "Explainers",
+    "author": {
+      "name": "Jack Roberts",
+      "url": "https://www.youtube.com/@Itssssss_Jack"
+    },
+    "link": "https://www.youtube.com/watch?v=9C8opPBjAIk",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jack-roberts-jev-ai-just-dropped"
+  },
+  {
+    "slug": "drape-virtual-try-on",
+    "title": "Drape: real-time virtual try-on hauls",
+    "summary": "An experiment where Jev picks outfits from a closet while you talk.",
+    "how_jev_is_used": "Jev reads the transcript and what the person is wearing, picks from the closet and changes the outfit in real time. The author reports about $0.0011 and 620 ms per decision.",
+    "category": "Content and social",
+    "author": {
+      "name": "Nailthy Tang",
+      "handle": "@nailthy62",
+      "url": "https://x.com/nailthy62"
+    },
+    "link": "https://x.com/nailthy62/status/2101388186916454439",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/drape-virtual-try-on"
+  },
+  {
+    "slug": "focus-group-723-ads",
+    "title": "A synthetic focus group that scrolls 723 ads",
+    "summary": "A marketing experiment where Jev scrolls ads as 30 buyer personalities.",
+    "how_jev_is_used": "The author reports 21,690 stop-or-scroll decisions for 22 cents.",
+    "category": "Content and social",
+    "author": {
+      "name": "Matthew Berman",
+      "handle": "@TheMattBerman",
+      "url": "https://x.com/TheMattBerman"
+    },
+    "link": "https://x.com/TheMattBerman/status/2101439340588974096",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/focus-group-723-ads"
+  },
+  {
+    "slug": "zillow-listings-classifier",
+    "title": "Classifying Zillow listings by things you cannot filter",
+    "summary": "A demo of natural-language search over property listings.",
+    "how_jev_is_used": "Jev classifies listings by architecture, renovation status or proximity to freeways. The author reports under 20 seconds and $0.18 for thousands of listings.",
+    "category": "Search and ranking",
+    "author": {
+      "name": "Justine Moore",
+      "handle": "@venturetwins",
+      "url": "https://x.com/venturetwins"
+    },
+    "link": "https://x.com/venturetwins/status/2101341075684434245",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/zillow-listings-classifier"
+  },
+  {
+    "slug": "viral-post-analyser-100000-posts",
+    "title": "A viral post analyser run on 100,000 posts",
+    "summary": "A tool that judges the structure of viral X posts.",
+    "how_jev_is_used": "It asks 14 yes/no questions per post. The author reports 100,000 posts in 20.4 seconds for $0.67, against 214 posts in the same time with a larger model.",
+    "category": "Content and social",
+    "author": {
+      "name": "Movez",
+      "handle": "@0xMovez",
+      "url": "https://x.com/0xMovez"
+    },
+    "link": "https://x.com/0xMovez/status/2101325703635435523",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/viral-post-analyser-100000-posts"
+  },
+  {
+    "slug": "jev-tags-x-posts-live",
+    "title": "Tagging X posts in real time with Jev",
+    "summary": "A feed filter that labels posts as breaking, golden nugget or slop.",
+    "how_jev_is_used": "Jev tags each post as it arrives.",
+    "category": "Content and social",
+    "author": {
+      "name": "Nate Herk",
+      "handle": "@nateherk",
+      "url": "https://x.com/nateherk"
+    },
+    "link": "https://x.com/nateherk/status/2101330780702068969",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-tags-x-posts-live"
+  },
+  {
+    "slug": "jev-venice-hacker-news-24000",
+    "title": "Jev on the Venice API: 24,000 Hacker News posts",
+    "summary": "A demo classifying Hacker News posts into 12 categories.",
+    "how_jev_is_used": "The author reports about two minutes for 24,000 posts.",
+    "category": "Data and databases",
+    "author": {
+      "name": "Sabrina",
+      "handle": "@sabrinaesaquino",
+      "url": "https://x.com/sabrinaesaquino"
+    },
+    "link": "https://x.com/sabrinaesaquino/status/2101102660997017747",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-venice-hacker-news-24000"
+  },
+  {
+    "slug": "x-post-dashboard-1315-posts",
+    "title": "A research dashboard for 1,315 X posts",
+    "summary": "A dashboard that labels saved posts across eight dimensions.",
+    "how_jev_is_used": "Jev labels topic, hook and writing style, so posts can be filtered by what they have in common. The author reports about $0.086 for 1,315 posts.",
+    "category": "Content and social",
+    "author": {
+      "name": "Yum⋆₊˚",
+      "handle": "@yuhasbeentaken",
+      "url": "https://x.com/yuhasbeentaken"
+    },
+    "link": "https://x.com/yuhasbeentaken/status/2101231502038339798",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/x-post-dashboard-1315-posts"
+  },
+  {
+    "slug": "clonk-agent-orchestrator",
+    "title": "Clonk: launching agents on a canvas instantly",
+    "summary": "An agent orchestrator that skips the slow language-model loop for routing.",
+    "how_jev_is_used": "Jev launches agents on a canvas instantly, which the author credits for making it fast.",
+    "category": "Model routing",
+    "author": {
+      "name": "Paulius 🏴‍☠️",
+      "handle": "@0xPaulius",
+      "url": "https://x.com/0xPaulius"
+    },
+    "link": "https://x.com/0xPaulius/status/2101312576252481785",
+    "published": "2026-09-19",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/clonk-agent-orchestrator"
   },
   {
     "slug": "agent-tool-calling-before-you-finish",
@@ -1671,166 +2096,6 @@
     "jev_hub_page": "https://jevhub.io/builds/voice-figma"
   },
   {
-    "slug": "jevform",
-    "title": "JevForm: a form that decides what to ask next",
-    "summary": "A form that branches on its own, choosing the next question from the answers so far.",
-    "how_jev_is_used": "Instead of hand-written if/then logic, Jev picks the next question. The interface is rendered with Vercel's json-render.",
-    "category": "SDKs and integrations",
-    "author": {
-      "name": "Tamir",
-      "handle": "@TamirSPIRITT",
-      "url": "https://x.com/TamirSPIRITT"
-    },
-    "link": "https://x.com/TamirSPIRITT/status/2101079101997982037",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jevform"
-  },
-  {
-    "slug": "jevals-workbench",
-    "title": "jevals: a local workbench for Jev requests",
-    "summary": "A local tool for testing Jev requests and checking whether results improve over time.",
-    "how_jev_is_used": "Lets you build and mix yes/no, choice and score requests, run them against Jev and compare the answers.",
-    "category": "SDKs and integrations",
-    "author": {
-      "name": "Nick DeJesus",
-      "handle": "@Dayhaysoos",
-      "url": "https://x.com/Dayhaysoos"
-    },
-    "link": "https://x.com/Dayhaysoos/status/2100968892591968320",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jevals-workbench"
-  },
-  {
-    "slug": "jevsume",
-    "title": "jevsume: résumé scoring",
-    "summary": "Scores a résumé against a fixed framework or a custom job title in under a second.",
-    "how_jev_is_used": "Jev reads the résumé and answers the scoring questions; the author reports a cost below $0.0002 per résumé.",
-    "category": "Hiring",
-    "author": {
-      "name": "Imon Roy",
-      "handle": "@unown1ne",
-      "url": "https://x.com/unown1ne"
-    },
-    "link": "https://x.com/unown1ne/status/2100817301348262301",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jevsume"
-  },
-  {
-    "slug": "unsaidbrief",
-    "title": "unsaidbrief: find the decisions a brief leaves out",
-    "summary": "Paste a project brief and see which decisions are missing or in conflict.",
-    "how_jev_is_used": "Jev checks the brief against a list of decisions and flags gaps and conflicts, with the probabilities shown.",
-    "category": "Content and social",
-    "author": {
-      "name": "Divyanshu",
-      "handle": "@Divyanshueth",
-      "url": "https://x.com/Divyanshueth"
-    },
-    "link": "https://x.com/Divyanshueth/status/2100997199102677033",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/unsaidbrief"
-  },
-  {
-    "slug": "pacman-every-move",
-    "title": "Pac-Man where every move is Jev's",
-    "summary": "A Pac-Man game in which each step is decided by Jev.",
-    "how_jev_is_used": "On every tile Jev receives Pac-Man's surroundings and returns a direction, a strategy, a danger score and flags such as trapped or committed.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "Nesan Selvan",
-      "handle": "@NesanSelvan04",
-      "url": "https://x.com/NesanSelvan04"
-    },
-    "link": "https://x.com/NesanSelvan04/status/2100844705588347238",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/pacman-every-move"
-  },
-  {
-    "slug": "playable-npcs",
-    "title": "Playable video game NPCs",
-    "summary": "Game characters you can direct: explore, gather resources or build a house, then override them mid-task.",
-    "how_jev_is_used": "Jev chooses each NPC's next action; the choices and their probabilities are shown live.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "David Parks",
-      "handle": "@dparksdev",
-      "url": "https://x.com/dparksdev"
-    },
-    "link": "https://x.com/dparksdev/status/2100949987571974537",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/playable-npcs"
-  },
-  {
-    "slug": "ship-and-plane-diversion",
-    "title": "Where should a burning ship go?",
-    "summary": "An app that asks Jev where a ship in distress should head, or where a troubled plane should land.",
-    "how_jev_is_used": "Vessels and aircraft come from real AIS and ADS-B traffic feeds; Jev picks the destination from the available options.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "Carlos Marcial",
-      "handle": "@carlosmarcialt",
-      "url": "https://x.com/carlosmarcialt"
-    },
-    "link": "https://x.com/carlosmarcialt/status/2100979161196052855",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/ship-and-plane-diversion"
-  },
-  {
-    "slug": "robot-arm-zero-shot",
-    "title": "Zero-shot control of a real robotic arm",
-    "summary": "Jev controlling a physical robotic arm with no trained policy.",
-    "how_jev_is_used": "Jev chooses the arm's next move from a set of options at each step, outside of any simulation.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "Zaid Bulbul",
-      "handle": "@zaidbul",
-      "url": "https://x.com/zaidbul"
-    },
-    "link": "https://x.com/zaidbul/status/2100949713138729135",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/robot-arm-zero-shot"
-  },
-  {
-    "slug": "voice-browser-agent-yatharth",
-    "title": "Voice-controlled browser agent",
-    "summary": "Tell it what to do and it navigates the browser for you.",
-    "how_jev_is_used": "Jev turns each spoken instruction into the next browser action.",
-    "category": "Voice control",
-    "author": {
-      "name": "Yatharth Verma",
-      "handle": "@yatharth170699",
-      "url": "https://x.com/yatharth170699"
-    },
-    "link": "https://x.com/yatharth170699/status/2100986863788159191",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/voice-browser-agent-yatharth"
-  },
-  {
-    "slug": "tsla-moving-average",
-    "title": "TSLA 50-day moving-average experiment",
-    "summary": "A simple trading rule with Jev in the judgement step.",
-    "how_jev_is_used": "Code supplies the facts (price against the 50-day average), Jev supplies a typed judgement, and code decides the action.",
-    "category": "Trading and finance",
-    "author": {
-      "name": "Matt",
-      "handle": "@mttcnnng",
-      "url": "https://x.com/mttcnnng"
-    },
-    "link": "https://x.com/mttcnnng/status/2100971168912048153",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/tsla-moving-average"
-  },
-  {
     "slug": "jev-pruner",
     "title": "jev-pruner: trim long command output",
     "summary": "A Claude Code plugin that trims noisy Bash output before the model reads it.",
@@ -1863,22 +2128,6 @@
     "jev_hub_page": "https://jevhub.io/builds/jev-shell-history"
   },
   {
-    "slug": "jev-for-chrome",
-    "title": "Jev for Chrome",
-    "summary": "A Chrome extension that drives the tab you're looking at.",
-    "how_jev_is_used": "Jev picks the next click, keystroke or dropdown value in a few hundred milliseconds. A community port of Browser Use's jev-ultrafast.",
-    "category": "Computer and browser use",
-    "author": {
-      "name": "chy4pro",
-      "handle": "chy4pro",
-      "url": "https://github.com/chy4pro"
-    },
-    "link": "https://github.com/chy4pro/jev-for-chrome",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-for-chrome"
-  },
-  {
     "slug": "jev-voice-mac",
     "title": "Jev Voice: talk to your Mac",
     "summary": "Speak and the Mac opens apps, types, searches, scrolls and presses keys.",
@@ -1893,70 +2142,6 @@
     "published": "2026-09-18",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/jev-voice-mac"
-  },
-  {
-    "slug": "jev-voice-menubar",
-    "title": "Jev Voice: a menu-bar app for the Mac",
-    "summary": "Hold a key, speak a command, and the Mac carries it out.",
-    "how_jev_is_used": "Speech becomes text, Jev returns a typed decision with probabilities, and the app performs the matching macOS action.",
-    "category": "Voice control",
-    "author": {
-      "name": "chris-wozniczek",
-      "handle": "chris-wozniczek",
-      "url": "https://github.com/chris-wozniczek"
-    },
-    "link": "https://github.com/chris-wozniczek/jev-voice-control",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-voice-menubar"
-  },
-  {
-    "slug": "telegram-antispam-bot",
-    "title": "Telegram anti-spam bot",
-    "summary": "A minimal Telegram bot that deletes spam from group chats.",
-    "how_jev_is_used": "Jev judges whether each message is spam; only high-confidence matches are deleted.",
-    "category": "Safety and moderation",
-    "author": {
-      "name": "Nikita Kolmogorov",
-      "handle": "backmeupplz",
-      "url": "https://github.com/backmeupplz"
-    },
-    "link": "https://github.com/backmeupplz/jev_antispam_bot",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/telegram-antispam-bot"
-  },
-  {
-    "slug": "jev-self-driving-sim",
-    "title": "Jev self-driving sim",
-    "summary": "A top-down autonomous car simulation that runs in the browser.",
-    "how_jev_is_used": "About every 200 ms the car's sensor readings go to Jev with four questions (lane, speed and more), and the car executes the answers.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "Vinicius Lana",
-      "handle": "vinilana",
-      "url": "https://github.com/vinilana"
-    },
-    "link": "https://github.com/vinilana/live-jev",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-self-driving-sim"
-  },
-  {
-    "slug": "jevframe",
-    "title": "jevframe: Jev for pandas and Polars",
-    "summary": "A Python library to classify, analyse sentiment and score DataFrame rows with plain-language questions.",
-    "how_jev_is_used": "Each row gets Jev's answer with the full probability distribution, returned as ordinary Series and DataFrames.",
-    "category": "Data and databases",
-    "author": {
-      "name": "Konstantin Taletskiy",
-      "handle": "ktaletsk",
-      "url": "https://github.com/ktaletsk"
-    },
-    "link": "https://github.com/ktaletsk/jevframe",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jevframe"
   },
   {
     "slug": "jev-social",
@@ -2007,52 +2192,6 @@
     "jev_hub_page": "https://jevhub.io/builds/ruby-decision-model"
   },
   {
-    "slug": "wordpress-ai-provider-jev",
-    "title": "AI Provider for Jev (WordPress)",
-    "summary": "Connects WordPress to Jev for structured decisions.",
-    "how_jev_is_used": "Exposes choice, score and yes/no questions to WordPress plugins and themes.",
-    "category": "SDKs and integrations",
-    "author": {
-      "name": "Per Søderlind",
-      "handle": "soderlind",
-      "url": "https://github.com/soderlind"
-    },
-    "link": "https://github.com/soderlind/ai-provider-for-jev",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/wordpress-ai-provider-jev"
-  },
-  {
-    "slug": "morgans-code-faster-decisions",
-    "title": "Jev explained: faster, cheaper decisions",
-    "summary": "Asks whether Jev could make computer-use agents faster by choosing the next action without writing text first.",
-    "how_jev_is_used": "Explains Jev and applies it to picking the next click in an agent loop.",
-    "category": "Explainers",
-    "author": {
-      "name": "Morgans Code",
-      "url": "https://www.youtube.com/@MorgansCode"
-    },
-    "link": "https://www.youtube.com/watch?v=We5igFMqZe8",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/morgans-code-faster-decisions"
-  },
-  {
-    "slug": "md-al-mamun-fast-typed-decisions",
-    "title": "TypeSafe AI Jev: fast, predictable, typed decisions",
-    "summary": "A short introduction to how Jev produces fast, typed decisions for software.",
-    "how_jev_is_used": "Covers the three question types and why predictable output helps applications.",
-    "category": "Explainers",
-    "author": {
-      "name": "Md Al Mamun",
-      "url": "https://www.youtube.com/@mdalmamunit427"
-    },
-    "link": "https://www.youtube.com/watch?v=jLP6HWWNz60",
-    "published": "2026-09-18",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/md-al-mamun-fast-typed-decisions"
-  },
-  {
     "slug": "lukas-margerie-what-you-can-build",
     "title": "I tested Jev: here's what you can build",
     "summary": "Remixes projects from X: tweet scoring, ad research, Chrome extensions and a voice-controlled game.",
@@ -2081,6 +2220,593 @@
     "published": "2026-09-18",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/devsplainers-simple-tasks"
+  },
+  {
+    "slug": "jev-browser-use",
+    "title": "Jev Browser Use: Jev clicks, Codex checks",
+    "summary": "A browser skill that hands navigation, clicks and scrolling to Jev while Codex keeps text input and the final check.",
+    "how_jev_is_used": "The authors report browser operations about 5 to 10 times faster in their own EZCollegeApp workflows.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "coliney",
+      "handle": "wy-coliney",
+      "url": "https://github.com/wy-coliney"
+    },
+    "link": "https://github.com/wy-coliney/jev-browser-use",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-browser-use"
+  },
+  {
+    "slug": "hermes-jev-skills",
+    "title": "Hermes Jev Skills: a second brain for the small decisions",
+    "summary": "Skills that give coding agents a cheap, fast judge for decisions such as which model should answer.",
+    "how_jev_is_used": "Jev handles model routing, memory, compaction, skill selection and browser actions for Hermes agents, and the skills also work with Claude Code and Codex.",
+    "category": "Model routing",
+    "author": {
+      "name": "Steve Darlow",
+      "handle": "kerpopule",
+      "url": "https://github.com/kerpopule"
+    },
+    "link": "https://github.com/kerpopule/hermes-jev-skills",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/hermes-jev-skills"
+  },
+  {
+    "slug": "tax-doc-classifier",
+    "title": "tax-doc-classifier: sorting tax document pages with Jev",
+    "summary": "A classifier that labels each page of a tax document as one of 261 IRS forms and 7 page kinds.",
+    "how_jev_is_used": "One request per page goes to Jev, which returns probabilities. The authors report 100% classification of their own corpus at about $0.001 per page, 34 times cheaper and 6 times faster than their earlier language-model pipeline.",
+    "category": "Data and databases",
+    "author": {
+      "name": "Kyoto",
+      "handle": "kyotofin",
+      "url": "https://github.com/kyotofin"
+    },
+    "link": "https://github.com/kyotofin/tax-doc-classifier",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/tax-doc-classifier"
+  },
+  {
+    "slug": "jevrouter",
+    "title": "JevRouter: a lightweight router for models, tools and subagents",
+    "summary": "A router that treats models, subagents, skills, tools and plugins as one candidate set.",
+    "how_jev_is_used": "Jev answers one typed Choice question about which should handle the next step, and the router enforces availability, permissions, risk and confirmation around the answer.",
+    "category": "Model routing",
+    "author": {
+      "name": "BillionsBobby",
+      "handle": "BillionsBobby",
+      "url": "https://github.com/BillionsBobby"
+    },
+    "link": "https://github.com/BillionsBobby/JevRouter",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jevrouter"
+  },
+  {
+    "slug": "jev-gateway",
+    "title": "jev-gateway: Jev chooses the tool, your LLM does the rest",
+    "summary": "A local gateway for coding agents that asks Jev which tool to call.",
+    "how_jev_is_used": "When the agent is about to choose a tool, the gateway asks Jev instead of the expensive reasoning model. Everything else goes to the usual model, and it works with Codex, Claude Code, OpenCode and Kilo.",
+    "category": "Coding agents",
+    "author": {
+      "name": "Vinicius Lana",
+      "handle": "vinilana",
+      "url": "https://github.com/vinilana"
+    },
+    "link": "https://github.com/vinilana/jev-gateway",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-gateway"
+  },
+  {
+    "slug": "jev-chat-tools",
+    "title": "Jev Chat: a command bar that calls tools without an LLM",
+    "summary": "A chat-shaped command bar that calls real tools while no language model writes anything.",
+    "how_jev_is_used": "Each turn a classifier picks what was asked, which tool, which argument values and whether to confirm, and code builds the reply from the tools' own data.",
+    "category": "SDKs and integrations",
+    "author": {
+      "name": "CJ",
+      "handle": "w3cj",
+      "url": "https://github.com/w3cj"
+    },
+    "link": "https://github.com/w3cj/jev-chat",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-chat-tools"
+  },
+  {
+    "slug": "jev-rules",
+    "title": "jev-rules: only the rules that matter, per prompt",
+    "summary": "A Claude Code add-on that shows Claude only the standing rules that apply to each prompt.",
+    "how_jev_is_used": "Jev decides which of your rules are relevant to the current request.",
+    "category": "Coding agents",
+    "author": {
+      "name": "Elia Alberti",
+      "handle": "EliaAlberti",
+      "url": "https://github.com/EliaAlberti"
+    },
+    "link": "https://github.com/EliaAlberti/jev-rules",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-rules"
+  },
+  {
+    "slug": "jev-paint",
+    "title": "jev-paint: paintings from Jev's pixel probabilities",
+    "summary": "A small local app that turns Jev's probability distributions into paintings.",
+    "how_jev_is_used": "Jev returns pixel probabilities, which the app renders into images in the browser.",
+    "category": "Games and simulations",
+    "author": {
+      "name": "Anshu Chimala",
+      "handle": "achimala",
+      "url": "https://github.com/achimala"
+    },
+    "link": "https://github.com/achimala/jev-paint",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-paint"
+  },
+  {
+    "slug": "hono-jev-router",
+    "title": "hono-jev-router: route requests by meaning",
+    "summary": "An experimental router for the Hono web framework.",
+    "how_jev_is_used": "You describe a request in plain words and Jev decides which description fits the incoming request.",
+    "category": "SDKs and integrations",
+    "author": {
+      "name": "Yusuke Wada",
+      "handle": "yusukebe",
+      "url": "https://github.com/yusukebe"
+    },
+    "link": "https://github.com/yusukebe/hono-jev-router",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/hono-jev-router"
+  },
+  {
+    "slug": "jev-recruiter",
+    "title": "Jev Recruiter: a LinkedIn recruiting agent",
+    "summary": "A local recruiting workspace that browses LinkedIn profiles against a role.",
+    "how_jev_is_used": "It is built on Browser Use's Jev Ultrafast; Jev chooses where to go, screens titles and assesses visible profile excerpts, and you keep the profiles and evidence.",
+    "category": "Hiring",
+    "author": {
+      "name": "skeptrune",
+      "handle": "skeptrunedev",
+      "url": "https://github.com/skeptrunedev"
+    },
+    "link": "https://github.com/skeptrunedev/jev-recruiter",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-recruiter"
+  },
+  {
+    "slug": "caleb-jev-explained-7-minutes",
+    "title": "Jev explained in seven minutes",
+    "summary": "A short explainer on what Jev is and why TypeSafe built it.",
+    "how_jev_is_used": "Covers the idea behind a model that returns decisions instead of text, and where it sits next to reasoning models.",
+    "category": "Explainers",
+    "author": {
+      "name": "Caleb Writes Code",
+      "url": "https://www.youtube.com/@CalebWritesCode"
+    },
+    "link": "https://www.youtube.com/watch?v=vj7hysh0mOI",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/caleb-jev-explained-7-minutes"
+  },
+  {
+    "slug": "greg-isenberg-ryan-vogel",
+    "title": "Jev is here: how to use it, with Ryan Vogel",
+    "summary": "A podcast-style walkthrough of Jev as a model built for classification.",
+    "how_jev_is_used": "Ryan Vogel shows how Jev takes an input and an output schema and returns a probability for each choice.",
+    "category": "Tutorials",
+    "author": {
+      "name": "Greg Isenberg",
+      "url": "https://www.youtube.com/@GregIsenberg"
+    },
+    "link": "https://www.youtube.com/watch?v=4mTLpuQpB80",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/greg-isenberg-ryan-vogel"
+  },
+  {
+    "slug": "ray-amjad-jev-claude-code",
+    "title": "Ray Amjad: Jev with Claude Code for a cheaper coding loop",
+    "summary": "A tutorial on using Jev alongside Claude Code.",
+    "how_jev_is_used": "Shows Jev handling routine decisions so the large model is used less often.",
+    "category": "Tutorials",
+    "author": {
+      "name": "Ray Amjad",
+      "url": "https://www.youtube.com/@RAmjad"
+    },
+    "link": "https://www.youtube.com/watch?v=ScvXFi4MUSc",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/ray-amjad-jev-claude-code"
+  },
+  {
+    "slug": "hunter-bohm-jev-astra",
+    "title": "Hunter Bohm: pairing Jev with Astra",
+    "summary": "A video on combining Jev with a large reasoning model.",
+    "how_jev_is_used": "Shows what changes when Jev makes the quick calls and the large model plans.",
+    "category": "Tutorials",
+    "author": {
+      "name": "The Hunter Bohm",
+      "url": "https://www.youtube.com/@TheHunterBohm"
+    },
+    "link": "https://www.youtube.com/watch?v=2XFXe-oGnrI",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/hunter-bohm-jev-astra"
+  },
+  {
+    "slug": "gary-explains-jev-fast-and-cheap",
+    "title": "Gary Explains: Jev is fast and cheap, but not an LLM",
+    "summary": "An explainer on why Jev is fast and cheap and what the catch is.",
+    "how_jev_is_used": "Explains that it understands natural language but replies with structured answers.",
+    "category": "Explainers",
+    "author": {
+      "name": "Gary Explains",
+      "url": "https://www.youtube.com/@GaryExplains"
+    },
+    "link": "https://www.youtube.com/watch?v=qdji39XXgEY",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/gary-explains-jev-fast-and-cheap"
+  },
+  {
+    "slug": "jev-plays-smash-bros",
+    "title": "Jev plays Smash Bros against itself",
+    "summary": "A demo where Jev controls all four characters in a fighting game.",
+    "how_jev_is_used": "The author reports over 22 million tokens for the match at a cost of a couple of cents, with decisions in a fraction of a second.",
+    "category": "Games and simulations",
+    "author": {
+      "name": "Mau Baron",
+      "handle": "@maubaron",
+      "url": "https://x.com/maubaron"
+    },
+    "link": "https://x.com/maubaron/status/2100738237237002706",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-plays-smash-bros"
+  },
+  {
+    "slug": "jev-real-time-game-levels",
+    "title": "Generating game levels in real time with Jev",
+    "summary": "A game-development experiment where Jev produces levels as you play.",
+    "how_jev_is_used": "The author argues that faster, cheaper structured output could matter for game development.",
+    "category": "Games and simulations",
+    "author": {
+      "name": "Hugo Duprez",
+      "handle": "@HugoDuprez",
+      "url": "https://x.com/HugoDuprez"
+    },
+    "link": "https://x.com/HugoDuprez/status/2100953089003921543",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-real-time-game-levels"
+  },
+  {
+    "slug": "keystroke-oracle-predictive-launcher",
+    "title": "Keystroke oracle: a launcher that reads intent",
+    "summary": "A predictive app launcher that re-ranks results on every keystroke.",
+    "how_jev_is_used": "Jev reads intent, so typing the pdf I just downloaded puts the newest PDF on top. It is the first of Nader Dabit's Jev experiments.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "nader dabit",
+      "handle": "@dabit3",
+      "url": "https://x.com/dabit3"
+    },
+    "link": "https://x.com/dabit3/status/2100756930054504776",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/keystroke-oracle-predictive-launcher"
+  },
+  {
+    "slug": "job-match-400-companies",
+    "title": "Matching a candidate to 400 companies in 12 seconds",
+    "summary": "A job-matching demo that scores companies against one candidate profile.",
+    "how_jev_is_used": "The author reports 12 seconds and $0.0005 to predict the best-fitting jobs, with a confidence score and mismatches flagged.",
+    "category": "Hiring",
+    "author": {
+      "name": "Sarvagya Kulshreshtha",
+      "handle": "@sarvagya_kul",
+      "url": "https://x.com/sarvagya_kul"
+    },
+    "link": "https://x.com/sarvagya_kul/status/2100980770206879849",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/job-match-400-companies"
+  },
+  {
+    "slug": "doomscroll-filter-niche-feed",
+    "title": "A doomscrolling filter: Jev reads three days of posts",
+    "summary": "A free tool that turns a niche's posts into a filtered feed.",
+    "how_jev_is_used": "Jev asks eight questions about each post, removing bait and hidden ads and judging the text and engagement ratios. The author reports about two seconds and $0.007.",
+    "category": "Content and social",
+    "author": {
+      "name": "Rob Hallam",
+      "handle": "@robj3d3",
+      "url": "https://x.com/robj3d3"
+    },
+    "link": "https://x.com/robj3d3/status/2101074194260000982",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/doomscroll-filter-niche-feed"
+  },
+  {
+    "slug": "always-on-voice-assistant",
+    "title": "An always-on voice assistant with no wake word",
+    "summary": "A computer assistant that listens all the time and decides when you are talking to it.",
+    "how_jev_is_used": "Jev uses probabilities to tell a command from idle talk, which the author says makes an ambient assistant possible.",
+    "category": "Voice control",
+    "author": {
+      "name": "Max Blade",
+      "handle": "@_MaxBlade",
+      "url": "https://x.com/_MaxBlade"
+    },
+    "link": "https://x.com/_MaxBlade/status/2100967959879471519",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/always-on-voice-assistant"
+  },
+  {
+    "slug": "seo-geo-agents-cost-down-90",
+    "title": "SEO and GEO audits that cost 90% less",
+    "summary": "A write-up of agents that audit and fix a client's SEO and GEO.",
+    "how_jev_is_used": "The author reports the cost dropping from about $250 per audit, with Jev speeding up reads of Search Console and analytics data and the analysis of which sources AI assistants cite.",
+    "category": "Content and social",
+    "author": {
+      "name": "Ira Bodnar",
+      "handle": "@irabukht",
+      "url": "https://x.com/irabukht"
+    },
+    "link": "https://x.com/irabukht/status/2101090579127951694",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/seo-geo-agents-cost-down-90"
+  },
+  {
+    "slug": "downloads-folder-organiser",
+    "title": "A Mac app that files your downloads by rule",
+    "summary": "A macOS app that watches the Downloads folder and applies customisable rules.",
+    "how_jev_is_used": "Jev decides whether a file is an invoice, for example, and the app moves it and renames it, with no other model calls.",
+    "category": "Home and devices",
+    "author": {
+      "name": "Marcel Pociot 🧪",
+      "handle": "@marcelpociot",
+      "url": "https://x.com/marcelpociot"
+    },
+    "link": "https://x.com/marcelpociot/status/2100906882365788167",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/downloads-folder-organiser"
+  },
+  {
+    "slug": "e2e-tests-with-agents-jev",
+    "title": "End-to-end testing with agents and Jev",
+    "summary": "An open-source framework for running end-to-end tests with agents.",
+    "how_jev_is_used": "It supports web and mobile and uses Jev for the decisions.",
+    "category": "Coding agents",
+    "author": {
+      "name": "Oskar",
+      "handle": "@o_kwasniewski",
+      "url": "https://x.com/o_kwasniewski"
+    },
+    "link": "https://x.com/o_kwasniewski/status/2100966838905585687",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/e2e-tests-with-agents-jev"
+  },
+  {
+    "slug": "playwright-used-goods-hunter",
+    "title": "A used-goods hunter built with Playwright and Jev",
+    "summary": "An agent that searches second-hand listings and acts on them.",
+    "how_jev_is_used": "The author, writing in Spanish, reports about 26 listings a minute at roughly 406 ms a decision, with a total search cost of $0.00085, including messaging sellers when details are missing.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "Alan Daitch",
+      "handle": "@AlanDaitch",
+      "url": "https://x.com/AlanDaitch"
+    },
+    "link": "https://x.com/AlanDaitch/status/2100757989212754085",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/playwright-used-goods-hunter"
+  },
+  {
+    "slug": "intent-search-in-gmail",
+    "title": "Intent-based search in Gmail",
+    "summary": "A demo of searching an inbox by what you mean.",
+    "how_jev_is_used": "Jev judges relevance to the intent, and the author suggests letting embeddings pull candidates first for a very large inbox.",
+    "category": "Search and ranking",
+    "author": {
+      "name": "nader dabit",
+      "handle": "@dabit3",
+      "url": "https://x.com/dabit3"
+    },
+    "link": "https://x.com/dabit3/status/2100960281769738433",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/intent-search-in-gmail"
+  },
+  {
+    "slug": "lurk-reddit-monitor",
+    "title": "Lurk: monitor Reddit threads to get cited by AI",
+    "summary": "A free service that finds and monitors Reddit threads, aimed at getting your brand cited by AI assistants.",
+    "how_jev_is_used": "The author reports 4,000 threads scanned with alerts by email, Discord and Slack, and says Jev makes the free tier possible.",
+    "category": "Content and social",
+    "author": {
+      "name": "Kevin Wang",
+      "handle": "@mxfp4",
+      "url": "https://x.com/mxfp4"
+    },
+    "link": "https://x.com/mxfp4/status/2101070906852298910",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/lurk-reddit-monitor"
+  },
+  {
+    "slug": "cline-jev-browser-plugin",
+    "title": "Cline's Jev browser plugin",
+    "summary": "A plugin that gives Jev a browser inside Cline.",
+    "how_jev_is_used": "Install jev-browser from the plugin marketplace, add a Vercel AI Gateway key and ask for a browser task; Cline launches Chrome in the background.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "Cline",
+      "handle": "@cline",
+      "url": "https://x.com/cline"
+    },
+    "link": "https://x.com/cline/status/2101056078872256935",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/cline-jev-browser-plugin"
+  },
+  {
+    "slug": "image-classifier-ocr-jev",
+    "title": "An image classifier with OCR and Jev",
+    "summary": "A small tool that sorts images by what they contain.",
+    "how_jev_is_used": "The author reports about 900 images categorised in 40 seconds.",
+    "category": "Data and databases",
+    "author": {
+      "name": "Fayaz Ahmed",
+      "handle": "@fayazara",
+      "url": "https://x.com/fayazara"
+    },
+    "link": "https://x.com/fayazara/status/2100953838891192789",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/image-classifier-ocr-jev"
+  },
+  {
+    "slug": "two-arm-robot-with-jev",
+    "title": "A two-arm robot controlled with Jev",
+    "summary": "A robotics write-up in Japanese where Jev handles one layer of a three-layer control system.",
+    "how_jev_is_used": "Jev takes the decision layer while code handles inverse kinematics and physics. The author reports 500 ms responses and about 0.5 yen per trial.",
+    "category": "Home and devices",
+    "author": {
+      "name": "ラプター | 高専 ロボコン ビジコン",
+      "handle": "@Raptor_zip",
+      "url": "https://x.com/Raptor_zip"
+    },
+    "link": "https://x.com/Raptor_zip/status/2101091398447505567",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/two-arm-robot-with-jev"
+  },
+  {
+    "slug": "website-to-app-jev",
+    "title": "Website to App: turn a URL into a native mobile app",
+    "summary": "A service that builds a native mobile app from a website address.",
+    "how_jev_is_used": "Jev decides how to rebuild the site as a native app, then a shipping tool submits it to the app stores. The team says it has used it internally for iOS and Android apps.",
+    "category": "SDKs and integrations",
+    "author": {
+      "name": "Daniel Ch",
+      "handle": "@chddaniel",
+      "url": "https://x.com/chddaniel"
+    },
+    "link": "https://x.com/chddaniel/status/2100919415554617537",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/website-to-app-jev"
+  },
+  {
+    "slug": "keep-md-jev-on-workers",
+    "title": "keep.md: Jev for reranking and tagging",
+    "summary": "A test of Jev on Cloudflare Workers for a bookmarking product.",
+    "how_jev_is_used": "The author reports search reranking 7 times faster than the hybrid approach and tagging 50 times faster than a small LLM with no failures.",
+    "category": "Search and ranking",
+    "author": {
+      "name": "Ian Nuttall",
+      "handle": "@iannuttall",
+      "url": "https://x.com/iannuttall"
+    },
+    "link": "https://x.com/iannuttall/status/2100884132272181594",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/keep-md-jev-on-workers"
+  },
+  {
+    "slug": "whatsapp-groups-monitor",
+    "title": "Monitoring 25 WhatsApp groups with Jev",
+    "summary": "A real-time monitor for client groups.",
+    "how_jev_is_used": "Jev judges urgency, problems and unresolved orders, and tells a language model to message the owner when something needs attention. The author writes in Spanish.",
+    "category": "Email and messages",
+    "author": {
+      "name": "t0t0",
+      "handle": "@t0t0_build",
+      "url": "https://x.com/t0t0_build"
+    },
+    "link": "https://x.com/t0t0_build/status/2101082444577567162",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/whatsapp-groups-monitor"
+  },
+  {
+    "slug": "prompt-box-picker-jev",
+    "title": "A prompt box that picks the agent, model and computer",
+    "summary": "A personal tool that fills in the fields of a prompt box automatically.",
+    "how_jev_is_used": "Jev picks the agent, model, computer and folder; a major rewrite goes to a large model with Claude Code and iOS changes run on one of his Macs.",
+    "category": "Coding agents",
+    "author": {
+      "name": "Sawyer Hood",
+      "handle": "@sawyerhood",
+      "url": "https://x.com/sawyerhood"
+    },
+    "link": "https://x.com/sawyerhood/status/2100994779291259187",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/prompt-box-picker-jev"
+  },
+  {
+    "slug": "slack-agent-2x-faster-jev",
+    "title": "A Slack agent made twice as fast",
+    "summary": "A write-up of speeding up a Slack agent.",
+    "how_jev_is_used": "Jev first classifies the best skill, tool and parameters for the prompt before handing it to the agent, which the authors say made it twice as fast.",
+    "category": "Model routing",
+    "author": {
+      "name": "John Yeo",
+      "handle": "@johnyeo_",
+      "url": "https://x.com/johnyeo_"
+    },
+    "link": "https://x.com/johnyeo_/status/2100987661926252737",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/slack-agent-2x-faster-jev"
+  },
+  {
+    "slug": "talkr-speech-analyzer",
+    "title": "talkr: a speech coach built on Jev",
+    "summary": "A speaking-practice app.",
+    "how_jev_is_used": "It gives you a topic and you talk for 30 seconds, then Jev analyses pauses, filler words, repetition, confidence and clarity and gives a score and feedback.",
+    "category": "Voice control",
+    "author": {
+      "name": "aniol",
+      "handle": "@0xaniol",
+      "url": "https://x.com/0xaniol"
+    },
+    "link": "https://x.com/0xaniol/status/2101076982373191927",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/talkr-speech-analyzer"
+  },
+  {
+    "slug": "voice-computer-assistant-swift",
+    "title": "A voice computer assistant with a Swift accessibility app",
+    "summary": "An early computer assistant that acts on what you say.",
+    "how_jev_is_used": "Local Whisper transcribes, Jev classifies the action, and a small Swift app supplies the screen's accessibility tree. The author says it would be fully private if Jev ran locally.",
+    "category": "Voice control",
+    "author": {
+      "name": "Marc Köhlbrugge",
+      "handle": "@marckohlbrugge",
+      "url": "https://x.com/marckohlbrugge"
+    },
+    "link": "https://x.com/marckohlbrugge/status/2100930430690050336",
+    "published": "2026-09-18",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/voice-computer-assistant-swift"
   },
   {
     "slug": "jev-search",
@@ -2131,38 +2857,6 @@
     "jev_hub_page": "https://jevhub.io/builds/agent-router-herdr"
   },
   {
-    "slug": "easy-jev",
-    "title": "Easy-Jev: an interactive Jev demo",
-    "summary": "A demo anyone can try: change the inputs and watch the classifications update in real time.",
-    "how_jev_is_used": "Each change sends the new input to Jev and shows the returned probabilities live.",
-    "category": "SDKs and integrations",
-    "author": {
-      "name": "Rory Garton-Smith",
-      "handle": "@rory_builds",
-      "url": "https://x.com/rory_builds"
-    },
-    "link": "https://x.com/rory_builds/status/2100606378184171682",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/easy-jev"
-  },
-  {
-    "slug": "syntax-highlighter",
-    "title": "A syntax highlighter for any language",
-    "summary": "Highlights code in any language, including one the author made up.",
-    "how_jev_is_used": "Jev classifies each token into a highlighting category instead of relying on a grammar file.",
-    "category": "SDKs and integrations",
-    "author": {
-      "name": "Arik Chakma",
-      "handle": "@imarikchakma",
-      "url": "https://x.com/imarikchakma"
-    },
-    "link": "https://x.com/imarikchakma/status/2100587614927741435",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/syntax-highlighter"
-  },
-  {
     "slug": "criteria-model-routing",
     "title": "Criteria-based model routing",
     "summary": "Very fast model routing driven by criteria you define.",
@@ -2177,22 +2871,6 @@
     "published": "2026-09-17",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/criteria-model-routing"
-  },
-  {
-    "slug": "gpt-vs-jev",
-    "title": "GPT vs Jev, side by side",
-    "summary": "A live tool comparing GPT and Jev on the same task.",
-    "how_jev_is_used": "Runs the same decision through both and reports money spent, time taken and tokens used.",
-    "category": "SDKs and integrations",
-    "author": {
-      "name": "Tanay",
-      "handle": "@nerdytanay",
-      "url": "https://x.com/nerdytanay"
-    },
-    "link": "https://x.com/nerdytanay/status/2100465397267144815",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/gpt-vs-jev"
   },
   {
     "slug": "stanley-code",
@@ -2227,38 +2905,6 @@
     "jev_hub_page": "https://jevhub.io/builds/jev-review-mcp"
   },
   {
-    "slug": "pi-jev-auto-mode",
-    "title": "Auto mode for the Pi coding agent",
-    "summary": "Auto-approves routine bash, write and edit calls in Pi and fails closed when unsure.",
-    "how_jev_is_used": "Jev judges each tool call semantically; if a decision can't be made, the call is blocked rather than allowed.",
-    "category": "Coding agents",
-    "author": {
-      "name": "Jo Matsuda",
-      "handle": "jomatsu",
-      "url": "https://github.com/jomatsu"
-    },
-    "link": "https://github.com/jomatsu/pi-jev-auto-mode",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/pi-jev-auto-mode"
-  },
-  {
-    "slug": "hermes-jev-approvals",
-    "title": "Smart command approvals for Hermes Agent",
-    "summary": "Replaces Hermes Agent's command reviewer with Jev: approve, deny or ask the user.",
-    "how_jev_is_used": "One request asks six typed questions in parallel. The author reports 8.7x faster reviews and 4.4x fewer prompts on 153 real commands.",
-    "category": "Coding agents",
-    "author": {
-      "name": "Angello Picasso",
-      "handle": "anpicasso",
-      "url": "https://github.com/anpicasso"
-    },
-    "link": "https://github.com/anpicasso/hermes-jev-approvals",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/hermes-jev-approvals"
-  },
-  {
     "slug": "skillranker",
     "title": "SkillRanker: the right skill for the next step",
     "summary": "A Rust CLI that ranks an agent's installed skills for the next step of a session.",
@@ -2291,22 +2937,6 @@
     "jev_hub_page": "https://jevhub.io/builds/pi-jev-tool-router"
   },
   {
-    "slug": "jevify",
-    "title": "Jevify: teach your agent when to use Jev",
-    "summary": "An agent skill that finds work a fast decision model can handle and helps design the questions.",
-    "how_jev_is_used": "Makes Jev the default for bulk judgements such as selecting passages, ranking candidates and checking items, so the agent reasons only over what Jev selects.",
-    "category": "Coding agents",
-    "author": {
-      "name": "Alex Volkov",
-      "handle": "altryne",
-      "url": "https://github.com/altryne"
-    },
-    "link": "https://github.com/altryne/jevify",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jevify"
-  },
-  {
     "slug": "building-with-jev-skill",
     "title": "Building with Jev: an agent skill",
     "summary": "A skill that helps coding agents write and improve programs that call Jev.",
@@ -2321,22 +2951,6 @@
     "published": "2026-09-17",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/building-with-jev-skill"
-  },
-  {
-    "slug": "jev-mobile",
-    "title": "jev-mobile: an Android agent",
-    "summary": "An autonomous Android sub-agent that carries out tasks on a connected phone.",
-    "how_jev_is_used": "A worker observes the screen, Jev chooses among technically valid actions, and the result is verified; Jev never generates coordinates or code.",
-    "category": "Computer and browser use",
-    "author": {
-      "name": "Friedjof Noweck",
-      "handle": "Friedjof",
-      "url": "https://github.com/Friedjof"
-    },
-    "link": "https://github.com/Friedjof/jev-mobile",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-mobile"
   },
   {
     "slug": "voice-browser",
@@ -2371,70 +2985,6 @@
     "jev_hub_page": "https://jevhub.io/builds/jev-trade-hyperliquid"
   },
   {
-    "slug": "jev-plays-pokemon",
-    "title": "Jev plays Pokémon Red",
-    "summary": "A small autonomous agent for Pokémon Red on a Game Boy emulator.",
-    "how_jev_is_used": "Each turn the game is described as text (dialog, map, party, objective); Jev answers typed questions and code turns them into button presses.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "Milan Boers",
-      "handle": "milanboers",
-      "url": "https://github.com/milanboers"
-    },
-    "link": "https://github.com/milanboers/jev-plays-pokemon",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-plays-pokemon"
-  },
-  {
-    "slug": "typesafe-experiments",
-    "title": "TypeSafe experiments: from support messages to a 3D car",
-    "summary": "Interactive experiments with real Jev calls, including a self-driving car in a 3D world.",
-    "how_jev_is_used": "Each experiment makes the inputs and Jev's judgements visible, including hesitation and mistakes.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "Kaveh Mousavi Zamani",
-      "handle": "kavehmz",
-      "url": "https://github.com/kavehmz"
-    },
-    "link": "https://github.com/kavehmz/typesafe-playground",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/typesafe-experiments"
-  },
-  {
-    "slug": "should-ai-kill-us-all",
-    "title": "Should AI kill us all?",
-    "summary": "A site that asks Jev the question every ten minutes, using the actual headlines.",
-    "how_jev_is_used": "Jev can only choose, not explain, so it reads the news and picks an answer with a probability.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "GUMBO",
-      "handle": "hellogumbo",
-      "url": "https://github.com/hellogumbo"
-    },
-    "link": "https://github.com/hellogumbo/should-ai-kill-us-all",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/should-ai-kill-us-all"
-  },
-  {
-    "slug": "jevgpt",
-    "title": "JevGPT: a chatbot from a model that can't write",
-    "summary": "A chat client built on a model that doesn't generate text.",
-    "how_jev_is_used": "The conversation is the state, the question is 'next word?', and the options are a 20,000-word dictionary; Jev answers one word at a time.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "Omar Al Matar",
-      "handle": "Bewinxed",
-      "url": "https://github.com/Bewinxed"
-    },
-    "link": "https://github.com/Bewinxed/jevgpt",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jevgpt"
-  },
-  {
     "slug": "pg-typesafe",
     "title": "pg_typesafe: Jev from PostgreSQL",
     "summary": "A pre-alpha PostgreSQL extension that calls Jev from SQL.",
@@ -2467,22 +3017,6 @@
     "jev_hub_page": "https://jevhub.io/builds/typesafe-adblock"
   },
   {
-    "slug": "cv-screen",
-    "title": "cv-screen: screen a folder of CVs",
-    "summary": "A local workbench that screens hundreds of CVs and shows a sortable shortlist.",
-    "how_jev_is_used": "Jev answers a small fixed set of questions per CV; readable arithmetic turns them into a verdict, and the hiring policy can be edited without re-running Jev.",
-    "category": "Hiring",
-    "author": {
-      "name": "Giorgos Tarasidis",
-      "handle": "gtaras7",
-      "url": "https://github.com/gtaras7"
-    },
-    "link": "https://github.com/gtaras7/typesafe-jev",
-    "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/cv-screen"
-  },
-  {
     "slug": "home-assistant-jev",
     "title": "Jev for Home Assistant",
     "summary": "Ask your house a question and get a number back you can automate on.",
@@ -2499,82 +3033,560 @@
     "jev_hub_page": "https://jevhub.io/builds/home-assistant-jev"
   },
   {
-    "slug": "hev-reranker",
-    "title": "hev reranker",
-    "summary": "Uses Jev as a calibrated reranker for search results.",
-    "how_jev_is_used": "One call carries the query and up to 30 documents; Jev returns a relevance probability for each, usable to sort and to cut off.",
-    "category": "Search and ranking",
+    "slug": "fast-jev-compaction",
+    "title": "fast-jev-compaction: smarter context compaction for Claude Code",
+    "summary": "A Claude Code plugin that replaces the usual compaction summary with decisions about which tool calls to keep.",
+    "how_jev_is_used": "Jev scores every tool call and result in one request. Stale ones are dropped or truncated, and everything kept stays word for word, so nothing is rewritten.",
+    "category": "Agent memory",
     "author": {
-      "name": "Adam Hevenor",
-      "handle": "hev",
-      "url": "https://github.com/hev"
+      "name": "tamara tran",
+      "handle": "tamaratran",
+      "url": "https://github.com/tamaratran"
     },
-    "link": "https://github.com/hev/reranker",
+    "link": "https://github.com/tamaratran/fast-jev-compaction",
     "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/hev-reranker"
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/fast-jev-compaction"
   },
   {
-    "slug": "jev-otp",
-    "title": "Jev for Elixir OTP",
-    "summary": "Use Jev from Elixir as a peer process you pattern-match on.",
-    "how_jev_is_used": "You reply to Jev from a GenServer and its answer arrives as a message, with routing expressed through clause order.",
+    "slug": "pg-jev",
+    "title": "pg-jev: ask your Postgres tables questions in plain language",
+    "summary": "A PostgreSQL extension that filters, ranks and classifies rows with conditions written in everyday words.",
+    "how_jev_is_used": "Every row is judged by Jev, which returns calibrated probabilities, so there is no index, embedding or vector column to maintain.",
+    "category": "Data and databases",
+    "author": {
+      "name": "mahmoud",
+      "handle": "realZachi",
+      "url": "https://github.com/realZachi"
+    },
+    "link": "https://github.com/realZachi/pg-jev",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/pg-jev"
+  },
+  {
+    "slug": "foreman",
+    "title": "Foreman: a supervisor for coding agents",
+    "summary": "An agent supervisor that watches coding agents at work and decides what they should do next.",
+    "how_jev_is_used": "It runs on decision models, supporting Jev and OpenAI's Decisions API, and can supervise workers such as Codex and OpenCode on a ticket or specification.",
+    "category": "Coding agents",
+    "author": {
+      "name": "ThruWire",
+      "handle": "thruwire",
+      "url": "https://github.com/thruwire"
+    },
+    "link": "https://github.com/thruwire/foreman",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/foreman"
+  },
+  {
+    "slug": "unclutter",
+    "title": "Unclutter: a browser extension that removes page clutter",
+    "summary": "A browser extension that strips clutter from web pages using reusable template rules.",
+    "how_jev_is_used": "Jev classifies the nonessential elements on a page, and the extension stores local hiding rules by page template and reapplies them on later visits.",
+    "category": "Content and social",
+    "author": {
+      "name": "kitze 🚀",
+      "handle": "kitze",
+      "url": "https://github.com/kitze"
+    },
+    "link": "https://github.com/kitze/unclutter",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/unclutter"
+  },
+  {
+    "slug": "system-one-connector",
+    "title": "System One Connector: Jev as an MCP tool",
+    "summary": "An MCP connector that gives Claude Code, Codex and other agents direct access to Jev.",
+    "how_jev_is_used": "The agent asks a question such as whether something is urgent or which team owns it and gets back a number or an option it can use in an if statement.",
     "category": "SDKs and integrations",
     "author": {
-      "name": "Danila Poyarkov",
-      "handle": "dannote",
-      "url": "https://github.com/dannote"
+      "name": "Mostafa",
+      "handle": "itsmostafa",
+      "url": "https://github.com/itsmostafa"
     },
-    "link": "https://github.com/dannote/jev",
+    "link": "https://github.com/itsmostafa/system-one-connector",
     "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-otp"
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/system-one-connector"
   },
   {
-    "slug": "jev-mcp",
-    "title": "jev-mcp: Jev as MCP tools",
-    "summary": "An MCP server and Claude Code plugin that exposes Jev's judgements as tools.",
-    "how_jev_is_used": "Agents can classify, score, check and batch-ask, and see Jev's full probabilities rather than a bare label.",
-    "category": "SDKs and integrations",
+    "slug": "jev-browser-jkudish",
+    "title": "jev-browser: fast, cheap browser use with Jev",
+    "summary": "A tool that drives a real headless browser through an MCP server, command line or library.",
+    "how_jev_is_used": "Jev picks one action per step from the page's clickable, typeable and selectable elements and scores how likely the goal is met or the run is stuck. Code owns the loop.",
+    "category": "Computer and browser use",
     "author": {
-      "name": "Rashed Parvez",
-      "handle": "rashedInt32",
-      "url": "https://github.com/rashedInt32"
+      "name": "Joey Kudish",
+      "handle": "jkudish",
+      "url": "https://github.com/jkudish"
     },
-    "link": "https://github.com/rashedInt32/jev-mcp",
+    "link": "https://github.com/jkudish/jev-browser",
     "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-mcp"
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-browser-jkudish"
   },
   {
-    "slug": "avb-livestream-jev",
-    "title": "Livestream: coding with the new Jev model",
-    "summary": "A long livestream breaking down Jev and the network designs that could produce a model like it.",
-    "how_jev_is_used": "Live coding with Jev plus a look at architectures for JSON-predicting models.",
-    "category": "Explainers",
+    "slug": "skillbox",
+    "title": "skillbox: a self-hosted skills library for agents",
+    "summary": "A versioned skills library for AI agents that serves skills over MCP.",
+    "how_jev_is_used": "It offers optional Jev recommendations for which skill an agent should use.",
+    "category": "Coding agents",
     "author": {
-      "name": "Neural Breakdown with AVB",
-      "url": "https://www.youtube.com/@avb_fj"
+      "name": "kitze 🚀",
+      "handle": "kitze",
+      "url": "https://github.com/kitze"
     },
-    "link": "https://www.youtube.com/watch?v=5Lx4DLLYafM",
+    "link": "https://github.com/kitze/skillbox",
     "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/avb-livestream-jev"
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/skillbox"
   },
   {
-    "slug": "deep-district-claude-skill",
-    "title": "Experimenting with Jev using Claude and TypeSafe's skill",
-    "summary": "Tests Jev with Claude Code and TypeSafe's official agent skill.",
-    "how_jev_is_used": "An experiment using Jev for deterministic classification from inside a coding agent.",
+    "slug": "kill-my-idea",
+    "title": "Kill My Idea: Jev judges your startup idea",
+    "summary": "A web tool where you describe a startup idea and get KILL IT, FIX IT or SHIP IT.",
+    "how_jev_is_used": "One request asks Jev ten questions in parallel, eight scored from 0 to 4 plus the category and clarity. A weighted average and a clarity gate produce the verdict, with no generative model.",
+    "category": "Content and social",
+    "author": {
+      "name": "monteduro",
+      "handle": "monteduro",
+      "url": "https://github.com/monteduro"
+    },
+    "link": "https://github.com/monteduro/killmyidea",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/kill-my-idea"
+  },
+  {
+    "slug": "jevpilot",
+    "title": "JevPilot: a driving simulator with a Jev autopilot",
+    "summary": "A playable Three.js driving simulator with Tesla Autopilot-like behaviour.",
+    "how_jev_is_used": "Jev makes the driving decisions through a hosted endpoint that requires a login. The project offers a small amount of free Jev play credit.",
+    "category": "Games and simulations",
+    "author": {
+      "name": "Standard Agents",
+      "handle": "standardagents",
+      "url": "https://github.com/standardagents"
+    },
+    "link": "https://github.com/standardagents/jevpilot",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jevpilot"
+  },
+  {
+    "slug": "compact-adviser",
+    "title": "compact-adviser: should you run /compact now?",
+    "summary": "An agent plugin that answers one question: is it safe to compact this session?",
+    "how_jev_is_used": "Jev judges whether the session is at a boundary where compaction is safe, then hints at it or, on Pi and Claude Code if you opt in, runs it for you.",
+    "category": "Agent memory",
+    "author": {
+      "name": "Kun Chen",
+      "handle": "kunchenguid",
+      "url": "https://github.com/kunchenguid"
+    },
+    "link": "https://github.com/kunchenguid/compact-adviser",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/compact-adviser"
+  },
+  {
+    "slug": "fastbrowse",
+    "title": "fastbrowse: a fast browser agent with cited answers",
+    "summary": "A browser agent that runs locally or in a cloud browser and returns cited answers or validated data.",
+    "how_jev_is_used": "Jev picks from indexed page controls, so it cannot click something that was never on the page, while a language model reads and plans.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "Agent Labs",
+      "handle": "agent-labs-dev",
+      "url": "https://github.com/agent-labs-dev"
+    },
+    "link": "https://github.com/agent-labs-dev/fastbrowse",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/fastbrowse"
+  },
+  {
+    "slug": "sponsor-skip",
+    "title": "Sponsor Skip: a Chrome extension that skips YouTube sponsor reads",
+    "summary": "A Chrome extension and web app that find sponsor reads in a video and jump past them.",
+    "how_jev_is_used": "Jev names the transcript line or answers yes or no about what it heard, and code owns every timestamp. It needs a TypeSafe key.",
+    "category": "Content and social",
+    "author": {
+      "name": "Tony Dinh",
+      "handle": "trungdq88",
+      "url": "https://github.com/trungdq88"
+    },
+    "link": "https://github.com/trungdq88/youtube-sponsor-detection",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/sponsor-skip"
+  },
+  {
+    "slug": "jev-mcp-burnigtm",
+    "title": "jev-mcp: Jev as tools for coding agents",
+    "summary": "A local MCP server that gives Cursor, Codex and other clients typed Jev judgments.",
+    "how_jev_is_used": "It routes the next step and decides whether a partner model is needed, while the host agent still edits files and runs commands.",
+    "category": "Coding agents",
+    "author": {
+      "name": "burnigtm",
+      "handle": "burnigtm",
+      "url": "https://github.com/burnigtm"
+    },
+    "link": "https://github.com/burnigtm/jev-mcp",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-mcp-burnigtm"
+  },
+  {
+    "slug": "syntax-jev-demos-use-cases",
+    "title": "Syntax: Jev explained with demos and use cases",
+    "summary": "CJ explains what Jev is and how it works, then goes through several use cases and demos.",
+    "how_jev_is_used": "The code for the jev-chat demo is public on GitHub.",
     "category": "Tutorials",
     "author": {
-      "name": "Deep District",
-      "url": "https://www.youtube.com/@deep_district"
+      "name": "Syntax",
+      "url": "https://www.youtube.com/@syntaxfm"
     },
-    "link": "https://www.youtube.com/watch?v=267fGQeLSkg",
+    "link": "https://www.youtube.com/watch?v=QbYBRjOaGOo",
     "published": "2026-09-17",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/deep-district-claude-skill"
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/syntax-jev-demos-use-cases"
+  },
+  {
+    "slug": "maximilian-jev-beats-llms",
+    "title": "Maximilian Schwarzmüller on Jev",
+    "summary": "A short reaction video on a model that beats LLMs in some areas.",
+    "how_jev_is_used": "Gives a developer's first impression of Jev.",
+    "category": "Explainers",
+    "author": {
+      "name": "Maximilian Schwarzmüller",
+      "url": "https://www.youtube.com/@maximilian-schwarzmueller"
+    },
+    "link": "https://www.youtube.com/watch?v=jaVeEz1yY4o",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/maximilian-jev-beats-llms"
+  },
+  {
+    "slug": "promptwarrior-jev-full-tutorial",
+    "title": "Moritz: Jev full tutorial",
+    "summary": "A twenty-two minute tutorial on Jev, a model built for fast decisions.",
+    "how_jev_is_used": "Walks through setup and examples.",
+    "category": "Tutorials",
+    "author": {
+      "name": "Moritz | AI Systems",
+      "url": "https://www.youtube.com/@promptwarrior"
+    },
+    "link": "https://www.youtube.com/watch?v=Nq_lu5QT-fI",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/promptwarrior-jev-full-tutorial"
+  },
+  {
+    "slug": "aicodeking-jev-browser-use",
+    "title": "AICodeKing: Jev with Browser Use",
+    "summary": "A test of Jev driving a browser agent.",
+    "how_jev_is_used": "Tests Jev as a System One model for fast, cheap, structured decisions and shows how fast the agent is.",
+    "category": "Tutorials",
+    "author": {
+      "name": "AICodeKing",
+      "url": "https://www.youtube.com/@AICodeKing"
+    },
+    "link": "https://www.youtube.com/watch?v=SNJ3yuJ_QwY",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/aicodeking-jev-browser-use"
+  },
+  {
+    "slug": "ad-breakdown-724-ads",
+    "title": "Breaking down 724 live ads in 40 seconds",
+    "summary": "An ad-analysis demo that breaks down hundreds of live ads at once.",
+    "how_jev_is_used": "The author reports 724 ads from 37 brands covered in 40 seconds for about nine cents of tokens, labelling each ad's hook, format, offer, call to action, awareness stage and landing-page mismatch.",
+    "category": "Content and social",
+    "author": {
+      "name": "Matthew Berman",
+      "handle": "@TheMattBerman",
+      "url": "https://x.com/TheMattBerman"
+    },
+    "link": "https://x.com/TheMattBerman/status/2100654891756589230",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/ad-breakdown-724-ads"
+  },
+  {
+    "slug": "jev-plays-subway-surfers",
+    "title": "Jev plays Subway Surfers, 50 games at once",
+    "summary": "A demo of Jev playing a fast arcade game and running 50 games at once.",
+    "how_jev_is_used": "The author reports the run cost less than a cent and notes that Jev does not replace large reasoning models.",
+    "category": "Games and simulations",
+    "author": {
+      "name": "Max Blade",
+      "handle": "@_MaxBlade",
+      "url": "https://x.com/_MaxBlade"
+    },
+    "link": "https://x.com/_MaxBlade/status/2100634359099232678",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-plays-subway-surfers"
+  },
+  {
+    "slug": "jev-trades-10000-dollars",
+    "title": "Giving Jev $10,000 to trade",
+    "summary": "A video experiment where Jev makes trading decisions with real money.",
+    "how_jev_is_used": "The author says they gave Jev $10,000 and let it trade.",
+    "category": "Trading and finance",
+    "author": {
+      "name": "Abol",
+      "handle": "@abolbuild",
+      "url": "https://x.com/abolbuild"
+    },
+    "link": "https://x.com/abolbuild/status/2100523868913807410",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-trades-10000-dollars"
+  },
+  {
+    "slug": "superx-viral-post-scorer",
+    "title": "SuperX: score a post for virality, then rewrite",
+    "summary": "A free tool that scores a draft post before you publish it.",
+    "how_jev_is_used": "Each post gets 61 questions in about a second. The author reports it was fitted on 9,481 real posts from 207 creators and picks the more viral post two times in three.",
+    "category": "Content and social",
+    "author": {
+      "name": "Rob Hallam",
+      "handle": "@robj3d3",
+      "url": "https://x.com/robj3d3"
+    },
+    "link": "https://x.com/robj3d3/status/2100722975645598191",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/superx-viral-post-scorer"
+  },
+  {
+    "slug": "x-algorithm-rebuilt-with-jev",
+    "title": "Rebuilding the X algorithm with Jev",
+    "summary": "A simulator that predicts how a post would perform on X.",
+    "how_jev_is_used": "It uses real ranking weights, simulates a post's virality and has a global feed where you see everyone.",
+    "category": "Content and social",
+    "author": {
+      "name": "leo",
+      "handle": "@leojrr",
+      "url": "https://x.com/leojrr"
+    },
+    "link": "https://x.com/leojrr/status/2100470174130250127",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/x-algorithm-rebuilt-with-jev"
+  },
+  {
+    "slug": "jev-plays-slay-the-spire",
+    "title": "Jev plays Slay the Spire 2",
+    "summary": "A demo of Jev playing a card game faster than a human can follow.",
+    "how_jev_is_used": "The author, writing in Chinese, reports about 0.7 seconds of thinking per action, compared with a slower run using GPT-6 Astra.",
+    "category": "Games and simulations",
+    "author": {
+      "name": "paulwei",
+      "handle": "@coolish",
+      "url": "https://x.com/coolish"
+    },
+    "link": "https://x.com/coolish/status/2100570517954838897",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-plays-slay-the-spire"
+  },
+  {
+    "slug": "live-viral-post-analyzer",
+    "title": "A live viral post analyzer",
+    "summary": "A tool that analyses a draft as soon as you pause typing.",
+    "how_jev_is_used": "Half a second after you stop, Jev scores the post's viral potential and categorises it live. The author calls it an experiment.",
+    "category": "Content and social",
+    "author": {
+      "name": "Riley Brown",
+      "handle": "@rileybrown",
+      "url": "https://x.com/rileybrown"
+    },
+    "link": "https://x.com/rileybrown/status/2100425868053008758",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/live-viral-post-analyzer"
+  },
+  {
+    "slug": "jev-kimi-fraud-detection",
+    "title": "Fraud detection: Jev first, Kimi for the uncertain cases",
+    "summary": "A pipeline that classifies emails with Jev and sends unsure ones to a larger model.",
+    "how_jev_is_used": "The author reports 100 emails classified in 1.42 seconds, and 96 of 100 correct for about $0.07 once uncertain cases went to Kimi K3.",
+    "category": "Safety and moderation",
+    "author": {
+      "name": "Hassan",
+      "handle": "@nutlope",
+      "url": "https://x.com/nutlope"
+    },
+    "link": "https://x.com/nutlope/status/2100614659690713543",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-kimi-fraud-detection"
+  },
+  {
+    "slug": "stagehand-jev-browser-loop",
+    "title": "Stagehand with Jev: browser use for a tenth of a cent",
+    "summary": "A fast browser-use loop built with Stagehand.",
+    "how_jev_is_used": "The page's accessibility tree goes to Jev as state, Jev picks the next action and Stagehand carries it out. The authors report a task costing $0.001.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "Kyle Jeong",
+      "handle": "@kylejeong",
+      "url": "https://x.com/kylejeong"
+    },
+    "link": "https://x.com/kylejeong/status/2100622054945095934",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/stagehand-jev-browser-loop"
+  },
+  {
+    "slug": "what-works-on-x-3282-posts",
+    "title": "What works on X: 3,282 posts analysed",
+    "summary": "An analysis of one creator's posts across 100 million views.",
+    "how_jev_is_used": "Each post got eight questions about topic, hook and tone. The author reports 4.25 million tokens for $0.128, and that how-to posts got a median of 150 likes against 44 overall.",
+    "category": "Content and social",
+    "author": {
+      "name": "Ian Nuttall",
+      "handle": "@iannuttall",
+      "url": "https://x.com/iannuttall"
+    },
+    "link": "https://x.com/iannuttall/status/2100668908227162567",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/what-works-on-x-3282-posts"
+  },
+  {
+    "slug": "visual-reference-finder",
+    "title": "A visual reference finder",
+    "summary": "A tool that turns one prompt into 100 reference images.",
+    "how_jev_is_used": "It draws on Cosmos, NASA and The Met, with Jev selecting what fits the brief.",
+    "category": "Search and ranking",
+    "author": {
+      "name": "Albiona Hoti",
+      "handle": "@albicodes",
+      "url": "https://x.com/albicodes"
+    },
+    "link": "https://x.com/albicodes/status/2100720936852857271",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/visual-reference-finder"
+  },
+  {
+    "slug": "ask-jev-anything",
+    "title": "Ask Jev Anything",
+    "summary": "A website that does not answer questions but judges them.",
+    "how_jev_is_used": "It runs on Jev and Convex, and the author set a goal of one million questions.",
+    "category": "Explainers",
+    "author": {
+      "name": "Wayne Sutton",
+      "handle": "@waynesutton",
+      "url": "https://x.com/waynesutton"
+    },
+    "link": "https://x.com/waynesutton/status/2100487878992388279",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/ask-jev-anything"
+  },
+  {
+    "slug": "jev-detector-ai-slop",
+    "title": "Jev Detector: a fast AI-slop checker",
+    "summary": "A free tool that scans text for AI slop.",
+    "how_jev_is_used": "The author reports about 10,000 words scanned in about two seconds, with no sign-up.",
+    "category": "Safety and moderation",
+    "author": {
+      "name": "Jozef",
+      "handle": "@jozef_gherman",
+      "url": "https://x.com/jozef_gherman"
+    },
+    "link": "https://x.com/jozef_gherman/status/2100627898436571555",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-detector-ai-slop"
+  },
+  {
+    "slug": "chromium-headless-agent-wikipedia",
+    "title": "A Wikipedia link-walking agent with Jev",
+    "summary": "A demo of an agent navigating with Jev and headless Chromium.",
+    "how_jev_is_used": "It walks from the Café page to Inteligencia artificial by following links. The author, writing in Spanish, reports completing it in 20 seconds.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "Mormon Negro",
+      "handle": "@mormonnegro",
+      "url": "https://x.com/mormonnegro"
+    },
+    "link": "https://x.com/mormonnegro/status/2100408498446111031",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/chromium-headless-agent-wikipedia"
+  },
+  {
+    "slug": "fx-sh-agentic-browsing",
+    "title": "fx.sh: agentic browsing in a Chrome extension",
+    "summary": "A Chrome extension that lets agents browse and click in your own browser.",
+    "how_jev_is_used": "Decision-making by Jev, with Vercel AI Gateway.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "RaZaan",
+      "handle": "@razaanstha",
+      "url": "https://x.com/razaanstha"
+    },
+    "link": "https://x.com/razaanstha/status/2100645675591520612",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/fx-sh-agentic-browsing"
+  },
+  {
+    "slug": "chief-of-staff-for-bots",
+    "title": "Jev as a chief of staff for bots",
+    "summary": "An agent orchestration demo where Jev picks the right teammate for a task.",
+    "how_jev_is_used": "Jev reads the task, wakes the right agent and gives each the right model, on OpenMausBot.",
+    "category": "Model routing",
+    "author": {
+      "name": "Milind S",
+      "handle": "@milindlabs",
+      "url": "https://x.com/milindlabs"
+    },
+    "link": "https://x.com/milindlabs/status/2100515910754750741",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/chief-of-staff-for-bots"
+  },
+  {
+    "slug": "realtime-clippy-jev",
+    "title": "Real-time Clippy with Jev",
+    "summary": "A helper that watches how you use a product and wakes up when you struggle.",
+    "how_jev_is_used": "It notices hesitation, confusion and getting stuck, and even its reactions are controlled by Jev.",
+    "category": "Content and social",
+    "author": {
+      "name": "Marek Sotak",
+      "handle": "@sotak",
+      "url": "https://x.com/sotak"
+    },
+    "link": "https://x.com/sotak/status/2100701152824185319",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/realtime-clippy-jev"
+  },
+  {
+    "slug": "invoice-classification-jev",
+    "title": "Classifying company invoices for accounting",
+    "summary": "A use case showing Jev sorting invoices into accounting categories.",
+    "how_jev_is_used": "The author, writing in Spanish, says a company's invoices can be reviewed and classified in seconds.",
+    "category": "Data and databases",
+    "author": {
+      "name": "iagolast",
+      "handle": "@iagolast",
+      "url": "https://x.com/iagolast"
+    },
+    "link": "https://x.com/iagolast/status/2100694100160745746",
+    "published": "2026-09-17",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/invoice-classification-jev"
   },
   {
     "slug": "pi-jev-gate",
@@ -2625,38 +3637,6 @@
     "jev_hub_page": "https://jevhub.io/builds/jev-browser-mcp"
   },
   {
-    "slug": "computer-use-jev-go",
-    "title": "computer-use-jev: drive macOS apps from Go",
-    "summary": "A Go library for operating native macOS apps.",
-    "how_jev_is_used": "Apps are controlled through the Accessibility API, and Jev is the decision maker for which element to act on.",
-    "category": "Computer and browser use",
-    "author": {
-      "name": "Paul Smith",
-      "handle": "paulsmith",
-      "url": "https://github.com/paulsmith"
-    },
-    "link": "https://github.com/paulsmith/computer-use-jev",
-    "published": "2026-09-16",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/computer-use-jev-go"
-  },
-  {
-    "slug": "jev-plays-starcraft",
-    "title": "Jev plays StarCraft",
-    "summary": "Jev completes the first combat mission of the original StarCraft shareware campaign.",
-    "how_jev_is_used": "Jev controls the game through keyboard and mouse actions, and every action's probability is recorded alongside a game recording.",
-    "category": "Games and simulations",
-    "author": {
-      "name": "Philip Youssef",
-      "handle": "phyous",
-      "url": "https://github.com/phyous"
-    },
-    "link": "https://github.com/phyous/tsai-sc",
-    "published": "2026-09-16",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/jev-plays-starcraft"
-  },
-  {
     "slug": "neo4jev",
     "title": "neo4jev: navigating a graph",
     "summary": "A demo that walks a Neo4j graph one hop at a time toward a goal.",
@@ -2704,21 +3684,6 @@
     "jev_hub_page": "https://jevhub.io/builds/rob-shocks-jev-breakdown"
   },
   {
-    "slug": "aiseeking-system-one-explained",
-    "title": "System One Jev, fully explained",
-    "summary": "Looks at Jev's claims (faster, cheaper, no output tokens) and what its benchmarks actually show.",
-    "how_jev_is_used": "Examines how Jev works and how it compares with transformer language models.",
-    "category": "Explainers",
-    "author": {
-      "name": "AISeeKing",
-      "url": "https://www.youtube.com/@AISeeKing"
-    },
-    "link": "https://www.youtube.com/watch?v=NIlQsncfVYs",
-    "published": "2026-09-16",
-    "added_to_jev_hub": "2026-10-06",
-    "jev_hub_page": "https://jevhub.io/builds/aiseeking-system-one-explained"
-  },
-  {
     "slug": "repochad-schema-safe-ai",
     "title": "Jev: the schema-safe AI for automation",
     "summary": "What changes when an AI model stops generating text and returns schema-safe answers instead.",
@@ -2734,6 +3699,134 @@
     "jev_hub_page": "https://jevhub.io/builds/repochad-schema-safe-ai"
   },
   {
+    "slug": "jev-ultrafast",
+    "title": "Jev Ultrafast: a browser agent that picks each click",
+    "summary": "A browser agent from the Browser Use team that works toward a goal one fast step at a time.",
+    "how_jev_is_used": "Jev picks an operation and an element from an indexed list of page controls, and a small language model writes text only when text has to be typed. The authors report a Zürich to London flight search on Google Flights in 7.1 seconds.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "Browser Use",
+      "handle": "browser-use",
+      "url": "https://github.com/browser-use"
+    },
+    "link": "https://github.com/browser-use/jev-ultrafast",
+    "published": "2026-09-16",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-ultrafast"
+  },
+  {
+    "slug": "jev-trader-monad",
+    "title": "jev-trader: one trade decision per Monad block",
+    "summary": "A trading bot that asks Jev whether to buy or sell on every block of the Monad chain.",
+    "how_jev_is_used": "Jev reads the Kuru MON-USDC order book and answers buy or sell about every 300 ms, and each block posts a post-only limit order on that side. Without a private key it runs as a dry run with simulated fills.",
+    "category": "Trading and finance",
+    "author": {
+      "name": "Jarrod Watts",
+      "handle": "jarrodwatts",
+      "url": "https://github.com/jarrodwatts"
+    },
+    "link": "https://github.com/jarrodwatts/jev-trader",
+    "published": "2026-09-16",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-trader-monad"
+  },
+  {
+    "slug": "typesafe-computer-use",
+    "title": "typesafe-computer-use: Mac computer use for a fraction of a cent a step",
+    "summary": "A tool that drives a Mac toward a goal typed in plain English.",
+    "how_jev_is_used": "The screen is read with OCR and a small classifier picks the next action. A writing model is called only when a text field needs free text. The author reports about $0.0002 per step.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "Aaron Levin",
+      "handle": "awlevin",
+      "url": "https://github.com/awlevin"
+    },
+    "link": "https://github.com/awlevin/typesafe-computer-use",
+    "published": "2026-09-16",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/typesafe-computer-use"
+  },
+  {
+    "slug": "jev-router",
+    "title": "jev-router: model routing for Claude Code and Codex",
+    "summary": "A command-line wrapper that picks a fast or strong model for each turn.",
+    "how_jev_is_used": "Jev sends simple work to the fast tier and difficult work to the strong tier, while each tool keeps its own interface, sessions and login.",
+    "category": "Model routing",
+    "author": {
+      "name": "Pratyush Garg",
+      "handle": "gargpratyush",
+      "url": "https://github.com/gargpratyush"
+    },
+    "link": "https://github.com/gargpratyush/jev-router",
+    "published": "2026-09-16",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/jev-router"
+  },
+  {
+    "slug": "perch",
+    "title": "Perch: semantic code linting with decision models",
+    "summary": "A command-line scanner that checks code against meaning-based rules rather than patterns.",
+    "how_jev_is_used": "Each code unit is judged by a decision model and decisions are cached, so scanning unchanged code again is free.",
+    "category": "Code search",
+    "author": {
+      "name": "lakeday-org",
+      "handle": "lakeday-org",
+      "url": "https://github.com/lakeday-org"
+    },
+    "link": "https://github.com/lakeday-org/perch",
+    "published": "2026-09-16",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/perch"
+  },
+  {
+    "slug": "winnow",
+    "title": "winnow: a context sieve for Claude Code",
+    "summary": "A plugin that judges every large tool result before it enters Claude's context.",
+    "how_jev_is_used": "Blocks the judge is confident you don't need are replaced with a short stub and a key that restores the full text on demand.",
+    "category": "Agent memory",
+    "author": {
+      "name": "Ghaleb Dweikat",
+      "handle": "GhalebDweikat",
+      "url": "https://github.com/GhalebDweikat"
+    },
+    "link": "https://github.com/GhalebDweikat/winnow",
+    "published": "2026-09-16",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/winnow"
+  },
+  {
+    "slug": "email-classification-1500-emails",
+    "title": "Classifying 1,500 of his own emails with Jev",
+    "summary": "A test of Jev on a real inbox.",
+    "how_jev_is_used": "Vogel ran 1,500 of his own emails through Jev and reports being impressed by the accuracy.",
+    "category": "Email and messages",
+    "author": {
+      "name": "vogel",
+      "handle": "@ryanvogel",
+      "url": "https://x.com/ryanvogel"
+    },
+    "link": "https://x.com/ryanvogel/status/2100042788851101842",
+    "published": "2026-09-16",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/email-classification-1500-emails"
+  },
+  {
+    "slug": "typesafe-jev-live-demo-val-town",
+    "title": "A playable Jev demo on Val Town",
+    "summary": "A live demo anyone can try.",
+    "how_jev_is_used": "Steve Krouse built it as a quick way to see how Jev behaves.",
+    "category": "Explainers",
+    "author": {
+      "name": "Steve Krouse",
+      "handle": "@stevekrouse",
+      "url": "https://x.com/stevekrouse"
+    },
+    "link": "https://x.com/stevekrouse/status/2100287368221659289",
+    "published": "2026-09-16",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/typesafe-jev-live-demo-val-town"
+  },
+  {
     "slug": "vogel-meet-jev",
     "title": "Meet Jev: the AI built to make decisions",
     "summary": "A launch-day first look at Jev and a first build with it.",
@@ -2747,6 +3840,86 @@
     "published": "2026-09-15",
     "added_to_jev_hub": "2026-10-06",
     "jev_hub_page": "https://jevhub.io/builds/vogel-meet-jev"
+  },
+  {
+    "slug": "quantdinger",
+    "title": "QuantDinger: an open-source trading workbench with a Jev option",
+    "summary": "A self-hosted stack for turning trading ideas into Python strategies, backtests, paper trading and live execution.",
+    "how_jev_is_used": "A Jev pre-trade decision gate checks each proposed trade before it goes ahead, as an alternative to a gate that relies only on a language model.",
+    "category": "Trading and finance",
+    "author": {
+      "name": "Open Byte Inc",
+      "handle": "OpenByteInc",
+      "url": "https://github.com/OpenByteInc"
+    },
+    "link": "https://github.com/OpenByteInc/QuantDinger",
+    "published": "2026-09-15",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/quantdinger"
+  },
+  {
+    "slug": "tiptour-macos",
+    "title": "TipTour: a local computer-use companion for the Mac",
+    "summary": "A macOS menu bar companion that carries out click-based tasks you type.",
+    "how_jev_is_used": "In its Jev mode, Jev chooses from controls detected locally on the screen, and the app executes and validates each action.",
+    "category": "Computer and browser use",
+    "author": {
+      "name": "Milind Soni",
+      "handle": "milind-soni",
+      "url": "https://github.com/milind-soni"
+    },
+    "link": "https://github.com/milind-soni/tiptour-macos",
+    "published": "2026-09-15",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/tiptour-macos"
+  },
+  {
+    "slug": "thoughtdag",
+    "title": "ThoughtDAG: a canvas for AI conversations, with Jev retrieval",
+    "summary": "An infinite-canvas app where AI conversations branch into a graph and the wires carry the context.",
+    "how_jev_is_used": "An optional Jev decision layer helps identify topics and rank relevant excerpts from earlier agent sessions and canvases, and your chosen language model writes the answer. The authors report a median of 391 ms for Jev in a small relevance pilot.",
+    "category": "Agent memory",
+    "author": {
+      "name": "Xia Chen",
+      "handle": "chenxiachan",
+      "url": "https://github.com/chenxiachan"
+    },
+    "link": "https://github.com/chenxiachan/thoughtdag",
+    "published": "2026-09-15",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/thoughtdag"
+  },
+  {
+    "slug": "vexjoy-agent",
+    "title": "VexJoy Agent: routing plain-English requests to specialist agents",
+    "summary": "A toolkit of agents, skills and hooks that turns a plain request into the right workflow.",
+    "how_jev_is_used": "Its /do command uses Jev for intelligent routing, then gates the work with reviews and tests.",
+    "category": "Coding agents",
+    "author": {
+      "name": "notque",
+      "handle": "notque",
+      "url": "https://github.com/notque"
+    },
+    "link": "https://github.com/notque/vexjoy-agent",
+    "published": "2026-09-15",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/vexjoy-agent"
+  },
+  {
+    "slug": "aistock",
+    "title": "AI Stock: a research workspace with an optional Jev decision engine",
+    "summary": "A website for researching stocks, comparing investing views and testing strategies with simulated money.",
+    "how_jev_is_used": "Jev can act as an optional buy, sell or hold decision engine inside the simulator.",
+    "category": "Trading and finance",
+    "author": {
+      "name": "Ethan",
+      "handle": "EthanAlgoX",
+      "url": "https://github.com/EthanAlgoX"
+    },
+    "link": "https://github.com/EthanAlgoX/AIStock",
+    "published": "2026-09-15",
+    "added_to_jev_hub": "2026-10-16",
+    "jev_hub_page": "https://jevhub.io/builds/aistock"
   },
   {
     "slug": "canny",

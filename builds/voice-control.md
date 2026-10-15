@@ -9,19 +9,12 @@ Dictate a command and the Mac starts acting on it before the sentence is finishe
 
 How Jev is used: Jev reads the transcript as it streams in and picks the next on-screen action, fast enough that the app opens mid-sentence.
 
-## [partway: voice control that acts mid-sentence](https://github.com/tostechbr/partway)
-By [Tiago Oliveira](https://github.com/tostechbr), 2026-09-23
+## [On-device voice pipeline with Jev picking the models](https://x.com/desertantlabs/status/2102423007494889785)
+By [Desert Ant Labs](https://x.com/desertantlabs), 2026-09-22
 
-A macOS voice-control app that starts acting partway through what you say.
+A demo that turns voice memos into to-do lists and meetings into redacted transcripts.
 
-How Jev is used: Jev is asked about every word as you speak and answers in about 200 ms, so the app acts early and waits only when it must.
-
-## [Jev VAD: turn detection for voice agents](https://github.com/AgoraIO-Community/convoai-jev-vad)
-By [Agora Community](https://github.com/AgoraIO-Community), 2026-09-23
-
-Client-side turn detection for Agora's Conversational AI.
-
-How Jev is used: A simple sound gate opens the turn; Jev then decides from the live transcript whether the user is done, talking to the agent at all, or really interrupting.
+How Jev is used: Models for language detection, transcription and removing personal data run on the device, and Jev makes about 20 decisions in one call to choose which to run.
 
 ## [Tool calling that starts before you finish speaking](https://x.com/BhosalePratim/status/2100986774742765991)
 By [Pratim Bhosale](https://x.com/BhosalePratim), 2026-09-18
@@ -37,13 +30,6 @@ Spoken commands drive Figma directly.
 
 How Jev is used: Jev maps each spoken command to a Figma action. The author reports a total cost of one cent from first line of code to the recorded demo.
 
-## [Voice-controlled browser agent](https://x.com/yatharth170699/status/2100986863788159191)
-By [Yatharth Verma](https://x.com/yatharth170699), 2026-09-18
-
-Tell it what to do and it navigates the browser for you.
-
-How Jev is used: Jev turns each spoken instruction into the next browser action.
-
 ## [Jev Voice: talk to your Mac](https://github.com/kevinbadi/jev-voice)
 By [Kev Builds](https://github.com/kevinbadi), 2026-09-18
 
@@ -51,12 +37,26 @@ Speak and the Mac opens apps, types, searches, scrolls and presses keys.
 
 How Jev is used: Speech is transcribed locally; one Jev call of about 250 ms turns the transcript into a typed action and its arguments.
 
-## [Jev Voice: a menu-bar app for the Mac](https://github.com/chris-wozniczek/jev-voice-control)
-By [chris-wozniczek](https://github.com/chris-wozniczek), 2026-09-18
+## [An always-on voice assistant with no wake word](https://x.com/_MaxBlade/status/2100967959879471519)
+By [Max Blade](https://x.com/_MaxBlade), 2026-09-18
 
-Hold a key, speak a command, and the Mac carries it out.
+A computer assistant that listens all the time and decides when you are talking to it.
 
-How Jev is used: Speech becomes text, Jev returns a typed decision with probabilities, and the app performs the matching macOS action.
+How Jev is used: Jev uses probabilities to tell a command from idle talk, which the author says makes an ambient assistant possible.
+
+## [talkr: a speech coach built on Jev](https://x.com/0xaniol/status/2101076982373191927)
+By [aniol](https://x.com/0xaniol), 2026-09-18
+
+A speaking-practice app.
+
+How Jev is used: It gives you a topic and you talk for 30 seconds, then Jev analyses pauses, filler words, repetition, confidence and clarity and gives a score and feedback.
+
+## [A voice computer assistant with a Swift accessibility app](https://x.com/marckohlbrugge/status/2100930430690050336)
+By [Marc Köhlbrugge](https://x.com/marckohlbrugge), 2026-09-18
+
+An early computer assistant that acts on what you say.
+
+How Jev is used: Local Whisper transcribes, Jev classifies the action, and a small Swift app supplies the screen's accessibility tree. The author says it would be fully private if Jev ran locally.
 
 ## [voice-browser: it acts before you finish the sentence](https://github.com/moritzkremb/jev-voice-browser)
 By [Moritz Kremb](https://github.com/moritzkremb), 2026-09-17
