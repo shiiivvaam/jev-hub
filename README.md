@@ -241,6 +241,7 @@ Filter and search them all at [jevhub.io/builds](https://jevhub.io/builds). Made
 - 2026-10-12: [TypeSafe raises $870M: what it means for Jev](https://jevhub.io/updates/typesafe-raises-870-million-series-a)
 - [Jev vs OpenAI's Decisions API](https://jevhub.io/jev-vs-openai-decisions-api)
 - [Jev vs open models](https://jevhub.io/jev-vs-open-decision-models)
+- [Jev vs Laya](https://jevhub.io/jev-vs-laya)
 - [Jev vs ChatGPT, Claude and other LLMs](https://jevhub.io/jev-vs-llms)
   - [Jev vs ChatGPT](https://jevhub.io/jev-vs-chatgpt)
   - [Jev vs Claude](https://jevhub.io/jev-vs-claude)
