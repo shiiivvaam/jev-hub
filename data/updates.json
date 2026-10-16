@@ -12,6 +12,10 @@
       {
         "label": "TypeSafe: Jev models and limits",
         "url": "https://docs.typesafe.ai/models"
+      },
+      {
+        "label": "TypeSafe docs: Images (read 16 October 2026)",
+        "url": "https://docs.typesafe.ai/images"
       }
     ]
   },
