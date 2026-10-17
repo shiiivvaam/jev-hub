@@ -1,0 +1,16 @@
+{
+  "model": "jev-latest",
+  "state": "Item 1. Business. We operate 140 branches across three states, taking deposits and making commercial and residential real-estate loans...",
+  "questions": {
+    "group": {
+      "type": "choice",
+      "instructions": "Which industry group best describes the business this company runs today?",
+      "criteria": {
+        "depository_institutions": "Banks, savings institutions and credit unions",
+        "insurance_carriers": "Life, health, property and casualty insurers",
+        "business_services": "Software, advertising, staffing and other services to businesses",
+        "chemicals": "Chemicals, plastics, drugs and allied products"
+      }
+    }
+  }
+}

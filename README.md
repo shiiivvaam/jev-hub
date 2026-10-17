@@ -180,10 +180,17 @@ Each page has a working request, when Jev fits, when to avoid it and the usual m
 | [ad and creative classification](https://jevhub.io/use-cases/ad-classification) | Good fit | [request and notes](./examples/ad-classification.md) |
 | [semantic search](https://jevhub.io/use-cases/semantic-search) | Good fit | [request and notes](./examples/semantic-search.md) |
 | [agent and browser decisions](https://jevhub.io/use-cases/agent-decisions) | Partial fit | [request and notes](./examples/agent-decisions.md) |
+| [LLM guardrails](https://jevhub.io/use-cases/llm-guardrails) | Strong fit | [request and notes](./examples/llm-guardrails.md) |
+| [checking citations](https://jevhub.io/use-cases/citation-checking) | Strong fit | [request and notes](./examples/citation-checking.md) |
+| [filtering RAG passages](https://jevhub.io/use-cases/rag-passage-filtering) | Strong fit | [request and notes](./examples/rag-passage-filtering.md) |
+| [re-ranking search results](https://jevhub.io/use-cases/search-reranking) | Strong fit | [request and notes](./examples/search-reranking.md) |
+| [matching duplicate records](https://jevhub.io/use-cases/record-matching) | Good fit | [request and notes](./examples/record-matching.md) |
+| [classifying documents into many categories](https://jevhub.io/use-cases/document-classification) | Good fit | [request and notes](./examples/document-classification.md) |
+| [extracting dates, emails and amounts](https://jevhub.io/use-cases/data-extraction) | Good fit | [request and notes](./examples/data-extraction.md) |
 
 ## What Jev costs
 
-Jev lists **$0.042 per million input tokens**, with no charge for output (checked 22 September 2026). A typical email costs a fraction of a cent to classify. The formula, a cost table for 9 typical workloads and CSV/JSON data are in [`costs/`](./costs). Set your own volume in the [cost calculator](https://jevhub.io/calculator).
+Jev lists **$0.042 per million input tokens**, with no charge for output (checked 22 September 2026). A typical email costs a fraction of a cent to classify. The formula, a cost table for 16 typical workloads and CSV/JSON data are in [`costs/`](./costs). Set your own volume in the [cost calculator](https://jevhub.io/calculator).
 
 ## What people are building
 

@@ -1,0 +1,15 @@
+{
+  "model": "jev-latest",
+  "state": "Claim: The \"exp\" claim is required in every JSON Web Token.\nQuoted section (RFC 7519, 4.1.4): The \"exp\" (expiration time) claim identifies the expiration time on or after which the JWT MUST NOT be accepted for processing. ... Use of this claim is OPTIONAL.",
+  "questions": {
+    "verdict": {
+      "type": "choice",
+      "instructions": "Does the quoted section support the claim?",
+      "criteria": {
+        "supports": "The section states or directly implies the claim",
+        "contradicts": "The section says the opposite of the claim",
+        "unsupported": "The section does not address the claim"
+      }
+    }
+  }
+}

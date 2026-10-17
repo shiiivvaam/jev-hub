@@ -139,5 +139,117 @@
       "The set of possible actions isn't known in advance."
     ],
     "url": "https://jevhub.io/use-cases/agent-decisions"
+  },
+  {
+    "slug": "llm-guardrails",
+    "title": "Jev for LLM guardrails",
+    "summary": "Check every message and reply for jailbreaks and hazards before the LLM acts on it.",
+    "fit": "Strong fit",
+    "fits_when": [
+      "You run an LLM app or agent and want your own rules, written where you can read them, not only the model maker's.",
+      "You want a check on every turn without paying for a second LLM call each time.",
+      "Different products need different strictness from the same assessment."
+    ],
+    "avoid_when": [
+      "You need the reason a message was blocked written out for the user. Jev returns probabilities, not explanations.",
+      "A single check is your only safety layer for something dangerous. Keep hard rules in code too."
+    ],
+    "url": "https://jevhub.io/use-cases/llm-guardrails"
+  },
+  {
+    "slug": "citation-checking",
+    "title": "Jev for checking citations",
+    "summary": "Catch made-up quotes and claims the source does not support.",
+    "fit": "Strong fit",
+    "fits_when": [
+      "An LLM writes answers or reports with citations to documents you hold.",
+      "A wrong citation is costly: legal, medical, financial or technical writing.",
+      "You want people to check only the doubtful citations, not all of them."
+    ],
+    "avoid_when": [
+      "You do not have the source documents. Jev can only judge a quote against the text you send it.",
+      "Quotes are loosely paraphrased. An exact string match marks those as made up, so you would need fuzzy matching first."
+    ],
+    "url": "https://jevhub.io/use-cases/citation-checking"
+  },
+  {
+    "slug": "rag-passage-filtering",
+    "title": "Jev for filtering RAG passages",
+    "summary": "Drop irrelevant and poisoned passages before they reach the answering model.",
+    "fit": "Strong fit",
+    "fits_when": [
+      "Your retrieval returns passages that read alike, so similarity scores cannot tell them apart.",
+      "Retrieved text can come from users or the web, where it may carry instructions aimed at the model.",
+      "Questions sometimes rest on a false assumption that the documents correct."
+    ],
+    "avoid_when": [
+      "Your corpus is small, clean and written by you. A plain similarity search may be enough.",
+      "You need the passages rewritten or summarised. Jev only labels them; the language model writes."
+    ],
+    "url": "https://jevhub.io/use-cases/rag-passage-filtering"
+  },
+  {
+    "slug": "search-reranking",
+    "title": "Jev for re-ranking search results",
+    "summary": "Score a shortlist against the query and put the best result first.",
+    "fit": "Strong fit",
+    "fits_when": [
+      "Your search finds roughly the right documents but often not the best one first.",
+      "Relevance depends on meaning, not shared words: legal, support or product search.",
+      "You can keep the shortlist small (tens of results, not thousands)."
+    ],
+    "avoid_when": [
+      "Your keyword search already puts the right result first most of the time.",
+      "You need to score millions of documents per query. Re-rank a shortlist, not the whole index."
+    ],
+    "url": "https://jevhub.io/use-cases/search-reranking"
+  },
+  {
+    "slug": "record-matching",
+    "title": "Jev for matching duplicate records",
+    "summary": "Decide which records to merge, which to keep apart and which a person should check.",
+    "fit": "Good fit",
+    "fits_when": [
+      "Two sources describe the same things in different words: catalogues, CRMs, supplier lists.",
+      "A wrong merge is expensive, so you want a middle option that goes to a person.",
+      "A cheap first pass has already picked the pairs worth checking."
+    ],
+    "avoid_when": [
+      "Records share a reliable ID. Match on the ID in code.",
+      "You need every pair in two large lists compared. Narrow the candidates first, then let Jev judge."
+    ],
+    "url": "https://jevhub.io/use-cases/record-matching"
+  },
+  {
+    "slug": "document-classification",
+    "title": "Jev for classifying documents into many categories",
+    "summary": "Pick one of dozens of categories, and fall back to a broader one when unsure.",
+    "fit": "Good fit",
+    "fits_when": [
+      "Your categories form a hierarchy, so an unsure answer can fall back to the broader group.",
+      "There are many categories (Jev's Choice takes up to 255 options).",
+      "A broad but right label is more useful than a precise but wrong one."
+    ],
+    "avoid_when": [
+      "Every document must get a precise label with no review. Plan for the unsure half.",
+      "Your labels are not described anywhere. Each option needs words that describe what belongs in it."
+    ],
+    "url": "https://jevhub.io/use-cases/document-classification"
+  },
+  {
+    "slug": "data-extraction",
+    "title": "Jev for extracting dates, emails and amounts",
+    "summary": "Find the right value in messy text without letting a model make one up.",
+    "fit": "Good fit",
+    "fits_when": [
+      "Documents contain several values of the same kind and the right one depends on the words around it.",
+      "A wrong digit is costly, so the value must be copied exactly from the text.",
+      "Dates appear in mixed forms, including relative ones such as 'tomorrow'."
+    ],
+    "avoid_when": [
+      "The document has a fixed layout. A parser is cheaper and exact.",
+      "You need free-form text extracted (a summary, a reason). Jev picks from options; it does not write."
+    ],
+    "url": "https://jevhub.io/use-cases/data-extraction"
   }
 ]

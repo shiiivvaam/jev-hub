@@ -28,5 +28,12 @@ Estimates from list price, using typical sizes for each job (the calculator on t
 | [ad and creative classification](https://jevhub.io/use-cases/ad-classification) | 5,000 | 300 | $0.01 | $0.06 |
 | [semantic search](https://jevhub.io/use-cases/semantic-search) | 50,000 | 250 | $0.01 | $0.53 |
 | [agent and browser decisions](https://jevhub.io/use-cases/agent-decisions) | 200,000 | 1,060 | $0.04 | $8.90 |
+| [LLM guardrails](https://jevhub.io/use-cases/llm-guardrails) | 100,000 | 550 | $0.02 | $2.31 |
+| [checking citations](https://jevhub.io/use-cases/citation-checking) | 20,000 | 760 | $0.03 | $0.64 |
+| [filtering RAG passages](https://jevhub.io/use-cases/rag-passage-filtering) | 120,000 | 510 | $0.02 | $2.57 |
+| [re-ranking search results](https://jevhub.io/use-cases/search-reranking) | 300,000 | 300 | $0.01 | $3.78 |
+| [matching duplicate records](https://jevhub.io/use-cases/record-matching) | 50,000 | 280 | $0.01 | $0.59 |
+| [classifying documents into many categories](https://jevhub.io/use-cases/document-classification) | 10,000 | 2,700 | $0.11 | $1.13 |
+| [extracting dates, emails and amounts](https://jevhub.io/use-cases/data-extraction) | 30,000 | 680 | $0.03 | $0.86 |
 
 Data files: [`use-case-costs.csv`](./use-case-costs.csv) and [`use-case-costs.json`](./use-case-costs.json).

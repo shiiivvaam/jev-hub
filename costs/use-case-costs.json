@@ -101,6 +101,83 @@
       "tokensPerItem": 1060,
       "per1k": 0.044520000000000004,
       "monthly": 8.904
+    },
+    {
+      "slug": "llm-guardrails",
+      "title": "LLM guardrails",
+      "itemsPerMonth": 100000,
+      "stateTokens": 300,
+      "questions": 5,
+      "tokensPerQuestion": 50,
+      "tokensPerItem": 550,
+      "per1k": 0.023100000000000002,
+      "monthly": 2.31
+    },
+    {
+      "slug": "citation-checking",
+      "title": "checking citations",
+      "itemsPerMonth": 20000,
+      "stateTokens": 700,
+      "questions": 1,
+      "tokensPerQuestion": 60,
+      "tokensPerItem": 760,
+      "per1k": 0.031920000000000004,
+      "monthly": 0.6384000000000001
+    },
+    {
+      "slug": "rag-passage-filtering",
+      "title": "filtering RAG passages",
+      "itemsPerMonth": 120000,
+      "stateTokens": 350,
+      "questions": 4,
+      "tokensPerQuestion": 40,
+      "tokensPerItem": 510,
+      "per1k": 0.02142,
+      "monthly": 2.5704000000000002
+    },
+    {
+      "slug": "search-reranking",
+      "title": "re-ranking search results",
+      "itemsPerMonth": 300000,
+      "stateTokens": 250,
+      "questions": 1,
+      "tokensPerQuestion": 50,
+      "tokensPerItem": 300,
+      "per1k": 0.0126,
+      "monthly": 3.78
+    },
+    {
+      "slug": "record-matching",
+      "title": "matching duplicate records",
+      "itemsPerMonth": 50000,
+      "stateTokens": 120,
+      "questions": 4,
+      "tokensPerQuestion": 40,
+      "tokensPerItem": 280,
+      "per1k": 0.01176,
+      "monthly": 0.588
+    },
+    {
+      "slug": "document-classification",
+      "title": "classifying documents into many categories",
+      "itemsPerMonth": 10000,
+      "stateTokens": 1500,
+      "questions": 1,
+      "tokensPerQuestion": 1200,
+      "tokensPerItem": 2700,
+      "per1k": 0.11340000000000001,
+      "monthly": 1.1340000000000001
+    },
+    {
+      "slug": "data-extraction",
+      "title": "extracting dates, emails and amounts",
+      "itemsPerMonth": 30000,
+      "stateTokens": 500,
+      "questions": 3,
+      "tokensPerQuestion": 60,
+      "tokensPerItem": 680,
+      "per1k": 0.028560000000000006,
+      "monthly": 0.8568000000000001
     }
   ]
 }

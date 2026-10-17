@@ -1,0 +1,27 @@
+{
+  "model": "jev-latest",
+  "state": "Record A: Harbour Amber Ale · Northgate Brewing · American Amber · 5.5%\nRecord B: Northgate Harbour Amber - Pomegranate Edition · Northgate Brewing Co. · Fruit Beer · 5.5%",
+  "questions": {
+    "same": {
+      "type": "score",
+      "instructions": "Do these two records describe the same product?",
+      "criteria": [
+        "Different product",
+        "Related, but possibly not the same",
+        "Same product"
+      ]
+    },
+    "brewery_matches": {
+      "type": "noul",
+      "instructions": "Do the two records name the same brewery?"
+    },
+    "style_matches": {
+      "type": "noul",
+      "instructions": "Do the two records describe the same style?"
+    },
+    "strength_matches": {
+      "type": "noul",
+      "instructions": "Do the two records give the same alcohol content?"
+    }
+  }
+}

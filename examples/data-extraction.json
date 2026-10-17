@@ -1,0 +1,24 @@
+{
+  "model": "jev-latest",
+  "state": "From: Billing <billing@acme.io>\nReply-To: dana.lee@gmail.com\nBody: Please send the receipt to my personal address, not the billing alias. Total due: $1,315.50. Credit applied: -$84.50.",
+  "questions": {
+    "receipt_address": {
+      "type": "choice",
+      "instructions": "Which address should the receipt be sent to?",
+      "criteria": [
+        "billing@acme.io",
+        "dana.lee@gmail.com",
+        "none"
+      ]
+    },
+    "total_due": {
+      "type": "choice",
+      "instructions": "Which amount is the total due?",
+      "criteria": [
+        "$1,315.50",
+        "-$84.50",
+        "none"
+      ]
+    }
+  }
+}

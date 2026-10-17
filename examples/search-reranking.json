@@ -1,0 +1,16 @@
+{
+  "model": "jev-latest",
+  "state": "Query: When can a court refuse to enforce an arbitration clause in an employment contract?\nCandidate: ...the clause was unconscionable because the employee had no meaningful opportunity to negotiate its terms...",
+  "questions": {
+    "relevance": {
+      "type": "score",
+      "instructions": "How well does this passage answer the query?",
+      "criteria": [
+        "Unrelated",
+        "Same topic, does not answer",
+        "Partly answers",
+        "Answers the query"
+      ]
+    }
+  }
+}
