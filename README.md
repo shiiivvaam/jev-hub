@@ -250,6 +250,7 @@ Filter and search them all at [jevhub.io/builds](https://jevhub.io/builds). Made
 - [Jev vs Microsoft-Decision-1](https://jevhub.io/jev-vs-microsoft-decision-1)
 - [Jev vs Perplexity Decider](https://jevhub.io/jev-vs-perplexity-decider)
 - [Jev vs Liquid AI d1-ultra](https://jevhub.io/jev-vs-liquid-d1-ultra)
+- [Jev vs Snowflake Decision](https://jevhub.io/jev-vs-snowflake-decision)
 - [Jev vs ChatGPT, Claude and other LLMs](https://jevhub.io/jev-vs-llms)
   - [Jev vs ChatGPT](https://jevhub.io/jev-vs-chatgpt)
   - [Jev vs Claude](https://jevhub.io/jev-vs-claude)
