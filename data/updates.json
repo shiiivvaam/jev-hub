@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-10-15",
-    "title": "Jev 1.14 can read images. Should you care?",
+    "title": "Jev 1.14: Can Jev read images? What changed",
     "summary": "On 14 October 2026 TypeSafe released Jev 1.14.0, a small improvement on 1.13 that it says helps most with languages other than English. The same post adds three experimental options behind a special setting: image input, a new answer type called box that returns a bounding box, and a context window of up to 262,000 tokens. TypeSafe says these are not ready for production use. The price is unchanged.",
     "url": "https://jevhub.io/updates/jev-1-14-images-box-and-longer-context",
     "sources": [
