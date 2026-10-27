@@ -240,6 +240,7 @@ Filter and search them all at [jevhub.io/builds](https://jevhub.io/builds). Made
 
 ## News and comparisons
 
+- 2026-10-27: [TanStack AI 1.0 has an official Jev adapter](https://jevhub.io/updates/tanstack-ai-1-0-official-jev-adapter)
 - 2026-10-15: [Jev 1.14: Can Jev read images? What changed](https://jevhub.io/updates/jev-1-14-images-box-and-longer-context)
 - 2026-10-13: [How Jack & Jill cut screening costs 88% with Jev](https://jevhub.io/updates/jack-and-jill-cuts-screening-costs-88-percent-with-jev)
 - 2026-10-12: [Jev just got three big rivals](https://jevhub.io/updates/openai-aws-cloudflare-release-decision-models)

@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-10-27",
+    "title": "TanStack AI 1.0 has an official Jev adapter",
+    "summary": "On 22 October 2026 TanStack AI, the TypeScript AI library, released version 1.0.0, and its official Jev adapter, @tanstack/ai-typesafe, reached 1.0.0 the same day. The adapter had been on npm since 18 September, three days after Jev launched. With it, a TypeScript app calls Jev through TanStack's decide() function and gets typed answers back. TanStack and TypeSafe wrote the sources below; nothing here has been tested by JevHub.",
+    "url": "https://jevhub.io/updates/tanstack-ai-1-0-official-jev-adapter",
+    "sources": [
+      {
+        "label": "TanStack AI docs: TypeSafe adapter (read 26 October 2026)",
+        "url": "https://tanstack.com/ai/latest/docs/adapters/typesafe"
+      },
+      {
+        "label": "GitHub: TanStack/ai, packages/ai-typesafe, README and changelog (read 26 October 2026)",
+        "url": "https://github.com/TanStack/ai/tree/main/packages/ai-typesafe"
+      },
+      {
+        "label": "TanStack AI docs: Evaluate, the decide() guide (read 26 October 2026)",
+        "url": "https://tanstack.com/ai/latest/docs/evaluate/evaluate"
+      },
+      {
+        "label": "TypeSafe docs: models and limits (read 24 October 2026)",
+        "url": "https://docs.typesafe.ai/models"
+      }
+    ]
+  },
+  {
     "date": "2026-10-15",
     "title": "Jev 1.14: Can Jev read images? What changed",
     "summary": "On 14 October 2026 TypeSafe released Jev 1.14.0, a small improvement on 1.13 that it says helps most with languages other than English. The same post adds three experimental options behind a special setting: image input, a new answer type called box that returns a bounding box, and a context window of up to 262,000 tokens. TypeSafe says these are not ready for production use. The price is unchanged.",
