@@ -66,8 +66,12 @@
     "url": "https://jevhub.io/updates/openai-aws-cloudflare-release-decision-models",
     "sources": [
       {
-        "label": "OpenAI developer docs: Decisions",
+        "label": "OpenAI developer docs: Decisions (read 31 October 2026)",
         "url": "https://developers.openai.com/api/docs/guides/decisions"
+      },
+      {
+        "label": "OpenAI Developers on X: the Decisions API is now generally available (22 October 2026)",
+        "url": "https://x.com/OpenAIDevs/status/2113346642787086538"
       },
       {
         "label": "Unite.AI: OpenAI releases Decisions API in public beta",
